@@ -1,2 +1,3 @@
-#Personal Website
-jennygzma.github.io
+# Personal site
+
+[jennygzma.github.io](https://jennygzma.github.io/).
