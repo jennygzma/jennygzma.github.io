@@ -1,24 +1,26 @@
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap"
-export const NavBar = () => {
-    return (
-        <Navbar bg ="light" expand ="lg">
-            <Container>
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className = "me-auto">
-                        <Nav.link href="#home">Home</Nav.link>
-                        <Nav.Link href="#link">Link</Nav.Link>
-                        <NavDropdown title = "Dropdown" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                            <NavDropdown.Divider/>
-                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                        </NavDropdown>
-                    </Nav>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
-    )
+import React from "react";
+
+export default function Navbar() {
+  return (
+    <header className="bg-gray-800 md:sticky top-0 z-10">
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a className="title-font font-medium text-white mb-4 md:mb-0">
+          <a href="#about" className="ml-3 text-xl">
+            jenny ma
+          </a>
+        </a>
+        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+          <a href="#experiences" className="mr-5 hover:text-white">
+            experiences
+          </a>
+          <a href="#news" className="mr-5 hover:text-white">
+            news
+          </a>
+          <a href="#blog" className="mr-5 hover:text-white">
+            cs blog
+          </a>
+        </nav>
+      </div>
+    </header>
+  );
 }
