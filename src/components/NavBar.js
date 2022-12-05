@@ -12,17 +12,17 @@ export default function Navbar() {
         <div className="ml-auto lg:w-2/5">
           <nav className="md:mr-auto md:ml-4 md:py-1	flex flex-wrap items-center text-base justify-center">
             <div>
-              <a href="#experiences" className="mr-5 font-mono text-green hover:font-semibold">
+              <a href="#experiences" className="mr-5 font-mono text-xl text-green hover:font-semibold">
                 experiences
               </a>
             </div>
             <div>
-              <a href="#news" className="mr-5 font-mono text-green hover:font-semibold">
+              <a href="#news" className="mr-5 font-mono text-green text-xl hover:font-semibold">
                 news
               </a>
             </div>
             <div>
-              <a href="#blog" className="mr-5 font-mono text-green hover:font-semibold">
+              <a href="#blog" className="mr-5 font-mono text-green text-xl hover:font-semibold">
                 cs blog
               </a>
             </div>

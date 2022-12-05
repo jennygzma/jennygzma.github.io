@@ -8,9 +8,10 @@ export default function Experiences() {
           <h1 className="title-font font-mono font-semibold text-green sm:text-4xl text-3xl mb-4">
             experiences
           </h1>
-          <table class="table-fix">
+          <table class="table-fix border-separate [border-spacing:1.5rem]">
             <thead>
               <th className="w-1/3"/>
+              <th/>
             </thead>
             <tbody>
               <tr>
@@ -55,7 +56,7 @@ export default function Experiences() {
               <tr>
                 <td>
                   <div className="flex items-center content-center">
-                    <div className="w-1/2"> <p><strong>Capital One</strong> <br/> NYC 🗽</p></div> 
+                    <div className="w-1/2"> <p><strong>Capital One</strong> <br/> nyc 🗽</p></div> 
                     <div className="flex items-right content-right"> <p><em>06/20-08/20</em></p></div> 
                   </div>
                   <div className="flex py-1"> <h1>skills:</h1></div>
@@ -82,7 +83,7 @@ export default function Experiences() {
               <tr>
                 <td>
                   <div className="flex items-center content-center">
-                    <div className="w-1/2"> <p><strong>DataVisor</strong> <br/> Mountain View, <br/> CA ☀️</p></div> 
+                    <div className="w-1/2"> <p><strong>DataVisor</strong> <br/> mountain view, <br/> ca ☀️</p></div> 
                     <div className="flex items-right content-right"> <p><em>06/20-08/20</em></p></div> 
                   </div>
                   <div className="flex py-1"> <h1>skills:</h1></div>

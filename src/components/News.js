@@ -9,7 +9,7 @@ export default function News() {
             news
           </h1>
           <div>
-          <table class="table-fix">
+          <table class="table-fix border-separate [border-spacing:1rem]">
             <thead>
               <th className="w-1/6"/>
             </thead>
@@ -21,11 +21,11 @@ export default function News() {
               <tr>
                 <td className= "font-semibold" >[10/2021]</td>
                 <td> had opportunity to join <strong className = "font-semibold text-light-green">convenience and health</strong> pod
-                  to launch pharmaceutical goods DoorDash from ground up</td>
+                  to launch pharmaceutical goods on DoorDash from ground up</td>
               </tr>
               <tr>
                 <td className= "font-semibold" >[08/2021]</td>
-                <td>started job at DoorDash on Category Expansion as an eng on the <strong className = "font-semibold text-light-green">alcohol compliance</strong> pod</td>
+                <td>started job at DoorDash on Category Expansion as a backend eng on the <strong className = "font-semibold text-light-green">alcohol compliance</strong> pod</td>
               </tr>
               <tr>
                 <td className= "font-semibold" >[05/2021]</td>
