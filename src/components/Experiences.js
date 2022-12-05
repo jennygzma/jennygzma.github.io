@@ -38,12 +38,12 @@ export default function Experiences() {
                       the root cause to allow HSA/FSA to launch in time.
                     </li>
                     <li>
-                      Fixed dropoff preference bug that had weekly loss of $30k. Investigated 
+                      Fixed alcohol dropoff preference bug that had weekly loss of $30k. Investigated 
                       different behaviors and multiple sources of truth in reading dropoff preferences, 
                       charting a path forward to consolidate the SOT over the course of 3 months. Lead meetings 
                       and worked across 5+ core teams and microservices. Designed and implemented our restructured 
                       dropoff preferences flow architecture for all DoorDash consumers, paving the groundwork
-                      for engineering team to build upon in the future. 
+                      for more reliable address work for the engineering team to build upon in the future. 
                     </li>
                     <li>
                       Implemented Dasher-scanned ID-verification, where Dasher acts as a bouncer to scan
