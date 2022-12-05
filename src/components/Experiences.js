@@ -84,7 +84,7 @@ export default function Experiences() {
                 <td>
                   <div className="flex items-center content-center">
                     <div className="w-1/2"> <p><strong>DataVisor</strong> <br/> mountain view, <br/> ca ☀️</p></div> 
-                    <div className="flex items-right content-right"> <p><em>06/20-08/20</em></p></div> 
+                    <div className="flex items-right content-right"> <p><em>05/19-08/19</em></p></div> 
                   </div>
                   <div className="flex py-1"> <h1>skills:</h1></div>
                   <div class="grid grid-cols-2 gap-1 flex justify-center items-center content-center">
