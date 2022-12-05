@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     colors: {
       'green': '#498f63',
-      'light-green': "#a4ebbe",
-      'cream': "#fffefa",
+      'light-green': "#6dad85",
+      'cream': "#fcf9e8",
       'light-pink': "#fff5ff"
     },
     fontFamily: {
