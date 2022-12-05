@@ -42,8 +42,9 @@ export default function Experiences() {
                       different behaviors and multiple sources of truth in reading dropoff preferences, 
                       charting a path forward to consolidate the SOT over the course of 3 months. Lead meetings 
                       and worked across 5+ core teams and microservices. Designed and implemented our restructured 
-                      dropoff preferences flow architecture for all DoorDash consumers, paving the groundwork
-                      for more reliable address work for the engineering team to build upon in the future. 
+                      dropoff preferences flow architecture for all DoorDash consumers, laying the groundwork
+                      for more reliable and consistent address data and foundation for the engineering team to build 
+                      upon in the future. 
                     </li>
                     <li>
                       Implemented Dasher-scanned ID-verification, where Dasher acts as a bouncer to scan
@@ -63,7 +64,7 @@ export default function Experiences() {
                     <div className="w-1/2"> <p><strong>Princeton University</strong> <br/> princeton, <br/> nj 🎓 </p></div> 
                     <div className="flex items-right content-right"> <p>student research <br/> <em>09/17-05/21</em></p></div> 
                   </div>
-                  <div className="flex py-1"> <h1>skills:</h1></div>
+                  <div className="flex py-4"> <h1>skills:</h1></div>
                   <div class="grid grid-cols-2 gap-1 flex justify-center items-center content-center">
                       <div class="font-bold text-light-green">python</div>
                       <div class="font-bold text-light-green">pandas</div>
@@ -93,7 +94,7 @@ export default function Experiences() {
                     <div className="w-1/2"> <p><strong>Capital One</strong> <br/> nyc 🗽</p></div> 
                     <div className="flex items-right content-right"> <p><em>06/20-08/20</em></p></div> 
                   </div>
-                  <div className="flex py-1"> <h1>skills:</h1></div>
+                  <div className="flex py-3"> <h1>skills:</h1></div>
                   <div class="grid grid-cols-2 gap-1 flex justify-center items-center content-center">
                       <div class="font-bold text-light-green">javascript</div>
                       <div class="font-bold text-light-green">express</div>
