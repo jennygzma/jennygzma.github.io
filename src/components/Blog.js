@@ -9,7 +9,7 @@ export default function Blog() {
             cs blog
           </h1>
           <p className="mb-8 leading-relaxed">
-          ✨ coming soon! ✨
+            ✨ coming soon! ✨
           </p>
         </div>
       </div>

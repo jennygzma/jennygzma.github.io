@@ -26,8 +26,8 @@ export default function About() {
             such as alcohol, retail, and pharmaceutical goods. I attended <strong className="text-light-green">Princeton University</strong> for undergrad and 
             majored in <strong className="text-light-green">Operations Research and Financial Engineering</strong> with a minor in <strong className="text-light-green">computer science</strong>.
             <br/> <br/> For my next role, I'm open to remote, NYC, or SF-based backend engineering, and am also open to full-stack. My main goal is to join a company where
-            I am aligned with the product and have the opportunity for ownership and impact. Feel free to <a href="mailto:jennygzma@gmail.com" className="text-light-green font-semibold hover:font-bold">email me</a> if you want my resume, or just to chat!
-            <br/> <br/> In my spare time, I enjoy writing music, surfing, and hanging out with friends. I also try to run daily but don't really find that enjoyable 😬 
+            I am aligned with the product and have opportunity for ownership and impact. Feel free to <a href="mailto:jennygzma@gmail.com" className="text-light-green font-semibold hover:font-bold">[email me]</a> if you want my resume, or just to chat!
+            <br/> <br/> In my spare time, I enjoy writing music, surfing, and hanging out with friends. I also try to run daily but don't really find that enjoyable  😬 
           </p>
         </div>
       </div>
