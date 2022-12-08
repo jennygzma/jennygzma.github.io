@@ -9,7 +9,7 @@ import Navbar from './components/Navbar'
 function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font-serif bg-cream">
-      <div className='mx-80'> 
+      <div className='mx-1'> 
         <Navbar/>
         <About/>
         <Experiences/>
