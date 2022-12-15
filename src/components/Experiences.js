@@ -9,7 +9,7 @@ export default function Experiences() {
           </h1>
       </div>
       <div className="container mx-auto flex px-10 md:flex-row flex-col items-center">
-        <div className="lg:max-w-lg lg:w-2/5 md:w-1/4 h-2/6 items-center">
+        <div className="lg:max-w-lg lg:w-1/4 md:w-1/4 h-2/6 items-center">
           <div className="flex items-center content-center">
             <div className="w-1/2"> <p><strong>DoorDash</strong> nyc 🗽</p></div> 
             <div className="flex items-right content-right"> <p><em>08/21-11/22</em></p></div> 
@@ -53,7 +53,7 @@ export default function Experiences() {
         </div>
       </div>
       <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">
-        <div className="lg:max-w-lg lg:w-2/5 md:w-1/4 h-2/6 items-center">
+        <div className="lg:max-w-lg lg:w-1/4 md:w-1/4 h-2/6 items-center">
           <div className="flex items-center content-center">
             <div className="w-1/2"> <p><strong>Princeton University</strong> <br/> princeton, nj 🎓 </p></div> 
             <div className="flex items-right content-right"> <p>student research <br/> <em>09/17-05/21</em></p></div> 
