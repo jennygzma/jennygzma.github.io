@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section id="about">
       <div className="container mx-auto flex py-10 md:flex-row flex-col items-center">
-        <div className="lg:max-w-lg lg:w-2/5 md:w-1/4 h-2/6 justify-center items-center">
+        <div className="lg:max-w-lg lg:w-2/5 md:w-1/4 h-2/6 items-center">
           <img
             className="mx-auto rounded w-2/3 object-scale-down"
             alt="jm"

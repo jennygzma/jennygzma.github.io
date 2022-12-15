@@ -15,12 +15,12 @@ export default function News() {
             </thead>
             <tbody>
               <tr>
-                <td className= "font-semibold">[12/2022]</td>
-                <td>left DoorDash as part of company-wide cost-cutting layoff </td>
+                {/* <td className= "font-semibold">[12/2022]</td>
+                <td>left DoorDash as part of company-wide cost-cutting layoff </td> */}
               </tr>
               <tr>
                 <td className= "font-semibold" >[10/2021]</td>
-                <td> had opportunity to join <strong className = "font-semibold text-light-green">convenience and health</strong> pod
+                <td> joined <strong className = "font-semibold text-light-green">convenience and health</strong> pod
                   to launch pharmaceutical goods on DoorDash from ground up</td>
               </tr>
               <tr>

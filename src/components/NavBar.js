@@ -9,7 +9,7 @@ export default function Navbar() {
             jenny ma
           </a>
         </a>
-        <div className="ml-auto lg:w-2/5">
+        <div className="ml-auto lg:w-1/4">
           <nav className="md:mr-auto md:ml-4 md:py-1	flex flex-wrap items-center text-base justify-center">
             <div>
               <a href="#experiences" className="mr-5 font-mono text-xl text-green hover:font-semibold">
