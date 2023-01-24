@@ -9,30 +9,59 @@ export default function News() {
             news
           </h1>
           <div>
-          <table class="table-fix border-separate [border-spacing:1rem]">
-            <thead>
-              <th className="w-1/6"/>
-            </thead>
-            <tbody>
-              <tr>
-                {/* <td className= "font-semibold">[12/2022]</td>
-                <td>left DoorDash as part of company-wide cost-cutting layoff </td> */}
-              </tr>
-              <tr>
-                <td className= "font-semibold" >[10/2021]</td>
-                <td> joined <strong className = "font-semibold text-light-green">convenience and health</strong> pod
-                  to launch pharmaceutical goods on DoorDash from ground up</td>
-              </tr>
-              <tr>
-                <td className= "font-semibold" >[08/2021]</td>
-                <td>started job at DoorDash on Category Expansion as a backend eng on the <strong className = "font-semibold text-light-green">alcohol compliance</strong> pod</td>
-              </tr>
-              <tr>
-                <td className= "font-semibold" >[05/2021]</td>
-                <td>graduated from <strong className = "font-semibold text-light-green">Princeton University</strong> with an ORFE degree and CS minor</td>
-              </tr>
-            </tbody>
-          </table>
+            <table class="table-fix border-separate [border-spacing:1rem]">
+              <thead>
+                <th className="w-1/6" />
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="font-semibold">[01/2023]</td>
+                  <td>
+                    {" "}
+                    joined series a devex startup{" "}
+                    <a
+                      href="https://trunk.io/"
+                      className="text-light-green font-semibold hover:font-bold"
+                    >
+                      [Trunk]
+                    </a>{" "}
+                  </td>
+                </tr>
+                <tr>
+                  <td className="font-semibold">[10/2021]</td>
+                  <td>
+                    {" "}
+                    joined{" "}
+                    <strong className="font-semibold text-light-green">
+                      convenience and health
+                    </strong>{" "}
+                    pod to launch pharmaceutical goods on DoorDash from ground
+                    up
+                  </td>
+                </tr>
+                <tr>
+                  <td className="font-semibold">[08/2021]</td>
+                  <td>
+                    started job at DoorDash on Category Expansion as a backend
+                    eng on the{" "}
+                    <strong className="font-semibold text-light-green">
+                      alcohol compliance
+                    </strong>{" "}
+                    pod
+                  </td>
+                </tr>
+                <tr>
+                  <td className="font-semibold">[05/2021]</td>
+                  <td>
+                    graduated from{" "}
+                    <strong className="font-semibold text-light-green">
+                      Princeton University
+                    </strong>{" "}
+                    with an ORFE degree and CS minor
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>

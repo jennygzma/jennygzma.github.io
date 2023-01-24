@@ -5,49 +5,67 @@ export default function Experiences() {
     <section id="experiences">
       <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">
         <h1 className="title-font font-mono font-semibold text-green sm:text-4xl text-3xl mb-4">
-            experiences
-          </h1>
+          experiences
+        </h1>
       </div>
-      <div className="container mx-auto flex px-10 md:flex-row flex-col items-center">
+      <div className="container mx-auto flex px-10 py-5 md:flex-row flex-col items-center">
         <div className="py-5 lg:max-w-lg lg:w-1/4 md:w-1/4 h-2/6 items-center">
           <div className="flex items-center content-center">
-            <div className="w-1/2"> <p><strong>DoorDash</strong> nyc 🗽</p></div> 
-            <div className="flex items-right content-right"> <p><em>08/21-11/22</em></p></div> 
+            <div className="w-1/2">
+              {" "}
+              <p>
+                <strong>DoorDash</strong> nyc 🗽
+              </p>
+            </div>
+            <div className="flex items-right content-right">
+              {" "}
+              <p>
+                <em>08/21-11/22</em>
+              </p>
+            </div>
           </div>
-          <div className="flex py-4"> <h1>skills:</h1></div>
+          <div className="flex py-4">
+            {" "}
+            <h1>skills:</h1>
+          </div>
           <div class="grid grid-cols-2 gap-1 flex justify-center items-center content-center">
-              <div class="font-bold text-light-green">kotlin</div>
-              <div class="font-bold text-light-green">gRPC</div>
-              <div class="font-bold text-light-green">kubernetes</div>
-              <div class="font-bold text-light-green">cassandra</div>
-              <div class="font-bold text-light-green">postgres</div>
-              <div class="font-bold text-light-green">scalyr</div>
+            <div class="font-bold text-light-green">kotlin</div>
+            <div class="font-bold text-light-green">gRPC</div>
+            <div class="font-bold text-light-green">kubernetes</div>
+            <div class="font-bold text-light-green">cassandra</div>
+            <div class="font-bold text-light-green">postgres</div>
+            <div class="font-bold text-light-green">scalyr</div>
           </div>
         </div>
         <div className="lg:flex-grow md:w-1/4 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-left text-left">
-          <ul class="list-outside list-disc"> 
+          <ul class="list-outside list-disc">
             <li>
-              Helped integrate HSA/FSA items to Doordash, leading design and implementation for reimbursable receipts to 
-              unlock $41M in revenue. Identified key bugs in adjustment flow that were missing, investigating and fixing
-              the root cause to allow HSA/FSA to launch in time.
+              Helped integrate HSA/FSA items to Doordash, leading design and
+              implementation for reimbursable receipts to unlock $41M in
+              revenue. Identified key bugs in adjustment flow that were missing,
+              investigating and fixing the root cause to allow HSA/FSA to launch
+              in time.
             </li>
             <li>
-              Fixed alcohol dropoff preference bug that had weekly loss of $30k. Investigated 
-              different behaviors and multiple sources of truth in reading dropoff preferences, 
-              charting a path forward to consolidate the SOT over the course of 3 months. Lead meetings 
-              and worked across 5+ core teams and microservices. Designed and implemented our restructured 
-              dropoff preferences flow architecture for all DoorDash consumers, laying the groundwork
-              for more reliable and consistent address data and foundation for the engineering team to build 
-              upon in the future. 
+              Fixed alcohol dropoff preference bug that had weekly loss of $30k.
+              Investigated different behaviors and multiple sources of truth in
+              reading dropoff preferences, charting a path forward to
+              consolidate the SOT over the course of 3 months. Lead meetings and
+              worked across 5+ core teams and microservices. Designed and
+              implemented our restructured dropoff preferences flow architecture
+              for all DoorDash consumers, laying the groundwork for more
+              reliable and consistent address data and foundation for the
+              engineering team to build upon in the future.
             </li>
             <li>
-              Implemented Dasher-scanned ID-verification, where Dasher acts as a bouncer to scan
-              consumer ids. Lowered failed alcohol deliveries by 40% and increased internal sting rate by 49%,
-              setting a new industry standard for id verification.
+              Implemented Dasher-scanned ID-verification, where Dasher acts as a
+              bouncer to scan consumer ids. Lowered failed alcohol deliveries by
+              40% and increased internal sting rate by 49%, setting a new
+              industry standard for id verification.
             </li>
             <li>
-              Added support for flexible item hours, allowing merchants to sell alcohol 
-              at varying hours, increasing volume by more than 3%.
+              Added support for flexible item hours, allowing merchants to sell
+              alcohol at varying hours, increasing volume by more than 3%.
             </li>
           </ul>
         </div>
@@ -55,41 +73,59 @@ export default function Experiences() {
       <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">
         <div className="py-5 lg:max-w-lg lg:w-1/4 md:w-1/4 h-2/6 items-center">
           <div className="flex items-center content-center">
-            <div className="w-1/2"> <p><strong>Princeton University</strong> <br/> princeton, nj 🎓 </p></div> 
-            <div className="flex items-right content-right"> <p>student research <br/> <em>09/17-05/21</em></p></div> 
+            <div className="w-1/2">
+              {" "}
+              <p>
+                <strong>Princeton University</strong> <br /> princeton, nj 🎓{" "}
+              </p>
+            </div>
+            <div className="flex items-right content-right">
+              {" "}
+              <p>
+                student research <br /> <em>09/17-05/21</em>
+              </p>
+            </div>
           </div>
-          <div className="flex py-4"> <h1>skills:</h1></div>
+          <div className="flex py-4">
+            {" "}
+            <h1>skills:</h1>
+          </div>
           <div class="grid grid-cols-2 gap-1 flex justify-center items-center content-center">
-              <div class="font-bold text-light-green">python</div>
-              <div class="font-bold text-light-green">pandas</div>
-              <div class="font-bold text-light-green">c</div>
-              <div class="font-bold text-light-green">java</div>
+            <div class="font-bold text-light-green">python</div>
+            <div class="font-bold text-light-green">pandas</div>
+            <div class="font-bold text-light-green">c</div>
+            <div class="font-bold text-light-green">java</div>
           </div>
         </div>
         <div className="lg:flex-grow md:w-1/4 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-left text-left">
-          <ul class="list-outside list-disc"> 
+          <ul class="list-outside list-disc">
             <li>
-              Helped integrate HSA/FSA items to Doordash, leading design and implementation for reimbursable receipts to 
-              unlock $41M in revenue. Identified key bugs in adjustment flow that were missing, investigating and fixing
-              the root cause to allow HSA/FSA to launch in time.
+              Helped integrate HSA/FSA items to Doordash, leading design and
+              implementation for reimbursable receipts to unlock $41M in
+              revenue. Identified key bugs in adjustment flow that were missing,
+              investigating and fixing the root cause to allow HSA/FSA to launch
+              in time.
             </li>
             <li>
-              Fixed alcohol dropoff preference bug that had weekly loss of $30k. Investigated 
-              different behaviors and multiple sources of truth in reading dropoff preferences, 
-              charting a path forward to consolidate the SOT over the course of 3 months. Lead meetings 
-              and worked across 5+ core teams and microservices. Designed and implemented our restructured 
-              dropoff preferences flow architecture for all DoorDash consumers, laying the groundwork
-              for more reliable and consistent address data and foundation for the engineering team to build 
-              upon in the future. 
+              Fixed alcohol dropoff preference bug that had weekly loss of $30k.
+              Investigated different behaviors and multiple sources of truth in
+              reading dropoff preferences, charting a path forward to
+              consolidate the SOT over the course of 3 months. Lead meetings and
+              worked across 5+ core teams and microservices. Designed and
+              implemented our restructured dropoff preferences flow architecture
+              for all DoorDash consumers, laying the groundwork for more
+              reliable and consistent address data and foundation for the
+              engineering team to build upon in the future.
             </li>
             <li>
-              Implemented Dasher-scanned ID-verification, where Dasher acts as a bouncer to scan
-              consumer ids. Lowered failed alcohol deliveries by 40% and increased internal sting rate by 49%,
-              setting a new industry standard for id verification.
+              Implemented Dasher-scanned ID-verification, where Dasher acts as a
+              bouncer to scan consumer ids. Lowered failed alcohol deliveries by
+              40% and increased internal sting rate by 49%, setting a new
+              industry standard for id verification.
             </li>
             <li>
-              Added support for flexible item hours, allowing merchants to sell alcohol 
-              at varying hours, increasing volume by more than 3%.
+              Added support for flexible item hours, allowing merchants to sell
+              alcohol at varying hours, increasing volume by more than 3%.
             </li>
           </ul>
         </div>
