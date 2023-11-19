@@ -15,14 +15,14 @@ export default function Navbar() {
         paddingBottom: "30px",
       }}
     >
-      <Button href="/" sx={{ width: "auto" }}>
+      <Button disableRipple href="/" sx={{ width: "auto" }}>
         <Typography variant="h2">jenny ma</Typography>
       </Button>
       <Stack direction="row">
-        <Button href="/experiences" sx={{ width: "auto" }}>
+        <Button disableRipple href="/experiences" sx={{ width: "auto" }}>
           <Typography variant="h5">swe experience</Typography>
         </Button>
-        <Button href="/cv.pdf" sx={{ width: "auto" }}>
+        <Button disableRipple href="/cv.pdf" sx={{ width: "auto" }}>
           <Typography variant="h5">cv</Typography>
         </Button>
       </Stack>
