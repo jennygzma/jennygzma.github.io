@@ -1,0 +1,38 @@
+import React from "react";
+import { Stack, Typography } from "@mui/material";
+
+export default function Research() {
+  return (
+    <section id="research">
+      <Stack spacing="30px" sx={{ width: "85%", margin: "auto" }}>
+        <Typography variant="h4">research</Typography>
+        <Stack spacing="20px" sx={{ margin: "auto" }}>
+          <Stack spacing="5px">
+            <Typography>
+              ✨ coming soon! ✨ currently working on text to video for music
+              visualization and image to image interpolation
+            </Typography>
+          </Stack>
+          <Stack spacing="5px">
+            <Typography variant="h6">
+              <a className="link" href="/senior-thesis.pdf">
+                Tweet Trade: Using Sentiment Analysis for Stock Movement
+                Prediction and Portfolio Optimization
+              </a>
+              <br />
+            </Typography>
+            <Typography sx={{ paddingX: "10px" }}>
+              <a className="important-text">Jenny Ma</a>, John Mulvey
+            </Typography>
+            <Typography sx={{ paddingX: "10px" }}>
+              <a style={{ fontStyle: "italic bold", fontWeight: "bold" }}>
+                {" "}
+                senior thesis
+              </a>
+            </Typography>
+          </Stack>
+        </Stack>
+      </Stack>
+    </section>
+  );
+}
