@@ -1,34 +1,31 @@
 import React from "react";
+import Stack from "@mui/material/Stack";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
 
 export default function Navbar() {
   return (
-    <header className="bg-gray-800">
-      <div className="container mx-auto flex flex-wrap px-10 py-20 flex-col md:flex-row items-center">
-        <a className="title-font font-mono font-semibold text-green hover:font-bold mb-4 md:mb-0">
-          <a href="#about" className="ml-3 text-5xl">
-            jenny ma
-          </a>
-        </a>
-        <div className="ml-auto lg:w-1/4">
-          <nav className="md:mr-auto md:ml-4 md:py-1	flex flex-wrap items-center text-base justify-center">
-            <div>
-              <a href="#experiences" className="mr-5 font-mono text-xl text-green hover:font-semibold">
-                experiences
-              </a>
-            </div>
-            <div>
-              <a href="#news" className="mr-5 font-mono text-green text-xl hover:font-semibold">
-                news
-              </a>
-            </div>
-            <div>
-              <a href="#blog" className="mr-5 font-mono text-green text-xl hover:font-semibold">
-                cs blog
-              </a>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </header>
+    <Stack
+      direction="row"
+      sx={{
+        alignItems: "center",
+        justifyContent: "space-between",
+        paddingX: "100px",
+        paddingTop: "100px",
+        paddingBottom: "30px",
+      }}
+    >
+      <Button href="/" sx={{ width: "auto" }}>
+        <Typography variant="h2">jenny ma</Typography>
+      </Button>
+      <Stack direction="row">
+        <Button href="/experiences" sx={{ width: "auto" }}>
+          <Typography variant="h5">swe experience</Typography>
+        </Button>
+        <Button href="/cv.pdf" sx={{ width: "auto" }}>
+          <Typography variant="h5">cv</Typography>
+        </Button>
+      </Stack>
+    </Stack>
   );
 }
