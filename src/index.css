@@ -3,14 +3,68 @@
 @tailwind utilities;
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fcf9e8;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+:root {
+  --light-green: #6dad85;
+}
+
+h4 {
+  color: #6dad85;
+  font-weight: 550 !important;
+}
+
+h2 {
+  color: #6dad85;
+  font-weight: 550 !important;
+}
+h2:hover {
+  color: #498f63;
+}
+
+h5 {
+  color: #6dad85;
+  font-weight: 550 !important;
+}
+h5:hover {
+  color: #498f63;
+}
+
+h6 {
+  color: #6dad85;
+  font-weight: 550 !important;
+}
+
+.link {
+  color: #6dad85;
+  font-weight: 550 !important;
+  text-decoration: none;
+}
+.link:hover {
+  color: #498f63;
+}
+
+.important-text {
+  font-weight: 550 !important;
+}
+
+.MuiButton-root {
+  display: flex;
+  width: 40px;
+  height: 32px;
+  background-color: transparent !important;
+  color: var(--light-green) !important;
+  text-transform: lowercase !important;
+  font-weight: 550 !important;
 }

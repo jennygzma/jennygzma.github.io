@@ -1,20 +1,19 @@
-import "./App.css";
 import React from "react";
 import About from "./components/About";
-import Experiences from "./components/Experiences";
 import News from "./components/News";
-import Blog from "./components/Blog";
+import Research from "./components/Research";
 import Navbar from "./components/Navbar";
+import { Stack } from "@mui/material";
 
 function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font-serif bg-cream">
-      <div className="mx-1">
+    <main className="main page">
+      <Stack spacing="50px" sx={{ paddingBottom: "100px" }}>
         <Navbar />
         <About />
-        <Experiences />
         <News />
-      </div>
+        <Research />
+      </Stack>
     </main>
   );
 }
