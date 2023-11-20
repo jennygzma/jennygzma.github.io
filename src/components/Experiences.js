@@ -17,7 +17,7 @@ export default function Experiences() {
               </Typography>
               <Stack sx={{ paddingTop: "15px" }}>
                 <Typography className="important-text">skills</Typography>
-                <Typography>react, nextjs, githubAPI, octokit</Typography>
+                <Typography>typescript, react, nextjs, octokit</Typography>
               </Stack>
             </Stack>
             <List>
@@ -36,7 +36,11 @@ export default function Experiences() {
                 </ListItemIcon>
                 <Typography variant="body1">
                   Created an onboarding wizard to help users seamlessly onboard
-                  onto Check product in the web-app (app.trunk.io).
+                  onto Check product in the web-app (
+                  <a href="app.trunk.io" className="link">
+                    app.trunk.io
+                  </a>
+                  ).
                 </Typography>
               </ListItem>
               <ListItem>
