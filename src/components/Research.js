@@ -22,13 +22,13 @@ export default function Research() {
               <br />
             </Typography>
             <Typography sx={{ paddingX: "10px" }}>
-              <a className="important-text">Jenny Ma</a>, John Mulvey
+              <span className="important-text">Jenny Ma</span>, John Mulvey
             </Typography>
             <Typography sx={{ paddingX: "10px" }}>
-              <a style={{ fontStyle: "italic bold", fontWeight: "bold" }}>
+              <span style={{ fontStyle: "italic", color: "#498f63" }}>
                 {" "}
                 senior thesis
-              </a>
+              </span>
             </Typography>
           </Stack>
         </Stack>

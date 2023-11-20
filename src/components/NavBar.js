@@ -1,6 +1,6 @@
 import React from "react";
 import Stack from "@mui/material/Stack";
-import Button from "@mui/material/Button";
+import Link from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
 export default function Navbar() {
@@ -15,16 +15,17 @@ export default function Navbar() {
         paddingBottom: "30px",
       }}
     >
-      <Button disableRipple href="/" sx={{ width: "auto" }}>
+      <Link disableRipple href="#/" sx={{ width: "auto" }}>
         <Typography variant="h2">jenny ma</Typography>
-      </Button>
+      </Link>
       <Stack direction="row">
-        <Button disableRipple href="/experiences" sx={{ width: "auto" }}>
-          <Typography variant="h5">swe experience</Typography>
-        </Button>
-        <Button disableRipple href="/cv.pdf" sx={{ width: "auto" }}>
+        <Link href="#/experiences" sx={{ width: "auto" }}>
+          <Typography variant="h5">industry experience</Typography>
+        </Link>
+
+        <Link href="/cv.pdf" sx={{ width: "auto" }}>
           <Typography variant="h5">cv</Typography>
-        </Button>
+        </Link>
       </Stack>
     </Stack>
   );
