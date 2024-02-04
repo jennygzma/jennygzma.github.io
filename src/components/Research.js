@@ -1,5 +1,5 @@
 import React from "react";
-import { Stack, Typography, Paper } from "@mui/material";
+import { Stack, Typography, Paper, Box } from "@mui/material";
 
 export default function Research() {
   return (
@@ -7,17 +7,34 @@ export default function Research() {
       <Stack spacing="30px" sx={{ width: "85%", margin: "auto" }}>
         <Typography variant="h4">research</Typography>
         <Stack spacing="20px" sx={{ margin: "auto" }}>
-          <Stack spacing="5px">
-            <Typography>
-              ✨ coming soon! ✨ currently working on text to video for music
-              visualization and image to image interpolation
-            </Typography>
-          </Stack>
-          <Paper
+          <Box
             sx={{
               padding: "20px",
-              backgroundColor: "#f2edd5",
-              boxShadow: "#6dad85",
+            }}
+          >
+            <Stack spacing="5px">
+              <Typography variant="h6">
+                <a className="link" href="https://arxiv.org/abs/2304.08551">
+                  Generative Disco: Text-to-Video for Music Visualization
+                </a>
+                <br />
+              </Typography>
+              <Typography sx={{ paddingX: "10px" }}>
+                Vivian Liu, Tao Long,{" "}
+                <span className="important-text">Jenny Ma</span>, Nathan Raw,
+                Lydia Chilton
+              </Typography>
+              <Typography sx={{ paddingX: "10px" }}>
+                <span style={{ fontStyle: "italic", color: "#498f63" }}>
+                  {" "}
+                  Under Submission to DIS 2024
+                </span>
+              </Typography>
+            </Stack>
+          </Box>
+          <Box
+            sx={{
+              padding: "20px",
             }}
           >
             <Stack spacing="5px">
@@ -38,7 +55,7 @@ export default function Research() {
                 </span>
               </Typography>
             </Stack>
-          </Paper>
+          </Box>
         </Stack>
       </Stack>
     </section>
