@@ -2,17 +2,25 @@ import React from "react";
 import About from "./components/About";
 import News from "./components/News";
 import Research from "./components/Research";
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import { Stack } from "@mui/material";
 
 function App() {
   return (
     <main className="main page">
-      <Stack spacing="50px" sx={{ paddingBottom: "100px" }}>
-        <Navbar />
+      <Stack
+        spacing="30px"
+        sx={{
+          mx: "20%",
+          maxWidth: "1800px",
+          justifyContent: "center",
+          paddingBottom: "100px",
+        }}
+      >
+        <Header />
         <About />
-        <News />
         <Research />
+        <News />
       </Stack>
     </main>
   );

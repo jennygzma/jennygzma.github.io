@@ -5,7 +5,7 @@ import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 export default function Experiences() {
   return (
     <section id="industry experience">
-      <Stack spacing="30px" sx={{ width: "85%", margin: "auto" }}>
+      <Stack spacing="30px" sx={{}}>
         <Typography variant="h4">industry experience</Typography>
         <Stack spacing="20px">
           <Stack direction="row" spacing="40px" id="trunk">

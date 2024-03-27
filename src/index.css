@@ -1,9 +1,9 @@
 body {
   margin: 0;
-  font-family: Algerian;
+  font-family: "Times New Roman", Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fcf9e8;
+  background-color: #fffcef;
 }
 
 code {
@@ -42,7 +42,7 @@ h6 {
 }
 
 .link {
-  color: #6dad85;
+  color: #6eab84;
   font-weight: 550 !important;
   text-decoration: none;
 }
@@ -56,10 +56,20 @@ h6 {
 
 .MuiButton-root {
   display: flex;
-  width: 40px;
   height: 32px;
-  background-color: transparent !important;
-  color: var(--light-green) !important;
+  background-color: "transparent" !important;
+  border: 2px solid #6eab84 !important;
+  border-radius: 0 !important;
+  color: #6dad85 !important;
   text-transform: lowercase !important;
   font-weight: 550 !important;
+}
+
+.MuiButton-root:hover {
+  background-color: #6eab84 !important;
+  color: white !important;
+}
+
+.MuiTypography-root {
+  font-family: "Courier", Times, serif !important;
 }
