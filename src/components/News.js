@@ -6,12 +6,7 @@ export default function News() {
     <section id="news">
       <Stack spacing="20px">
         <Typography variant="h4">news</Typography>
-        <Stack
-          spacing="10px"
-          sx={{
-            padding: "10px",
-          }}
-        >
+        <Stack spacing="10px">
           <Stack direction="row" spacing="20px">
             <Typography className="important-text">[09/2023]</Typography>
             <Typography>

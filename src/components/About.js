@@ -6,12 +6,12 @@ export default function About() {
     <section id="about">
       <Stack
         direction={{ sm: "column", md: "row" }}
-        spacing={{ xs: 3, sm: 8 }}
+        spacing={{ xs: 5, sm: 10 }}
         sx={{
           alignItems: "center",
           justifyContent: "center",
-          width: "80%",
-          marginLeft: "10%",
+          width: "90%",
+          marginLeft: "5%",
         }}
       >
         <Stack spacing={"10px"} sx={{ width: "40%", alignItems: "center" }}>

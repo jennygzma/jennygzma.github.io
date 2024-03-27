@@ -11,7 +11,7 @@ export default function Research() {
             * denotes equal contribution.{" "}
           </Typography>
         </Stack>
-        <Stack spacing="20px" sx={{ padding: "10px" }}>
+        <Stack spacing="20px">
           <Box>
             <Stack>
               <Typography variant="h6">
