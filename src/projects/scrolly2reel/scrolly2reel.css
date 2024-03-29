@@ -1,0 +1,57 @@
+.scrolly2reel .MuiTypography-root {
+  font-family: "Helvetica Neue", Times, serif !important;
+}
+
+.scrolly2reel h4 {
+  color: #474e4a;
+  font-weight: 550 !important;
+}
+
+.scrolly2reel h2 {
+  color: #474e4a;
+  font-weight: 550 !important;
+}
+.scrolly2reel h2:hover {
+  color: #474e4a;
+}
+
+.scrolly2reel h3 {
+  color: #474e4a;
+  font-weight: 550 !important;
+}
+
+.scrolly2reel h5 {
+  color: #474e4a;
+  font-weight: 550 !important;
+}
+.scrolly2reel h5:hover {
+  color: #474e4a;
+}
+
+.scrolly2reel h6 {
+  color: #474e4a;
+  font-weight: 550 !important;
+}
+
+.scrolly2reel .link {
+  color: #474e4a;
+  font-weight: 550 !important;
+  text-decoration: none;
+}
+.scrolly2reel .link:hover {
+  color: #f1f1f1;
+}
+
+.scrolly2reel .MuiButton-root {
+  display: flex;
+  height: 32px;
+  background-color: "transparent" !important;
+  border: 2px solid #474e4a !important;
+  border-radius: 0 !important;
+  color: #f9f9f9 !important;
+  font-weight: 550 !important;
+}
+
+.scrolly2reel .MuiButton-root:hover {
+  background-color: #474e4a !important;
+}
