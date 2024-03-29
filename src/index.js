@@ -4,6 +4,8 @@ import "./index.css";
 import App from "./App";
 import Experiences from "./Experiences";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import Scrolly2Reel from "./projects/scrolly2reel/Scrolly2Reel";
+import { Typography } from "@mui/material";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -38,6 +40,7 @@ root.render(
             </div>
           }
         />
+        <Route path="/scrolly2reel" element={<Scrolly2Reel />} />
       </Routes>
     </Router>
   </React.StrictMode>,

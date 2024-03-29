@@ -28,8 +28,11 @@ export default function Research() {
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
-                <Button disableRipple href="https://github.com/jennygzma">
+                <Button disableRipple href="https://arxiv.org/abs/2403.18111">
                   <Typography className="link">arXiv</Typography>
+                </Button>
+                <Button disableRipple href="#/scrolly2reel">
+                  <Typography className="link">project</Typography>
                 </Button>
               </Stack>
             </Stack>
@@ -54,9 +57,6 @@ export default function Research() {
               <Stack direction="row" spacing={"30px"} pt="5px">
                 <Button disableRipple href="https://arxiv.org/abs/2304.08551">
                   <Typography className="link">arXiv</Typography>
-                </Button>
-                <Button disableRipple href="https://vivian-liu.com/disco">
-                  <Typography className="link">project</Typography>
                 </Button>
                 <Button
                   disableRipple
