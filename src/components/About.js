@@ -21,7 +21,7 @@ export default function About() {
             alt="jm"
             src="./profile.png"
           />
-          <Stack direction="row" spacing={"20px"}>
+          <Stack direction="row" spacing={"20px"} paddingTop={"15px"}>
             <Button disableRipple href="mailto:jennygzma@gmail.com">
               <Typography className="link">email</Typography>
             </Button>
