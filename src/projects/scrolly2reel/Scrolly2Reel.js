@@ -57,8 +57,8 @@ export default function Scrolly2Reel() {
               <CardMedia
                 component="video"
                 controls
-                src={require("./bullet.mov")}
-                title="Bullet"
+                src={require("./nyt_ammunition.mp4")}
+                title="Ammunition"
               />
               <Box
                 sx={{
@@ -85,8 +85,8 @@ export default function Scrolly2Reel() {
               <CardMedia
                 component="video"
                 controls
-                src={require("./covid.mov")}
-                title="Covid"
+                src={require("./nyt_life_after_climate.mp4")}
+                title="Life After Climate"
               />
               <Box sx={{ padding: "10px", textAlign: "center" }}>
                 <Box
@@ -97,8 +97,8 @@ export default function Scrolly2Reel() {
                   }}
                 >
                   <Typography variant="body1">
-                    Original Article: "What Happens To Viral Particles on the
-                    Subway"
+                    Original Article: "The New World Envisioning Life After
+                    Climate Change"
                   </Typography>
                 </Box>
                 {/* <Button height="auto" width="auto" href="https://www.nytimes.com/interactive/2020/08/10/nyregion/nyc-subway-coronavirus.html">
@@ -113,8 +113,8 @@ export default function Scrolly2Reel() {
               <CardMedia
                 component="video"
                 controls
-                src={require("./gymnast.mov")}
-                title="Gymnast"
+                src={require("./abc_au_sam_kerr.mp4")}
+                title="Sam Kerr"
               />
               <Box
                 sx={{
@@ -125,8 +125,11 @@ export default function Scrolly2Reel() {
               >
                 <Box sx={{ border: "2px solid #474e4a", padding: "10px" }}>
                   <Typography variant="body1">
-                    Original Article: "Sunisa Lee Is Unmatched on Uneven Bars
-                    and Wants All-Around Glory"
+                    <a href="https://www.abc.net.au/news/2022-10-15/how-sam-kerr-became-the-greatest-striker-in-women-s-football/101523604">
+                      Original Article
+                    </a>
+                    : "How Sam Kerr became one of the greatest strikers in
+                    women\'s football"
                   </Typography>
                 </Box>
                 {/* <Button height="auto" width="auto" href="https://www.nytimes.com/interactive/2021/sports/olympics/suni-lee-gymnastics.html ">
