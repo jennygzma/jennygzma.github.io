@@ -28,6 +28,13 @@ export default function Scrolly2Reel() {
           >
             <Typography className="link">arxiv</Typography>
           </Button>
+          <Button
+            disableRipple
+            href="/https://github.com/duynguyen158/Scrolly2Reel"
+            sx={{ alignSelf: "flex-start" }}
+          >
+            <Typography className="link">github </Typography>
+          </Button>
         </Stack>
         <Stack
           spacing="30px"
@@ -39,8 +46,8 @@ export default function Scrolly2Reel() {
           }}
         >
           <Typography variant="h3" textAlign="center">
-            Scrolly2Reel: Turning News Graphics into TikToks by Adjusting
-            Narrative Beats and Pacing
+            Scrolly2Reel: Scrolly2Reel: Retargeting Graphics for Social Media
+            Using Narrative Beats
           </Typography>
           <Typography variant="h6">
             Duy Nguyen*, Jenny Ma*, Pedro Alejandro Perez, Lydia B. Chilton
@@ -59,12 +66,14 @@ export default function Scrolly2Reel() {
                 controls
                 src={require("./nyt_ammunition.mp4")}
                 title="Ammunition"
+                sx={{ height: "85%" }}
               />
               <Box
                 sx={{
                   backgroundColor: "#D9D9D9 !important",
                   padding: "10px",
                   textAlign: "center",
+                  height: "25%",
                 }}
               >
                 <Box sx={{ border: "2px solid #474e4a", padding: "10px" }}>
@@ -87,6 +96,7 @@ export default function Scrolly2Reel() {
                 controls
                 src={require("./nyt_life_after_climate.mp4")}
                 title="Life After Climate"
+                sx={{ height: "85%" }}
               />
               <Box sx={{ padding: "10px", textAlign: "center" }}>
                 <Box
@@ -114,7 +124,8 @@ export default function Scrolly2Reel() {
                 component="video"
                 controls
                 src={require("./ole.mov")}
-                title="Sam Kerr"
+                title="Stadium Sounds"
+                sx={{ height: "85%" }}
               />
               <Box
                 sx={{
@@ -125,11 +136,8 @@ export default function Scrolly2Reel() {
               >
                 <Box sx={{ border: "2px solid #474e4a", padding: "10px" }}>
                   <Typography variant="body1">
-                    <a href="https://www.abc.net.au/news/2022-10-15/how-sam-kerr-became-the-greatest-striker-in-women-s-football/101523604">
-                      Original Article
-                    </a>
-                    : "How Sam Kerr became one of the greatest strikers in
-                    women\'s football"
+                    Original Article: "Sounds of the Stadium: The Anatomy of a
+                    World Cup Chant"
                   </Typography>
                 </Box>
                 {/* <Button height="auto" width="auto" href="https://www.nytimes.com/interactive/2021/sports/olympics/suni-lee-gymnastics.html ">
