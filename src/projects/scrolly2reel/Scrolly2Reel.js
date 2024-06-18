@@ -113,7 +113,7 @@ export default function Scrolly2Reel() {
               <CardMedia
                 component="video"
                 controls
-                src={require("./abc_au_sam_kerr.mp4")}
+                src={require("./ole.mov")}
                 title="Sam Kerr"
               />
               <Box
@@ -143,31 +143,34 @@ export default function Scrolly2Reel() {
           </Stack>
           <Typography variant="h4"> Abstract </Typography>
           <Typography variant="body1">
-            As media evolves, storytelling evolves. In 2012, newspapers
-            introduced scrollytelling sequences, or "scrollies," to make news
-            more immersive and interactive on the web. As users scroll through
-            an article, graphics like animation, charts, and 3D visualizations
-            appear to provide visual dynamics to the story. Today, news
-            consumption is shifting to short-video platforms like TikTok,
-            particularly among younger audiences. We propose repurposing the
-            assets from scrollies and computationally transform them into
-            videos. By shortening the original written text and precisely
-            synchronizing the timing of audio narrative with features in the
-            visual scrolling assets, we can create reels with dynamic pacing and
-            narrative beats. We argue that text shortening is essential to
-            producing fast paced videos that are compelling and visually
-            interesting, and show that when beats are preserved in the output
-            reel, topical alignment between them and the visual assets is
-            crucial to the viewing experience. Understanding narrative pacing
-            and beats in creative forms is key to user experience of media. They
-            are an important primitive to effective editing, repurposing, and
-            retargeting content while maintaining a cohesive narrative.
+            Content retargeting is crucial for social media creators. Once great
+            content is created, it is important to reach as broad an audience as
+            possible. This is particularly important in journalism where younger
+            audiences are shifting away from print and towards short-video
+            platforms. Many newspapers already create rich graphics for the web
+            that they want to be able to reuse for social media. One example is
+            scrollytelling sequences or "scrollies" -- immersive articles with
+            graphics like animation, charts, and 3D visualizations that appear
+            as a user scrolls. We present a system that helps transform
+            scrollies into social media videos. By using the scriptwriting
+            concept of narrative beats to extract fundamental storytelling
+            units, we can create videos that are more aligned with narration,
+            and allow for better pacing and stylistic changes. Narrative beats
+            are thus an important primitive to retargeting content that matches
+            the style of a new medium while maintaining the cohesiveness of the
+            original content.
           </Typography>
           <img
             className="mx-auto rounded w-2/3 object-scale-down"
             style={{ width: "100%" }}
             alt="teaser"
-            src={require("./teaser.png")}
+            src={require("./alignment.png")}
+          />
+          <img
+            className="mx-auto rounded w-2/3 object-scale-down"
+            style={{ width: "50%" }}
+            alt="teaser"
+            src={require("./system.png")}
           />
           <Box sx={{ backgroundColor: "white", padding: "20px" }}>
             <img

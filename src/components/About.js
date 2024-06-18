@@ -50,14 +50,16 @@ export default function About() {
             >
               Lydia Chilton
             </a>{" "}
-            in the computational design lab. I am also a full stack software
-            engineer at a series A devex startup called
+            in the computational design lab. I am set to graduate in May 2025
+            and hope to apply to PhD programs this fall. Previously, I worked at
+            a series A devex startup called
             <a href="https://trunk.io/" className="link">
               {" "}
               Trunk
-            </a>
-            . I attended Princeton University for undergrad and majored in
-            Operations Research and Financial Engineering.
+            </a>{" "}
+            (ex Uber-ATG) and DoorDash. I attended Princeton University for
+            undergrad and majored in Operations Research and Financial
+            Engineering.
             <br />
             <br />
             In my spare time, I enjoy watching One Piece, writing music,
