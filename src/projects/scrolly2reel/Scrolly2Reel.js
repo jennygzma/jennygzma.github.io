@@ -23,14 +23,14 @@ export default function Scrolly2Reel() {
           </Button>
           <Button
             disableRipple
-            href="/https://arxiv.org/abs/2403.18111"
+            href="https://arxiv.org/abs/2403.18111"
             sx={{ alignSelf: "flex-start" }}
           >
             <Typography className="link">arxiv</Typography>
           </Button>
           <Button
             disableRipple
-            href="/https://github.com/duynguyen158/Scrolly2Reel"
+            href="https://github.com/duynguyen158/Scrolly2Reel"
             sx={{ alignSelf: "flex-start" }}
           >
             <Typography className="link">github </Typography>
@@ -237,8 +237,8 @@ export default function Scrolly2Reel() {
             <code>
               @misc{"{"}nguyen2024scrolly2reel,
               <br />
-              &nbsp;&nbsp;title={"{"}Scrolly2Reel: Turning News Graphics into
-              TikToks by Adjusting Narrative Beats and Pacing{"}"}, <br />
+              &nbsp;&nbsp;title={"{"}Scrolly2Reel: Retargeting Graphics for
+              Social Media Using Narrative Beats{"}"}, <br />
               &nbsp;&nbsp;author={"{"}Duy K. Nguyen and Jenny Ma and Pedro
               Alejandro Perez and Lydia B. Chilton{"}"},<br />
               &nbsp;&nbsp;year={"{"}2024{"}"},<br />
