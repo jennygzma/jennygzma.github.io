@@ -8,6 +8,13 @@ export default function News() {
         <Typography variant="h4">news</Typography>
         <Stack spacing="10px">
           <Stack direction="row" spacing="20px">
+            <Typography className="important-text">[06/2024]</Typography>
+            <Typography>
+              working in Computational Design Lab with Lydia over the summer
+              full time to prepare for grad apps!
+            </Typography>
+          </Stack>
+          <Stack direction="row" spacing="20px">
             <Typography className="important-text">[09/2023]</Typography>
             <Typography>
               started MS thesis track at Columbia University.

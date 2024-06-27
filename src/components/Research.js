@@ -15,8 +15,8 @@ export default function Research() {
           <Box>
             <Stack>
               <Typography variant="h6">
-                Scrolly2Reel: Turning News Graphics into TikToks by Adjusting
-                Narrative Beats and Pacing
+                Scrolly2Reel: Retargeting Graphics for Social Media Using
+                Narrative Beats
               </Typography>
               <Typography>
                 Duy Nguyen*, <span className="important-text">Jenny Ma*</span>,

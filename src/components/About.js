@@ -41,9 +41,8 @@ export default function About() {
             <span className="important-text">generative AI</span>
             {", "}
             <span className="important-text">human-computer interaction</span>
-            {", "}
-            and <span className="important-text">computer graphics</span>
-            {". "}I am currently being advised by Professor{" "}
+            {". "} My research focuses on creativity and productivity support
+            tools. I am currently being advised by Professor{" "}
             <a
               href="https://www.cs.columbia.edu/~chilton/chilton.html"
               className="link"
@@ -61,10 +60,9 @@ export default function About() {
             undergrad and majored in Operations Research and Financial
             Engineering.
             <br />
-            <br />
-            In my spare time, I enjoy watching One Piece, writing music,
-            surfing, and hanging out with friends. I also try to run daily but
-            don't really find that enjoyable 😬
+            <br />I enjoy watching One Piece, writing music, surfing, and
+            hanging out with friends! I also try to run daily but don't find
+            that enjoyable 😬
           </Typography>
           <Typography variant="body1"></Typography>
         </Stack>
