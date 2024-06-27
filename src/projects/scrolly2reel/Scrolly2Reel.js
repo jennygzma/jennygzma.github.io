@@ -46,8 +46,8 @@ export default function Scrolly2Reel() {
           }}
         >
           <Typography variant="h3" textAlign="center">
-            Scrolly2Reel: Scrolly2Reel: Retargeting Graphics for Social Media
-            Using Narrative Beats
+            Scrolly2Reel: Retargeting Graphics for Social Media Using Narrative
+            Beats
           </Typography>
           <Typography variant="h6">
             Duy Nguyen*, Jenny Ma*, Pedro Alejandro Perez, Lydia B. Chilton
@@ -145,26 +145,26 @@ export default function Scrolly2Reel() {
             are made into social media reels. In science and journalism,
             articles are retargeted for social media for young people with
             shorter attention spans in the form of reels and tweets. Content
-            retargeting is interesting because the content is not being changed
-            - it's audience is merely changing, and thus, the pace and alignment
-            in which the content is being presented needs to be modified for
-            it's new medium. It is therefore crucial to identify common
-            structures that assist retargeting content across different mediums.
-            We discuss the importance of narrative beats in retargeting content
-            to maintain cohesion and retain alignment. We prove the importance
-            of narrative beats by transforming journalism scrolly articles into
-            social media reels. Scrolly articles came with the rise of digital
-            journalism - articles with rich graphics that unfold as the user
-            scrolls to help assist in the journalistic narrative (
+            retargeting is interesting because the content itself is not being
+            changed - it's audience and style is merely changing, and thus, the
+            pace and alignment in which the content is being presented needs to
+            be modified for it's new medium. It is therefore crucial to identify
+            common structures that assist retargeting content across different
+            mediums. We discuss the importance of narrative beats in retargeting
+            content to maintain cohesion and retain alignment by transforming
+            journalism scrolly articles into social media reels and conducting
+            an evaluation on utilizing narrative beats in retargeting the
+            content. Scrolly articles came with the rise of digital journalism -
+            articles with rich graphics that unfold as the user scrolls to help
+            assist in the journalistic narrative (
             <Link href="https://www.nytimes.com/interactive/2020/08/10/nyregion/nyc-subway-coronavirus.html">
               example
             </Link>
-            ). We want to repurpose these intricate graphics and animations for
-            social media anad retarget the content successfully. We identify
-            narrative beats in the original article, and use that as a basis for
-            content retargeting. Without narrative beats, the retargeted content
-            lacks alignment and becomes confusing; it is not suitable for the
-            new medium.
+            ). By identifying narrative beats, and then autoscrolling through
+            the scrolly, we can successfully repurpose these intricate graphics
+            and animations for social media. Without narrative beats, the
+            retargeted content lacks alignment and becomes confusing; it is not
+            suitable for the new medium.
           </Typography>
           <img
             className="mx-auto rounded w-2/3 object-scale-down"
@@ -195,20 +195,18 @@ export default function Scrolly2Reel() {
             We created four variants of videos for our evaluation (see below) to
             demonstrate the importance of shortening content for pacing and
             utilziing narrative beats for alignment in retargeting content.
-            Modifying the content to be more fast-paced is imperative to
-            maintain the shorter attention span of those on social media. For
-            videos where alignment is necessary (where references in the script
-            reference the animation), alignment between the audio and visuals is
-            necessary. This is where narrative beats are crucial - without
-            beats, visuals and audio can become misaligned and cause the
-            retargeting to be unsuccessful. Our evaluation demonstrated the
-            importance of beats in retargeting content. Retargeting content does
-            not mean regenerating new content - it simply requires changing the
-            pacing and retaining the alignment. Narrative beats act as a
-            well-defined structure for modifying the content for new mediums to
-            maintain alignment and creating natural groupings for pace changes.
-            Furthermore, they can be used as a design structure in other forms
-            of content retargeting.
+            Videos with modified pacing and were re-structured with narrative
+            beats performed the best. Modifying the content to be more
+            fast-paced is imperative to maintain the shorter attention span of
+            those on social media. For videos where alignment is necessary
+            (where references in the script reference the animation), alignment
+            between the audio and visuals is necessary. Without beats, visuals
+            and audio can become misaligned and cause the retargeting to be
+            unsuccessful. Our evaluation demonstrated the importance of beats in
+            retargeting content. Narrative beats act as a well-defined structure
+            for modifying the content for new mediums to maintain alignment and
+            creating natural groupings for pace changes. Furthermore, they can
+            be used as a design structure in other forms of content retargeting.
           </Typography>
           <Box sx={{ backgroundColor: "white", padding: "20px" }}>
             <img
