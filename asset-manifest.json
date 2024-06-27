@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.bd1fd60d.css",
-    "main.js": "/static/js/main.4e46e285.js",
+    "main.js": "/static/js/main.40cb2dcb.js",
     "static/media/nyt_ammunition.mp4": "/static/media/nyt_ammunition.bf2ae65704cb0dee5f9b.mp4",
-    "static/media/ole.mov": "/static/media/ole.91369975908cf180e5e4.mov",
     "static/media/nyt_life_after_climate.mp4": "/static/media/nyt_life_after_climate.30cafc725b3a631dedd0.mp4",
     "static/media/alignment.png": "/static/media/alignment.d0386f5006641e828f2e.png",
     "static/media/beat_alignment.png": "/static/media/beat_alignment.31e91220e6c2586c0cc7.png",
     "static/media/system.png": "/static/media/system.7cc0e4f1fcf0dbf5b441.png",
+    "static/media/evaluation.png": "/static/media/evaluation.d470cee48658ea72e26b.png",
     "index.html": "/index.html",
     "main.bd1fd60d.css.map": "/static/css/main.bd1fd60d.css.map",
-    "main.4e46e285.js.map": "/static/js/main.4e46e285.js.map"
+    "main.40cb2dcb.js.map": "/static/js/main.40cb2dcb.js.map"
   },
   "entrypoints": [
     "static/css/main.bd1fd60d.css",
-    "static/js/main.4e46e285.js"
+    "static/js/main.40cb2dcb.js"
   ]
 }
