@@ -15,6 +15,31 @@ export default function Research() {
           <Box>
             <Stack>
               <Typography variant="h6">
+                DIDUP: Dynamic Iterative Development for UI Prototyping
+              </Typography>
+              <Typography>
+                <span className="important-text">Jenny Ma*</span>, Karthik
+                Sreedhar*, Vivian Liu, Sitong Wang, Pedro Alejandro Perez, Lydia
+                Chilton
+              </Typography>
+              <Typography>
+                <span style={{ fontStyle: "italic", color: "#498f63" }}>
+                  Under Submission
+                </span>
+              </Typography>
+              <Stack direction="row" spacing={"30px"} pt="5px">
+                <Button disableRipple href="https://arxiv.org/abs/2403.18111">
+                  <Typography className="link">arXiv</Typography>
+                </Button>
+                <Button disableRipple href="#/didup">
+                  <Typography className="link">project</Typography>
+                </Button>
+              </Stack>
+            </Stack>
+          </Box>
+          <Box>
+            <Stack>
+              <Typography variant="h6">
                 Scrolly2Reel: Retargeting Graphics for Social Media Using
                 Narrative Beats
               </Typography>

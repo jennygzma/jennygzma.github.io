@@ -39,7 +39,7 @@ export default function About() {
             Hi! 👋 I'm a CS MS student at Columbia University interested in the
             intersection of{" "}
             <span className="important-text">generative AI</span>
-            {", "}
+            {" and "}
             <span className="important-text">human-computer interaction</span>
             {". "} My research focuses on creativity and productivity support
             tools. I am currently being advised by Professor{" "}

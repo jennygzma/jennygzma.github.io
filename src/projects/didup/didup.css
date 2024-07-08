@@ -1,0 +1,57 @@
+.didup .MuiTypography-root {
+  font-family: "Monaco" !important;
+}
+
+.didup h4 {
+  color: #9a4e4e;
+  font-weight: 550 !important;
+}
+
+.didup h2 {
+  color: #9a4e4e;
+  font-weight: 550 !important;
+}
+.didup h2:hover {
+  color: #9a4e4e;
+}
+
+.didup h3 {
+  color: #9a4e4e;
+  font-weight: 700 !important;
+}
+
+.didup h5 {
+  color: #474e4a;
+  font-weight: 550 !important;
+}
+.didup h5:hover {
+  color: #474e4a;
+}
+
+.didup h6 {
+  color: #474e4a;
+  font-weight: 550 !important;
+}
+
+.didup .link {
+  color: #9a4e4e;
+  font-weight: 550 !important;
+  text-decoration: none;
+}
+.didup .link:hover {
+  color: #f1f1f1;
+}
+
+.didup .MuiButton-root {
+  display: flex;
+  height: 32px;
+  background-color: transparent !important;
+  border: 2px solid #9a4e4e !important;
+  border-radius: 0 !important;
+  color: #9a4e4e !important;
+  font-weight: 550 !important;
+}
+
+.didup .MuiButton-root:hover {
+  background-color: #9a4e4e !important;
+}
