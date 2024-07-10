@@ -20,7 +20,7 @@ export default function Research() {
               <Typography>
                 <span className="important-text">Jenny Ma*</span>, Karthik
                 Sreedhar*, Vivian Liu, Sitong Wang, Pedro Alejandro Perez, Lydia
-                Chilton
+                B. Chilton
               </Typography>
               <Typography>
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
@@ -34,6 +34,15 @@ export default function Research() {
                 <Button disableRipple href="#/didup">
                   <Typography className="link">project</Typography>
                 </Button>
+                <Button disableRipple href="#/didup/poster">
+                  <Typography className="link">poster</Typography>
+                </Button>
+                <Button
+                  disableRipple
+                  href="https://www.youtube.com/watch?v=TFMMlrnpfeY&ab_channel=jny"
+                >
+                  <Typography className="link">video</Typography>
+                </Button>
               </Stack>
             </Stack>
           </Box>
@@ -45,7 +54,7 @@ export default function Research() {
               </Typography>
               <Typography>
                 Duy Nguyen*, <span className="important-text">Jenny Ma*</span>,
-                Pedro Alejandro Perez, Lydia Chilton
+                Pedro Alejandro Perez, Lydia B. Chilton
               </Typography>
               <Typography>
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
@@ -71,7 +80,7 @@ export default function Research() {
               <Typography>
                 Vivian Liu, Tao Long,{" "}
                 <span className="important-text">Jenny Ma</span>, Nathan Raw,
-                Lydia Chilton
+                Lydia B. Chilton
               </Typography>
               <Typography>
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>

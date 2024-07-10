@@ -1,6 +1,6 @@
 import React from "react";
 import { Stack, Button, Typography } from "@mui/material";
-import { CardMedia, Card, Box, Link } from "@mui/material";
+import { Box } from "@mui/material";
 import "./didup.css";
 
 export default function Didup() {
@@ -20,6 +20,9 @@ export default function Didup() {
         <Stack direction="row" spacing="10px" sx={{ alignSelf: "flex-start" }}>
           <Button disableRipple href="/">
             <Typography className="link">back</Typography>
+          </Button>
+          <Button disableRipple href="/#/didup/poster">
+            <Typography className="link">poster</Typography>
           </Button>
           <Button
             disableRipple
@@ -56,7 +59,7 @@ export default function Didup() {
             className="mx-auto rounded w-2/3 object-scale-down"
             style={{ width: "100%" }}
             alt="teaser"
-            src={require("./poster.png")}
+            src={require("./teaser.png")}
           />
           <Typography variant="h4"> Abstract </Typography>
           <Typography variant="body1">
@@ -87,41 +90,22 @@ export default function Didup() {
             evidenced by numerous tools including Gemini, CoPilot, Devin, and
             GPT Pilot. Programming is a complex task that requires both
             high-level planning about system design and low-level understanding
-            of how features can be rendered and implemented . Prior work has
-            found that programmers can tend to be caught up in the
-            implementation details, debugging rather than thinking at the
-            high-level. Existing LLM-powered code generation systems which show
-            promise in several aspects of human software teams like planning and
-            using multiple agents for specific roles, such as a design
-            architect, product owner, tech lead, and a “code monkey.” Some even
-            have infrastructure to evaluate and iterate on LLM-generated code,
-            resulting in more robust outputs. These existing systems suggest
-            that LLMs can greatly enhance developer productivity and
-            effectiveness.
-          </Typography>
-          <Typography variant="body1">
-            A particularly valuable case of human-LLM collaboration is
-            code-based UI prototyping. It is a method to build interactive
-            prototypes that enable users to see and fully interact with a user
-            interface. For example, a user may want to compare how card-swiping
-            interactions differ from a news-feed layout when selecting
-            restaurants to eat at. Code-based UI prototypes are valuable for
-            testing data-driven applications that require an interactive
-            component, and often serve as a basis for subsequent versions of the
-            product. In some cases it can even serve as a minimum viable
-            product.
-          </Typography>
-          <Typography variant="body1">
-            Whereas there are GREAT tools for non-code UI prototyping like
-            Figma, and for full stack coding for large code bases like Devin,
-            Gemini and coPilot, there are currently few tools that support
-            coding for UI prototypes that are both usable and functional.
-            Code-based UI prototyping is not a task that can be fully automated.
-            It is an iterative and exploratory process where users adapt their
-            designs as they incrementally build and test their designs. In such
-            a process, automatic code generation can be highly valuable to
-            alleviate tedious aspects of the development process, but the user
-            must remain in control in order to guide the system.
+            of how features can be rendered and implemented. A particularly
+            valuable case of human-LLM collaboration is code-based UI
+            prototyping. It is a method to build interactive prototypes that
+            enable users to see and fully interact with a user interface. For
+            example, a user may want to compare how card-swiping interactions
+            differ from a news-feed layout when selecting restaurants to eat at.
+            Code-based UI prototypes are valuable for testing data-driven
+            applications that require an interactive component, and often serve
+            as a basis for subsequent versions of the product. In some cases it
+            can even serve as a minimum viable product. Code-based UI
+            prototyping is not a task that can be fully automated. It is an
+            iterative and exploratory process where users adapt their designs as
+            they incrementally build and test their designs. In such a process,
+            automatic code generation can be highly valuable to alleviate
+            tedious aspects of the development process, but the user must remain
+            in control in order to guide the system.
           </Typography>
           <Typography variant="body1">
             In software development, there are two main paradigms of writing
@@ -144,6 +128,12 @@ export default function Didup() {
             spiral development process.
           </Typography>
           <Typography variant="h4"> DIDUP System Overview </Typography>
+          <img
+            className="mx-auto rounded w-2/3 object-scale-down"
+            style={{ width: "100%" }}
+            alt="teaser"
+            src={require("./system.png")}
+          />
           <Typography variant="body1">
             We propose three novel mechanisms that can guide the architecture
             for code-based UI prototyping systems that follow an iterative
@@ -174,18 +164,8 @@ export default function Didup() {
             className="mx-auto rounded w-2/3 object-scale-down"
             style={{ width: "100%" }}
             alt="teaser"
-            src={require("./system.png")}
+            src={require("./output.png")}
           />
-          <Typography variant="h4"> Video </Typography>
-
-          <Card sx={{ backgroundColor: "#D9D9D9 !important" }}>
-            <CardMedia
-              component="video"
-              controls
-              src={require("./video.mp4")}
-              title="Life After Climate"
-            />
-          </Card>
           <Typography variant="h4"> Citation </Typography>
           <Box
             sx={{
