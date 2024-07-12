@@ -22,7 +22,7 @@ export default function DidupPoster() {
           </Button>
           <Button
             disableRipple
-            href="https://arxiv.org/abs/2403.18111"
+            href="https://arxiv.org/abs/2407.08474"
             sx={{ alignSelf: "flex-start" }}
           >
             <Typography className="link">arxiv</Typography>

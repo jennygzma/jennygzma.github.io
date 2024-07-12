@@ -26,7 +26,7 @@ export default function Didup() {
           </Button>
           <Button
             disableRipple
-            href="https://arxiv.org/abs/2403.18111"
+            href="https://arxiv.org/abs/2407.08474"
             sx={{ alignSelf: "flex-start" }}
           >
             <Typography className="link">arxiv</Typography>
@@ -175,16 +175,18 @@ export default function Didup() {
             }}
           >
             <code>
-              @misc{"{"}nguyen2024scrolly2reel,
+              @misc{"{"}ma2024didupdynamiciterativedevelopment,
               <br />
-              &nbsp;&nbsp;title={"{"}Scrolly2Reel: Retargeting Graphics for
-              Social Media Using Narrative Beats{"}"}, <br />
-              &nbsp;&nbsp;author={"{"}Duy K. Nguyen and Jenny Ma and Pedro
-              Alejandro Perez and Lydia B. Chilton{"}"},<br />
+              &nbsp;&nbsp;title={"{"}DIDUP: Dynamic Iterative Development for UI
+              Prototyping{"}"}, <br />
+              &nbsp;&nbsp;author={"{"}Jenny Ma and Karthik Sreedhar and Vivian
+              Liu and Sitong Wang and Pedro Alejandro Perez and Lydia B. Chilton
+              {"}"},<br />
               &nbsp;&nbsp;year={"{"}2024{"}"},<br />
-              &nbsp;&nbsp;eprint={"{"}2403.18111{"}"},<br />
+              &nbsp;&nbsp;eprint={"{"}2407.08474{"}"},<br />
               &nbsp;&nbsp;archivePrefix={"{"}arXiv{"}"},<br />
-              &nbsp;&nbsp;primaryClass={"{"}cs.HC{"}"}
+              &nbsp;&nbsp;primaryClass={"{"}cs.HC{"}"}, <br />
+              &nbsp;&nbsp;url={"{"}https://arxiv.org/abs/2407.08474{"}"}
               <br />
               {"}"}
             </code>

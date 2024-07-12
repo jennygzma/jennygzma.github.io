@@ -28,7 +28,7 @@ export default function Research() {
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
-                <Button disableRipple href="https://arxiv.org/abs/2403.18111">
+                <Button disableRipple href="https://arxiv.org/abs/2407.08474">
                   <Typography className="link">arXiv</Typography>
                 </Button>
                 <Button disableRipple href="#/didup">
