@@ -117,11 +117,11 @@ export default function Research() {
                   senior thesis
                 </span>
               </Typography>
-              <Stack direction="row" spacing={"30px"} pt="5px">
+              {/* <Stack direction="row" spacing={"30px"} pt="5px">
                 <Button disableRipple href="/senior-thesis.pdf">
                   <Typography className="link">pdf</Typography>
                 </Button>
-              </Stack>
+              </Stack> */}
             </Stack>
           </Box>
         </Stack>
