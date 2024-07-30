@@ -41,7 +41,7 @@ export default function Header() {
         </Button>
 
         <Button
-          href="/cv.pdf"
+          href="https://drive.google.com/file/d/1wqMrd0zA1TaOF7sBsSs72lnsSWbpN6Ax/view?usp=sharing"
           sx={{
             border: "transparent !important",
             "&:hover": { backgroundColor: "transparent !important" },

@@ -12,7 +12,7 @@ function App() {
         spacing="30px"
         sx={{
           mx: "20%",
-          maxWidth: "1800px",
+          maxWidth: "90%",
           justifyContent: "center",
           paddingBottom: "100px",
         }}

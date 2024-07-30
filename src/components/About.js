@@ -10,7 +10,7 @@ export default function About() {
         sx={{
           alignItems: "center",
           justifyContent: "center",
-          width: "90%",
+          width: "100%",
           marginLeft: "5%",
         }}
       >
@@ -41,8 +41,18 @@ export default function About() {
             <span className="important-text">generative AI</span>
             {" and "}
             <span className="important-text">human-computer interaction</span>
-            {". "} My research focuses on creativity and productivity support
-            tools. I am currently being advised by Professor{" "}
+            {". "} My primary focus is on designing human-centric interactive
+            systems that{" "}
+            <span className="important-text">enhance communication</span> and{" "}
+            <span className="important-text">empower creativity</span>,
+            particularly in <span className="important-text">visual media</span>
+            , <span className="important-text">storytelling</span> (from video,
+            to visual, to text), and{" "}
+            <span className="important-text">sensemaking</span>. I envision a
+            future where AI seamlessly understands and responds to human intent
+            and tools and systems are rapidly personalized to augment human
+            creativity and communication capabilities. I am currently being
+            advised by Professor{" "}
             <a
               href="https://www.cs.columbia.edu/~chilton/chilton.html"
               className="link"
@@ -50,17 +60,17 @@ export default function About() {
               Lydia Chilton
             </a>{" "}
             in the computational design lab. I am set to graduate in May 2025
-            and hope to apply to PhD programs this fall. Previously, I worked at
-            a series A devex startup called
+            and hope to apply to PhD programs this fall.
+            <br />
+            <br />
+            Previously, I worked at a series A devex startup called
             <a href="https://trunk.io/" className="link">
               {" "}
               Trunk
             </a>{" "}
             (ex Uber-ATG) and DoorDash. I attended Princeton University for
             undergrad and majored in Operations Research and Financial
-            Engineering.
-            <br />
-            <br />I enjoy watching One Piece, writing music, surfing, and
+            Engineering. I enjoy watching One Piece, writing music, surfing, and
             hanging out with friends! I also try to run daily but don't find
             that enjoyable 😬
           </Typography>
