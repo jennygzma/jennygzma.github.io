@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.108eefd7.css",
-    "main.js": "/static/js/main.6e9faab0.js",
+    "main.css": "/static/css/main.9c089129.css",
+    "main.js": "/static/js/main.028faecc.js",
     "static/media/nyt_ammunition.mp4": "/static/media/nyt_ammunition.bf2ae65704cb0dee5f9b.mp4",
     "static/media/nyt_life_after_climate.mp4": "/static/media/nyt_life_after_climate.30cafc725b3a631dedd0.mp4",
     "static/media/alignment.png": "/static/media/alignment.d0386f5006641e828f2e.png",
     "static/media/beat_alignment.png": "/static/media/beat_alignment.31e91220e6c2586c0cc7.png",
     "static/media/poster.png": "/static/media/poster.457ea72ec42a0721e2ca.png",
     "static/media/system.png": "/static/media/system.116eb365010254131355.png",
-    "static/media/teaser.png": "/static/media/teaser.9dc2f56fac6beeb5e895.png",
+    "static/media/results_participant_outputs.png": "/static/media/results_participant_outputs.ca4ce09b80200f5356f2.png",
+    "static/media/system_implementation.png": "/static/media/system_implementation.ac46078b25c42777851a.png",
+    "static/media/system_matrix.png": "/static/media/system_matrix.edb2e7a8417f8413046d.png",
+    "static/media/teaser.png": "/static/media/teaser.7aae52cc42fc87d37e87.png",
     "static/media/output.png": "/static/media/output.1730c4830aa90547446a.png",
     "static/media/franky.png": "/static/media/franky.8433b9753d14642510cb.png",
+    "static/media/system_step_outputs.png": "/static/media/system_step_outputs.85f768e46d17b08af3f5.png",
+    "static/media/NASA-TLX-Results.png": "/static/media/NASA-TLX-Results.8abaa95ea26968fd9dd0.png",
+    "static/media/Average_Scores.png": "/static/media/Average_Scores.ccdb451c2a5cad5b1b29.png",
+    "static/media/system_implementation_diagram.png": "/static/media/system_implementation_diagram.622b534c38a96ff58dc4.png",
     "static/media/evaluation.png": "/static/media/evaluation.d470cee48658ea72e26b.png",
     "index.html": "/index.html",
-    "main.108eefd7.css.map": "/static/css/main.108eefd7.css.map",
-    "main.6e9faab0.js.map": "/static/js/main.6e9faab0.js.map"
+    "main.9c089129.css.map": "/static/css/main.9c089129.css.map",
+    "main.028faecc.js.map": "/static/js/main.028faecc.js.map"
   },
   "entrypoints": [
-    "static/css/main.108eefd7.css",
-    "static/js/main.6e9faab0.js"
+    "static/css/main.9c089129.css",
+    "static/js/main.028faecc.js"
   ]
 }
