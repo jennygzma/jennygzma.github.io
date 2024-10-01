@@ -44,13 +44,9 @@ export default function About() {
             {". "} My primary focus is on designing human-centric interactive
             systems that{" "}
             <span className="important-text">enhance communication</span> and{" "}
-            <span className="important-text">empower creativity</span>,
-            particularly in <span className="important-text">visual media</span>
-            , <span className="important-text">storytelling</span> (from video,
-            to visual, to text), and{" "}
-            <span className="important-text">sensemaking</span>. I envision a
-            future where AI seamlessly understands and responds to human intent
-            and tools and systems are rapidly personalized to augment human
+            <span className="important-text">empower creativity</span>. I
+            envision a future where AI seamlessly understands and responds to
+            human intent, and tools rapidly personalized to augment human
             creativity and communication capabilities. I am currently being
             advised by Professor{" "}
             <a

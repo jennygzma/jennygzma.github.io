@@ -15,28 +15,64 @@ export default function Research() {
           <Box>
             <Stack>
               <Typography variant="h6">
-                DIDUP: Dynamic Iterative Development for UI Prototyping
+                DynEx: Dynamic Code Synthesis with Structured Design Exploration
+                for Accelerated Exploratory Programming
               </Typography>
               <Typography>
-                <span className="important-text">Jenny Ma*</span>, Karthik
-                Sreedhar*, Vivian Liu, Sitong Wang, Pedro Alejandro Perez, Lydia
-                B. Chilton
+                <span className="important-text">Jenny Ma</span>, Karthik
+                Sreedhar, Vivian Liu, Sitong Wang, Pedro Alejandro Perez, Riya
+                Sahni, Lydia B. Chilton
               </Typography>
               <Typography>
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
-                  Under Submission
+                  Under Submission to CHI 2025
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
                 <Button disableRipple href="https://arxiv.org/abs/2407.08474">
                   <Typography className="link">arXiv</Typography>
                 </Button>
-                <Button disableRipple href="#/didup">
+                <Button disableRipple href="#/dynex">
                   <Typography className="link">project</Typography>
                 </Button>
-                <Button disableRipple href="#/didup/poster">
+                {/* <Button disableRipple href="#/didup/poster">
                   <Typography className="link">poster</Typography>
+                </Button> */}
+                <Button
+                  disableRipple
+                  href="https://www.youtube.com/watch?v=ZY5WNgjo7as"
+                >
+                  <Typography className="link">video</Typography>
                 </Button>
+              </Stack>
+            </Stack>
+          </Box>
+          <Box>
+            <Stack>
+              <Typography variant="h6">
+                JumpStarter: Getting Started on Personal Goals with AI-Powered
+                Context Curation
+              </Typography>
+              <Typography>
+                Sitong Wang*, Billy Zhang*,{" "}
+                <span className="important-text">Jenny Ma</span>, Lydia B.
+                Chilton
+              </Typography>
+              <Typography>
+                <span style={{ fontStyle: "italic", color: "#498f63" }}>
+                  Under Submission to CHI 2025
+                </span>
+              </Typography>
+              <Stack direction="row" spacing={"30px"} pt="5px">
+                <Button disableRipple href="https://arxiv.org/abs/2407.08474">
+                  <Typography className="link">arXiv</Typography>
+                </Button>
+                {/* <Button disableRipple href="#/didup">
+                  <Typography className="link">project</Typography>
+                </Button> */}
+                {/* <Button disableRipple href="#/didup/poster">
+                  <Typography className="link">poster</Typography>
+                </Button> */}
                 <Button
                   disableRipple
                   href="https://www.youtube.com/watch?v=TFMMlrnpfeY&ab_channel=jny"
@@ -58,7 +94,7 @@ export default function Research() {
               </Typography>
               <Typography>
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
-                  Under Submission
+                  HICSS 2025
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
@@ -85,7 +121,7 @@ export default function Research() {
               <Typography>
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
                   {" "}
-                  Under Submission
+                  HICSS 2025
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
