@@ -29,7 +29,7 @@ export default function Research() {
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
-                <Button disableRipple href="https://arxiv.org/abs/2407.08474">
+                <Button disableRipple href="https://arxiv.org/abs/2410.00400">
                   <Typography className="link">arXiv</Typography>
                 </Button>
                 <Button disableRipple href="#/dynex">
@@ -75,7 +75,7 @@ export default function Research() {
                 </Button> */}
                 <Button
                   disableRipple
-                  href="https://www.youtube.com/watch?v=TFMMlrnpfeY&ab_channel=jny"
+                  href="https://www.youtube.com/watch?v=Fml_SF-rFsE"
                 >
                   <Typography className="link">video</Typography>
                 </Button>

@@ -29,7 +29,7 @@ export default function Dynex() {
           </Button>
           <Button
             disableRipple
-            href="https://arxiv.org/abs/2403.18111"
+            href="https://arxiv.org/abs/2410.00400"
             sx={{ alignSelf: "flex-start" }}
           >
             <Typography className="link">arxiv</Typography>
@@ -86,15 +86,10 @@ export default function Dynex() {
           </Typography>
           <Typography variant="h5"> Motivation </Typography>
           <Typography variant="body1">
-            Recently released large language models (LLMs) have shown re-
-            markable capabilities in generating code, particularly front-end
-            code. This allows users to get ideas off the ground faster by
-            building code-based user-interface (UI) prototypes and testing them
-            directly in real world contexts, a process known as exploratory pro-
-            gramming. Exploratory programming is crucial for experimental
-            projects where real design testing is more productive than upfront
-            specifications. Many interactions are difficult to simulate in low-
-            fidelity prototyping mediums, particularly when testing data-driven
+            Exploratory programming is crucial for experimental projects where
+            real design testing is more productive than upfront specifications.
+            Many interactions are difficult to simulate in low- fidelity
+            prototyping mediums, particularly when testing data-driven
             applications; prototyping is crucial in these cases to truly test
             ideas. LLM code-generation abilities present a unique opportunity to
             accelerate exploratory programming and ideate through code. When
@@ -107,19 +102,19 @@ export default function Dynex() {
             consider the problem being solved, the target user of the
             application, the approach or methodology, and the interaction
             paradigm or user experience. Each of these elements must be defined
-            before mov- ing forward with implementation, making the transition
+            before moving forward with implementation, making the transition
             from idea to design a complex and multifaceted process.
           </Typography>
           <Typography variant="h5"> System Overview </Typography>
           <Typography variant="body1">
             We present DynEx, an LLM-based method for exploratory pro- gramming
-            for functional UIs. DynEx helps the user build code- based UI
+            for functional UIs. DynEx helps the user build code-based UI
             prototypes in two stages: (1) structured design exploration through
-            a Design Matrix, and (2) dynamic iterative implementa- tion with LLM
+            a Design Matrix, and (2) dynamic iterative implementation with LLM
             code synthesis. The Design Matrix brainstorms unique ideas through
-            through idea generation to help users ex- plore the design space.
-            The idea is then grounded, a process to synthesize abstract ideas
-            into detailed application designs. The sys- tem next breaks down the
+            through idea generation to help users explore the design space. The
+            idea is then grounded, a process to synthesize abstract ideas into
+            detailed application designs. The system next breaks down the
             project into steps to execute iteratively, and generates code that
             self-invokes multi-modal LLMs to produce applications that have
             larger sets of synthetic placeholder data, can generate images, and
@@ -197,17 +192,18 @@ export default function Dynex() {
             }}
           >
             <code>
-              @misc{"{"}nguyen2024scrolly2reel,
+              @misc{"{"}ma2024dynexdynamiccodesynthesis,
               <br />
-              &nbsp;&nbsp;title={"{"}Scrolly2Reel: Retargeting Graphics for
-              Social Media Using Narrative Beats{"}"}, <br />
-              &nbsp;&nbsp;author={"{"}Duy K. Nguyen and Jenny Ma and Pedro
-              Alejandro Perez and Lydia B. Chilton{"}"},<br />
+              &nbsp;&nbsp;title={"{"}DynEx: Dynamic Code Synthesis with
+              Structured Design Exploration for Accelerated Exploratory
+              Programming{"}"}, <br />
+              &nbsp;&nbsp;author={"{"}Jenny Ma and Karthik Sreedhar and Vivian
+              Liu and Sitong Wang and Pedro Alejandro Perez and Riya Sahni and
+              Lydia B. Chilton{"}"},<br />
               &nbsp;&nbsp;year={"{"}2024{"}"},<br />
-              &nbsp;&nbsp;eprint={"{"}2403.18111{"}"},<br />
+              &nbsp;&nbsp;eprint={"{"}2410.00400{"}"},<br />
               &nbsp;&nbsp;archivePrefix={"{"}arXiv{"}"},<br />
-              &nbsp;&nbsp;primaryClass={"{"}cs.HC{"}"}
-              <br />
+              &nbsp;&nbsp;primaryClass={"{"}cs.HC{"}"}, <br />
               {"}"}
             </code>
           </Box>
