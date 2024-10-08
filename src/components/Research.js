@@ -55,8 +55,8 @@ export default function Research() {
               </Typography>
               <Typography>
                 Sitong Wang*, Billy Zhang*,{" "}
-                <span className="important-text">Jenny Ma</span>, Lydia B.
-                Chilton
+                <span className="important-text">Jenny Ma</span>, Alyssa Hwang,
+                Lydia B. Chilton
               </Typography>
               <Typography>
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
@@ -64,7 +64,7 @@ export default function Research() {
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
-                <Button disableRipple href="https://arxiv.org/abs/2407.08474">
+                <Button disableRipple href="https://arxiv.org/pdf/2410.03882">
                   <Typography className="link">arXiv</Typography>
                 </Button>
                 {/* <Button disableRipple href="#/didup">

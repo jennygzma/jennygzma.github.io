@@ -43,12 +43,16 @@ export default function About() {
             <span className="important-text">human-computer interaction</span>
             {". "} My primary focus is on designing human-centric interactive
             systems that{" "}
-            <span className="important-text">enhance communication</span> and{" "}
-            <span className="important-text">empower creativity</span>. I
-            envision a future where AI seamlessly understands and responds to
-            human intent, and tools rapidly personalized to augment human
-            creativity and communication capabilities. I am currently being
-            advised by Professor{" "}
+            <span className="important-text">
+              enhance communication and sensemaking{" "}
+            </span>{" "}
+            and{" "}
+            <span className="important-text">
+              empower productivity and creativity
+            </span>
+            . I envision a future where AI seamlessly understands and responds
+            to human intent, and tools are rapidly personalized to augment human
+            capabilities. I am currently advised by Professor{" "}
             <a
               href="https://www.cs.columbia.edu/~chilton/chilton.html"
               className="link"
@@ -65,8 +69,7 @@ export default function About() {
               Trunk
             </a>{" "}
             (ex Uber-ATG) and DoorDash. I attended Princeton University for
-            undergrad and majored in Operations Research and Financial
-            Engineering. I enjoy watching One Piece, writing music, surfing, and
+            undergrad. I enjoy watching One Piece, writing music, surfing, and
             hanging out with friends! I also try to run daily but don't find
             that enjoyable 😬
           </Typography>
