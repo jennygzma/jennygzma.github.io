@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9c089129.css",
-    "main.js": "/static/js/main.b6a67c4e.js",
+    "main.js": "/static/js/main.39f807b2.js",
     "static/media/nyt_ammunition.mp4": "/static/media/nyt_ammunition.bf2ae65704cb0dee5f9b.mp4",
     "static/media/nyt_life_after_climate.mp4": "/static/media/nyt_life_after_climate.30cafc725b3a631dedd0.mp4",
     "static/media/alignment.png": "/static/media/alignment.d0386f5006641e828f2e.png",
@@ -21,10 +21,10 @@
     "static/media/evaluation.png": "/static/media/evaluation.d470cee48658ea72e26b.png",
     "index.html": "/index.html",
     "main.9c089129.css.map": "/static/css/main.9c089129.css.map",
-    "main.b6a67c4e.js.map": "/static/js/main.b6a67c4e.js.map"
+    "main.39f807b2.js.map": "/static/js/main.39f807b2.js.map"
   },
   "entrypoints": [
     "static/css/main.9c089129.css",
-    "static/js/main.b6a67c4e.js"
+    "static/js/main.39f807b2.js"
   ]
 }
