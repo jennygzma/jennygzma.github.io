@@ -71,5 +71,5 @@ h6 {
 }
 
 .MuiTypography-root {
-  font-family: "Courier", Times, serif !important;
+  font-family: "Courier", Times, monospace !important;
 }

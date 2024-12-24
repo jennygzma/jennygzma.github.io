@@ -30,18 +30,18 @@ export default function Header() {
         direction="row"
         sx={{ alignItems: "center", justifyContent: "flex-end" }}
       >
-        <Button
+        {/* <Button
           href="#/experiences"
           sx={{
             border: "transparent !important",
             "&:hover": { backgroundColor: "transparent !important" },
           }}
         >
-          <Typography variant="h5">industry experience</Typography>
-        </Button>
+          <Typography variant="h5">experience</Typography>
+        </Button> */}
 
         <Button
-          href="https://drive.google.com/file/d/1wqMrd0zA1TaOF7sBsSs72lnsSWbpN6Ax/view?usp=sharing"
+          href="https://drive.google.com/file/d/1MuLi0czy3FAHapO9K6drhaLDIuycSCjx/view?usp=sharing"
           sx={{
             border: "transparent !important",
             "&:hover": { backgroundColor: "transparent !important" },

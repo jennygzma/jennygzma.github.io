@@ -6,14 +6,13 @@ export default function Experiences() {
   return (
     <section id="industry experience">
       <Stack spacing="30px" sx={{}}>
-        <Typography variant="h4">industry experience</Typography>
         <Stack spacing="20px">
           <Stack direction="row" spacing="40px" id="trunk">
-            <Stack sx={{ width: "200px" }}>
+            <Stack sx={{ width: "15%" }}>
               <Typography variant="h6">trunk</Typography>
               <Typography>
                 nyc 🗽,
-                <span style={{ fontStyle: "italic" }}> 01/23-present </span>
+                <span style={{ fontStyle: "italic" }}> 01/2023-06/2024 </span>
               </Typography>
               <Stack sx={{ paddingTop: "15px" }}>
                 <Typography className="important-text">skills</Typography>
@@ -54,11 +53,11 @@ export default function Experiences() {
             </List>
           </Stack>
           <Stack direction="row" spacing="40px" id="doordash">
-            <Stack sx={{ minWidth: "200px" }}>
+            <Stack sx={{ width: "15%" }}>
               <Typography variant="h6">doordash</Typography>
               <Typography>
                 nyc 🗽,
-                <span style={{ fontStyle: "italic" }}> 08/21-12/22 </span>
+                <span style={{ fontStyle: "italic" }}> 08/2021-12/2022 </span>
               </Typography>
               <Stack sx={{ paddingTop: "15px" }}>
                 <Typography className="important-text">skills</Typography>

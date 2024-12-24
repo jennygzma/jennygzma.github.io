@@ -10,7 +10,7 @@ export default function About() {
         sx={{
           alignItems: "center",
           justifyContent: "center",
-          width: "100%",
+          width: "90%",
           marginLeft: "5%",
         }}
       >
@@ -22,8 +22,11 @@ export default function About() {
             src="./profile.png"
           />
           <Stack direction="row" spacing={"20px"} paddingTop={"15px"}>
-            <Button disableRipple href="mailto:jennygzma@gmail.com">
+            <Button disableRipple href="mailto:jenny.ma@columbia.edu">
               <Typography className="link">email</Typography>
+            </Button>
+            <Button disableRipple href="https://x.com/jenny_ma_">
+              <Typography className="link">twitter</Typography>
             </Button>
             <Button disableRipple href="https://github.com/jennygzma">
               <Typography className="link">github</Typography>
@@ -44,15 +47,9 @@ export default function About() {
             {". "} My primary focus is on designing human-centric interactive
             systems that{" "}
             <span className="important-text">
-              enhance communication and sensemaking{" "}
-            </span>{" "}
-            and{" "}
-            <span className="important-text">
               empower productivity and creativity
             </span>
-            . I envision a future where AI seamlessly understands and responds
-            to human intent, and tools are rapidly personalized to augment human
-            capabilities. I am currently advised by Professor{" "}
+            . I am currently advised by Professor{" "}
             <a
               href="https://www.cs.columbia.edu/~chilton/chilton.html"
               className="link"
@@ -60,7 +57,7 @@ export default function About() {
               Lydia Chilton
             </a>{" "}
             in the computational design lab. I am set to graduate in May 2025
-            and hope to apply to PhD programs this fall.
+            and hope to start my PhD next fall.
             <br />
             <br />
             Previously, I worked at a series A devex startup called

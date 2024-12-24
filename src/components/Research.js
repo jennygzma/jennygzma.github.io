@@ -1,5 +1,5 @@
 import React from "react";
-import { Stack, Typography, Box, Button } from "@mui/material";
+import { Stack, Typography, Box, Button, Divider } from "@mui/material";
 
 export default function Research() {
   return (
@@ -50,6 +50,32 @@ export default function Research() {
           <Box>
             <Stack>
               <Typography variant="h6">
+                Scrolly2Reel: Retargeting Graphics for Social Media Using
+                Narrative Beats
+              </Typography>
+              <Typography>
+                Duy Nguyen*, <span className="important-text">Jenny Ma*</span>,
+                Pedro Alejandro Perez, Lydia B. Chilton
+              </Typography>
+              <Typography>
+                <span style={{ fontStyle: "italic", color: "#498f63" }}>
+                  HICSS 2025
+                </span>
+              </Typography>
+              <Stack direction="row" spacing={"30px"} pt="5px">
+                <Button disableRipple href="https://arxiv.org/abs/2403.18111">
+                  <Typography className="link">arXiv</Typography>
+                </Button>
+                <Button disableRipple href="#/scrolly2reel">
+                  <Typography className="link">project</Typography>
+                </Button>
+              </Stack>
+            </Stack>
+          </Box>
+          <Divider />
+          <Box>
+            <Stack>
+              <Typography variant="h6">
                 JumpStarter: Getting Started on Personal Goals with AI-Powered
                 Context Curation
               </Typography>
@@ -85,25 +111,35 @@ export default function Research() {
           <Box>
             <Stack>
               <Typography variant="h6">
-                Scrolly2Reel: Retargeting Graphics for Social Media Using
-                Narrative Beats
+                Simulating Cooperative Prosocial Behavior with Multi-Agent LLMs:
+                Evidence and Mechanisms for AI Agents to Inform Policy Decisions
               </Typography>
               <Typography>
-                Duy Nguyen*, <span className="important-text">Jenny Ma*</span>,
-                Pedro Alejandro Perez, Lydia B. Chilton
+                Karthik Sreedhar,
+                <span className="important-text"> Jenny Ma</span>, Alice Cai,
+                Jeffrey Nickerson, Lydia B. Chilton
               </Typography>
               <Typography>
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
-                  HICSS 2025
+                  Under Submission to IUI 2025
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
-                <Button disableRipple href="https://arxiv.org/abs/2403.18111">
+                {/* <Button disableRipple href="https://arxiv.org/pdf/2410.03882">
                   <Typography className="link">arXiv</Typography>
-                </Button>
-                <Button disableRipple href="#/scrolly2reel">
+                </Button> */}
+                {/* <Button disableRipple href="#/didup">
                   <Typography className="link">project</Typography>
-                </Button>
+                </Button> */}
+                {/* <Button disableRipple href="#/didup/poster">
+                  <Typography className="link">poster</Typography>
+                </Button> */}
+                {/* <Button
+                  disableRipple
+                  href="https://www.youtube.com/watch?v=Fml_SF-rFsE"
+                >
+                  <Typography className="link">video</Typography>
+                </Button> */}
               </Stack>
             </Stack>
           </Box>
@@ -139,7 +175,7 @@ export default function Research() {
           </Box>
           <Box>
             <Stack>
-              <Typography variant="h6">
+              {/* <Typography variant="h6">
                 Tweet Trade: Using Sentiment Analysis for Stock Movement
                 Prediction and Portfolio Optimization
                 <br />
@@ -152,7 +188,7 @@ export default function Research() {
                   {" "}
                   senior thesis
                 </span>
-              </Typography>
+              </Typography> */}
               {/* <Stack direction="row" spacing={"30px"} pt="5px">
                 <Button disableRipple href="/senior-thesis.pdf">
                   <Typography className="link">pdf</Typography>
