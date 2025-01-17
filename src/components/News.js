@@ -8,17 +8,8 @@ export default function News() {
         <Typography variant="h4">news</Typography>
         <Stack spacing="10px">
           <Stack direction="row" spacing="20px">
-            <Typography className="important-text">[08/2024]</Typography>
-            <Typography>
-              Scrolly2Reel and Generative Disco accepted into HICSS 2025!
-            </Typography>
-          </Stack>
-          <Stack direction="row" spacing="20px">
-            <Typography className="important-text">[06/2024]</Typography>
-            <Typography>
-              working in Computational Design Lab with Lydia over the summer
-              full time to prepare for grad apps!
-            </Typography>
+            <Typography className="important-text">[01/2025]</Typography>
+            <Typography>Presented Scrolly2Reel at HICSS 2025!</Typography>
           </Stack>
           <Stack direction="row" spacing="20px">
             <Typography className="important-text">[09/2023]</Typography>

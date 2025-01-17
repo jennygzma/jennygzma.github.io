@@ -56,8 +56,7 @@ export default function About() {
             >
               Lydia Chilton
             </a>{" "}
-            in the computational design lab. I am set to graduate in May 2025
-            and hope to start my PhD next fall.
+            in the Computational Design Lab. I hope to start my PhD next fall.
             <br />
             <br />
             Previously, I worked at a series A devex startup called
@@ -66,9 +65,9 @@ export default function About() {
               Trunk
             </a>{" "}
             (ex Uber-ATG) and DoorDash. I attended Princeton University for
-            undergrad. I enjoy watching One Piece, writing music, surfing, and
-            hanging out with friends! I also try to run daily but don't find
-            that enjoyable 😬
+            undergrad. I enjoy watching One Piece, driving, surfing, writing
+            music, and hanging out with friends! I also try to run daily but
+            don't find that enjoyable 😬
           </Typography>
           <Typography variant="body1"></Typography>
         </Stack>

@@ -25,7 +25,7 @@ export default function Research() {
               </Typography>
               <Typography>
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
-                  Under Submission to CHI 2025
+                  CHI 2025 (conditionally accepted)
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
@@ -86,7 +86,7 @@ export default function Research() {
               </Typography>
               <Typography>
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
-                  Under Submission to CHI 2025
+                  Under Submission to DIS 2025
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
@@ -115,13 +115,13 @@ export default function Research() {
                 Evidence and Mechanisms for AI Agents to Inform Policy Decisions
               </Typography>
               <Typography>
-                Karthik Sreedhar,
-                <span className="important-text"> Jenny Ma</span>, Alice Cai,
-                Jeffrey Nickerson, Lydia B. Chilton
+                Karthik Sreedhar, Alice Cai,
+                <span className="important-text"> Jenny Ma</span>, Jeffrey
+                Nickerson, Lydia B. Chilton
               </Typography>
               <Typography>
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
-                  Under Submission to IUI 2025
+                  IUI 2025 (conditionally accepted)
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
