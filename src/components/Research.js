@@ -25,7 +25,7 @@ export default function Research() {
               </Typography>
               <Typography>
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
-                  CHI 2025 (conditionally accepted)
+                  CHI 2025
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
@@ -121,7 +121,7 @@ export default function Research() {
               </Typography>
               <Typography>
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
-                  IUI 2025 (conditionally accepted)
+                  IUI 2025
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">

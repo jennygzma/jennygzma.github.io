@@ -56,7 +56,7 @@ export default function About() {
             >
               Lydia Chilton
             </a>{" "}
-            in the Computational Design Lab. I hope to start my PhD next fall.
+            in the Computational Design Lab and plan to start my PhD next fall.
             <br />
             <br />
             Previously, I worked at a series A devex startup called

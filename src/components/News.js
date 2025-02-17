@@ -6,10 +6,23 @@ export default function News() {
     <section id="news">
       <Stack spacing="20px">
         <Typography variant="h4">news</Typography>
+        <Stack direction="row" spacing="20px">
+          <Typography className="important-text">[01/2025]</Typography>
+          <Typography>
+            Simulating Multi Agents accepted to IUI 2025 and DynEx accepted to
+            CHI 2025 (see you in Japan)!
+          </Typography>
+        </Stack>
         <Stack spacing="10px">
           <Stack direction="row" spacing="20px">
             <Typography className="important-text">[01/2025]</Typography>
             <Typography>Presented Scrolly2Reel at HICSS 2025!</Typography>
+          </Stack>
+          <Stack direction="row" spacing="20px">
+            <Typography className="important-text">[08/2024]</Typography>
+            <Typography>
+              Scrolly2Reel and Generative Disco accepted to HICSS 2025!
+            </Typography>
           </Stack>
           <Stack direction="row" spacing="20px">
             <Typography className="important-text">[09/2023]</Typography>
