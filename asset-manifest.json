@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9b0df780.css",
-    "main.js": "/static/js/main.3e62050e.js",
+    "main.js": "/static/js/main.40114870.js",
     "static/media/nyt_ammunition.mp4": "/static/media/nyt_ammunition.bf2ae65704cb0dee5f9b.mp4",
     "static/media/nyt_life_after_climate.mp4": "/static/media/nyt_life_after_climate.30cafc725b3a631dedd0.mp4",
     "static/media/alignment.png": "/static/media/alignment.d0386f5006641e828f2e.png",
@@ -18,13 +18,14 @@
     "static/media/NASA-TLX-Results.png": "/static/media/NASA-TLX-Results.8abaa95ea26968fd9dd0.png",
     "static/media/Average_Scores.png": "/static/media/Average_Scores.ccdb451c2a5cad5b1b29.png",
     "static/media/system_implementation_diagram.png": "/static/media/system_implementation_diagram.622b534c38a96ff58dc4.png",
+    "static/media/twitter.png": "/static/media/twitter.969a6939c61b75138dd4.png",
     "static/media/evaluation.png": "/static/media/evaluation.d470cee48658ea72e26b.png",
     "index.html": "/index.html",
     "main.9b0df780.css.map": "/static/css/main.9b0df780.css.map",
-    "main.3e62050e.js.map": "/static/js/main.3e62050e.js.map"
+    "main.40114870.js.map": "/static/js/main.40114870.js.map"
   },
   "entrypoints": [
     "static/css/main.9b0df780.css",
-    "static/js/main.3e62050e.js"
+    "static/js/main.40114870.js"
   ]
 }
