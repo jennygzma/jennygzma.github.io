@@ -2,7 +2,7 @@ import React from "react";
 import { Stack, Button, Typography } from "@mui/material";
 import { CardMedia, Card, Box, Link } from "@mui/material";
 import "./scrolly2reel.css";
-
+import brook from "./brook.jpg";
 export default function Scrolly2Reel() {
   return (
     <section className="scrolly2reel">
@@ -18,6 +18,13 @@ export default function Scrolly2Reel() {
         }}
       >
         <Stack direction="row" spacing="10px" sx={{ alignSelf: "flex-start" }}>
+          <img
+            className="mx-auto rounded w-2/3 object-scale-down"
+            width="40px"
+            height="40px"
+            alt="brook"
+            src={brook}
+          />
           <Button disableRipple href="/">
             <Typography className="link">back</Typography>
           </Button>

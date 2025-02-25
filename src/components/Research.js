@@ -1,6 +1,7 @@
 import React from "react";
 import { Stack, Typography, Box, Button, Divider } from "@mui/material";
-
+import franky from "./assets/franky.png";
+import brook from "./assets/brook.jpg";
 export default function Research() {
   return (
     <section id="research">
@@ -14,10 +15,16 @@ export default function Research() {
         <Stack spacing="20px">
           <Box>
             <Stack>
-              <Typography variant="h6">
-                DynEx: Dynamic Code Synthesis with Structured Design Exploration
-                for Accelerated Exploratory Programming
-              </Typography>
+              <Stack direction="row" alignItems="center" spacing="10px">
+                <img width="40px" height="40px" alt="franky" src={franky} />
+                <Typography
+                  variant="h6"
+                  sx={{ display: "flex", alignItems: "flex-end" }}
+                >
+                  DynEx: Dynamic Code Synthesis with Structured Design
+                  Exploration for Accelerated Exploratory Programming
+                </Typography>
+              </Stack>
               <Typography>
                 <span className="important-text">Jenny Ma</span>, Karthik
                 Sreedhar, Vivian Liu, Sitong Wang, Pedro Alejandro Perez, Riya
@@ -30,29 +37,38 @@ export default function Research() {
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
                 <Button disableRipple href="https://arxiv.org/abs/2410.00400">
-                  <Typography className="link">arXiv</Typography>
+                  <Typography className="link"> 📄 arXiv</Typography>
                 </Button>
                 <Button disableRipple href="#/dynex">
-                  <Typography className="link">project</Typography>
+                  <Typography className="link">🚀 project</Typography>
                 </Button>
                 {/* <Button disableRipple href="#/didup/poster">
                   <Typography className="link">poster</Typography>
                 </Button> */}
                 <Button
                   disableRipple
-                  href="https://www.youtube.com/watch?v=ZY5WNgjo7as"
+                  href="https://www.youtube.com/watch?v=ZYbXXdvsLk0&ab_channel=jny"
                 >
-                  <Typography className="link">video</Typography>
+                  <Typography className="link">🎥 video</Typography>
+                </Button>
+                <Button
+                  disableRipple
+                  href="https://github.com/jennygzma/ui-design-prototype"
+                >
+                  <Typography className="link">👨‍💻 github</Typography>
                 </Button>
               </Stack>
             </Stack>
           </Box>
           <Box>
             <Stack>
-              <Typography variant="h6">
-                Scrolly2Reel: Retargeting Graphics for Social Media Using
-                Narrative Beats
-              </Typography>
+              <Stack direction="row" spacing="10px" alignItems="center">
+                <img width="40px" height="40px" alt="franky" src={brook} />
+                <Typography variant="h6">
+                  Scrolly2Reel: Retargeting Graphics for Social Media Using
+                  Narrative Beats
+                </Typography>
+              </Stack>
               <Typography>
                 Duy Nguyen*, <span className="important-text">Jenny Ma*</span>,
                 Pedro Alejandro Perez, Lydia B. Chilton
@@ -64,10 +80,16 @@ export default function Research() {
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
                 <Button disableRipple href="https://arxiv.org/abs/2403.18111">
-                  <Typography className="link">arXiv</Typography>
+                  <Typography className="link">📄 arXiv</Typography>
                 </Button>
                 <Button disableRipple href="#/scrolly2reel">
-                  <Typography className="link">project</Typography>
+                  <Typography className="link">🚀 project</Typography>
+                </Button>
+                <Button
+                  disableRipple
+                  href="https://github.com/duynguyen158/Scrolly2Reel"
+                >
+                  <Typography className="link">🎥 video</Typography>
                 </Button>
               </Stack>
             </Stack>
@@ -91,7 +113,7 @@ export default function Research() {
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
                 <Button disableRipple href="https://arxiv.org/pdf/2410.03882">
-                  <Typography className="link">arXiv</Typography>
+                  <Typography className="link">📄 arXiv</Typography>
                 </Button>
                 {/* <Button disableRipple href="#/didup">
                   <Typography className="link">project</Typography>
@@ -103,7 +125,7 @@ export default function Research() {
                   disableRipple
                   href="https://www.youtube.com/watch?v=Fml_SF-rFsE"
                 >
-                  <Typography className="link">video</Typography>
+                  <Typography className="link">🎥 video</Typography>
                 </Button>
               </Stack>
             </Stack>
@@ -125,9 +147,9 @@ export default function Research() {
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
-                {/* <Button disableRipple href="https://arxiv.org/pdf/2410.03882">
-                  <Typography className="link">arXiv</Typography>
-                </Button> */}
+                <Button disableRipple href="https://arxiv.org/pdf/2410.03882">
+                  <Typography className="link">📄 arXiv</Typography>
+                </Button>
                 {/* <Button disableRipple href="#/didup">
                   <Typography className="link">project</Typography>
                 </Button> */}
@@ -162,13 +184,13 @@ export default function Research() {
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
                 <Button disableRipple href="https://arxiv.org/abs/2304.08551">
-                  <Typography className="link">arXiv</Typography>
+                  <Typography className="link">📄 arXiv</Typography>
                 </Button>
                 <Button
                   disableRipple
                   href="https://www.youtube.com/watch?v=q22I53jHbuU&list=PLa3syNOZMtayyCxdYGE5T2tEF-Yc531tm&index=18&ab_channel=VivianL"
                 >
-                  <Typography className="link">video</Typography>
+                  <Typography className="link">🎥 video</Typography>
                 </Button>
               </Stack>
             </Stack>

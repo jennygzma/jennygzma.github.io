@@ -11,8 +11,8 @@ function App() {
       <Stack
         spacing="30px"
         sx={{
-          mx: "20%",
-          maxWidth: "90%",
+          mx: "15%",
+          maxWidth: "100%",
           justifyContent: "center",
           paddingBottom: "100px",
         }}
