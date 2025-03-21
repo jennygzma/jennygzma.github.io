@@ -10,7 +10,7 @@ export default function News() {
           <Stack direction="row" spacing="20px">
             <Typography className="important-text">[01/2025]</Typography>
             <Typography>
-              Simulating Multi Agents accepted to IUI 2025 and DynEx accepted to
+              Simulating Cooperative Behaviors accepted to IUI 2025 and DynEx accepted to
               CHI 2025 (see you in Japan)!
             </Typography>
           </Stack>

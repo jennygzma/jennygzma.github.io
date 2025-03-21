@@ -96,7 +96,7 @@ export default function About() {
         <Stack spacing={"20px"}>
           <Typography variant="h4">about me</Typography>
           <Typography variant="body1">
-            👋 I'm a MS student at Columbia University interested in the
+            👋 I'm an incoming PhD student at Columbia University interested in the
             intersection of{" "}
             <span className="important-text">generative AI</span>
             {" and "}
@@ -113,7 +113,7 @@ export default function About() {
             >
               Lydia Chilton
             </a>{" "}
-            in the Computational Design Lab and plan to start my PhD next fall.
+            in the Computational Design Lab.
             <br />
             <br />
             Previously, I worked at a series A startup called
