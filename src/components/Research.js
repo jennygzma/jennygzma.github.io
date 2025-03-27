@@ -32,7 +32,8 @@ export default function Research() {
               </Typography>
               <Typography>
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
-                  CHI 2025
+                  CHI 2025, 🎖️ Best Paper Honorable Mention (top 5% of
+                  submissions)
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
