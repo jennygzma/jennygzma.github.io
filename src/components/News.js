@@ -8,10 +8,20 @@ export default function News() {
         <Typography variant="h4">news</Typography>
         <Stack spacing="10px">
           <Stack direction="row" spacing="20px">
+            <Typography className="important-text">[05/2025]</Typography>
+            <Typography>Presented DynEx at CHI 2025!!! 🌸🇯🇵🌸</Typography>
+          </Stack>
+          <Stack direction="row" spacing="20px">
+            <Typography className="important-text">[03/2025]</Typography>
+            <Typography>
+              DynEx won Best Paper Honorable Mention at CHI 2025! 🏅
+            </Typography>
+          </Stack>
+          <Stack direction="row" spacing="20px">
             <Typography className="important-text">[01/2025]</Typography>
             <Typography>
-              Simulating Cooperative Behaviors accepted to IUI 2025 and DynEx accepted to
-              CHI 2025 (see you in Japan)!
+              Simulating Cooperative Behaviors accepted to IUI 2025 and DynEx
+              accepted to CHI 2025 (see you in Japan 🌸🇯🇵🌸)!
             </Typography>
           </Stack>
           <Stack direction="row" spacing="20px">
