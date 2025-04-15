@@ -21,6 +21,52 @@ export default function Research() {
                   variant="h6"
                   sx={{ display: "flex", alignItems: "flex-end" }}
                 >
+                  AgentDynEx: Nudging the Mechanics and Dynamics of Multi-Agent
+                  Simulations
+                </Typography>
+              </Stack>
+              <Typography>
+                <span className="important-text">Jenny Ma*</span>, Riya Sahni*,
+                Karthik Sreedhar, Lydia B. Chilton
+              </Typography>
+              <Typography>
+                <span style={{ fontStyle: "italic", color: "#498f63" }}>
+                  Under Submission
+                </span>
+              </Typography>
+              <Stack direction="row" spacing={"30px"} pt="5px">
+                <Button disableRipple href="https://arxiv.org/abs/2504.09662">
+                  <Typography className="link"> 📄 arXiv</Typography>
+                </Button>
+                {/* <Button disableRipple href="#/dynex">
+                  <Typography className="link">🚀 project</Typography>
+                </Button> */}
+                {/* <Button disableRipple href="#/didup/poster">
+                  <Typography className="link">poster</Typography>
+                </Button> */}
+                <Button
+                  disableRipple
+                  href="https://www.youtube.com/watch?v=R-YPJFjrdxc"
+                >
+                  <Typography className="link">🎥 video</Typography>
+                </Button>
+                <Button
+                  disableRipple
+                  href="https://github.com/jennygzma/agentdynex"
+                >
+                  <Typography className="link">👨‍💻 github</Typography>
+                </Button>
+              </Stack>
+            </Stack>
+          </Box>
+          <Box>
+            <Stack>
+              <Stack direction="row" alignItems="center" spacing="10px">
+                <img width="40px" height="40px" alt="franky" src={franky} />
+                <Typography
+                  variant="h6"
+                  sx={{ display: "flex", alignItems: "flex-end" }}
+                >
                   DynEx: Dynamic Code Synthesis with Structured Design
                   Exploration for Accelerated Exploratory Programming
                 </Typography>
@@ -109,7 +155,7 @@ export default function Research() {
               </Typography>
               <Typography>
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
-                  Under Submission to DIS 2025
+                  Under Submission
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">

@@ -18,6 +18,19 @@ export default function News() {
             </Typography>
           </Stack>
           <Stack direction="row" spacing="20px">
+            <Typography className="important-text">[03/2025]</Typography>
+            <Typography>
+              Presented DynEx's poster at Columbia's
+              <a
+                href="https://daplab.cs.columbia.edu/workshop/index.html"
+                className="link"
+              >
+                Agents for Work
+              </a>{" "}
+              conference!
+            </Typography>
+          </Stack>
+          <Stack direction="row" spacing="20px">
             <Typography className="important-text">[01/2025]</Typography>
             <Typography>
               Simulating Cooperative Behaviors accepted to IUI 2025 and DynEx
