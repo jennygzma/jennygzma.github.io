@@ -2,6 +2,7 @@ import React from "react";
 import { Stack, Typography, Box, Button, Divider } from "@mui/material";
 import franky from "./assets/franky.png";
 import brook from "./assets/brook.jpg";
+import robin from "./assets/robin.png";
 export default function Research() {
   return (
     <section id="research">
@@ -16,7 +17,7 @@ export default function Research() {
           <Box>
             <Stack>
               <Stack direction="row" alignItems="center" spacing="10px">
-                <img width="40px" height="40px" alt="franky" src={franky} />
+                <img width="40px" height="40px" alt="franky" src={robin} />
                 <Typography
                   variant="h6"
                   sx={{ display: "flex", alignItems: "flex-end" }}
