@@ -9,6 +9,10 @@ export default function News() {
         <Stack spacing="10px">
           <Stack direction="row" spacing="20px">
             <Typography className="important-text">[05/2025]</Typography>
+            <Typography>Awarded AI Activation Network Micro-Grant!</Typography>
+          </Stack>
+          <Stack direction="row" spacing="20px">
+            <Typography className="important-text">[05/2025]</Typography>
             <Typography>Presented DynEx at CHI 2025!!! 🌸🇯🇵🌸</Typography>
           </Stack>
           <Stack direction="row" spacing="20px">

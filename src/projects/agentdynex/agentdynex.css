@@ -1,0 +1,57 @@
+.dynex .MuiTypography-root {
+  font-family: "Avenir" !important;
+}
+
+.dynex h4 {
+  color: #9d5ba3;
+  font-weight: 550 !important;
+}
+
+.dynex h2 {
+  color: #9d5ba3;
+  font-weight: 550 !important;
+}
+.dynex h2:hover {
+  color: #9d5ba3;
+}
+
+.dynex h3 {
+  color: #9d5ba3;
+  font-weight: 700 !important;
+}
+
+.dynex h5 {
+  color: #9d5ba3;
+  font-weight: 550 !important;
+}
+.dynex h5:hover {
+  color: #474e4a;
+}
+
+.dynex h6 {
+  color: #474e4a;
+  font-weight: 550 !important;
+}
+
+.dynex .link {
+  color: #9d5ba3;
+  font-weight: 550 !important;
+  text-decoration: none;
+}
+.dynex .link:hover {
+  color: #f1f1f1;
+}
+
+.dynex .MuiButton-root {
+  display: flex;
+  height: 32px;
+  background-color: transparent !important;
+  border: 2px solid #9d5ba3 !important;
+  border-radius: 0 !important;
+  color: #9d5ba3 !important;
+  font-weight: 550 !important;
+}
+
+.dynex .MuiButton-root:hover {
+  background-color: #9d5ba3 !important;
+}

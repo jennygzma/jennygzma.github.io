@@ -39,9 +39,9 @@ export default function Research() {
                 <Button disableRipple href="https://arxiv.org/abs/2504.09662">
                   <Typography className="link"> 📄 arXiv</Typography>
                 </Button>
-                {/* <Button disableRipple href="#/dynex">
+                <Button disableRipple href="#/agentdynex">
                   <Typography className="link">🚀 project</Typography>
-                </Button> */}
+                </Button>
                 {/* <Button disableRipple href="#/didup/poster">
                   <Typography className="link">poster</Typography>
                 </Button> */}

@@ -96,9 +96,8 @@ export default function About() {
         <Stack spacing={"20px"}>
           <Typography variant="h4">about me</Typography>
           <Typography variant="body1">
-            👋 I'm an incoming PhD student at Columbia University interested in the
-            intersection of{" "}
-            <span className="important-text">generative AI</span>
+            👋 I'm an incoming PhD student at Columbia University interested in
+            the intersection of <span className="important-text"> agents</span>
             {" and "}
             <span className="important-text">HCI</span>
             {". "} My primary focus is on designing human-centric interactive

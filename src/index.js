@@ -8,6 +8,7 @@ import Scrolly2Reel from "./projects/scrolly2reel/Scrolly2Reel";
 import { Typography } from "@mui/material";
 import Didup from "./projects/didup/didup";
 import Dynex from "./projects/dynex/Dynex";
+import AgentDynex from "./projects/agentdynex/AgentDynex";
 import DidupPoster from "./projects/didup/poster";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -45,6 +46,7 @@ root.render(
         />
         <Route path="/scrolly2reel" element={<Scrolly2Reel />} />
         <Route path="/dynex" element={<Dynex />} />
+        <Route path="/agentdynex" element={<AgentDynex />} />
         <Route path="/didup" element={<Didup />} />
         <Route path="/didup/poster" element={<DidupPoster />} />
       </Routes>
