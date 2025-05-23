@@ -36,6 +36,13 @@ export default function Dynex() {
           </Button>
           <Button
             disableRipple
+            href="https://www.youtube.com/watch?v=ZYbXXdvsLk0"
+            sx={{ alignSelf: "flex-start" }}
+          >
+            <Typography className="link">video </Typography>
+          </Button>
+          <Button
+            disableRipple
             href="https://github.com/jennygzma/ui-design-prototype"
             sx={{ alignSelf: "flex-start" }}
           >

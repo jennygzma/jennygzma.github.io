@@ -5,7 +5,7 @@ import "./agentdynex.css";
 
 export default function AgentDynex() {
   return (
-    <section className="dynex">
+    <section className="agentdynex">
       <Stack
         spacing={{ xs: 5, sm: 10 }}
         sx={{
@@ -33,6 +33,13 @@ export default function AgentDynex() {
             sx={{ alignSelf: "flex-start" }}
           >
             <Typography className="link">arxiv</Typography>
+          </Button>
+          <Button
+            disableRipple
+            href="https://www.youtube.com/watch?v=R-YPJFjrdxc"
+            sx={{ alignSelf: "flex-start" }}
+          >
+            <Typography className="link">video </Typography>
           </Button>
           <Button
             disableRipple
