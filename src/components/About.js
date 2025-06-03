@@ -1,11 +1,46 @@
-import React from "react";
-import { Stack, Button, Typography } from "@mui/material";
+import React, { useState } from "react";
+import { styled } from "@mui/system";
+import { Stack, Button, Typography, Box } from "@mui/material";
 import gmailIcon from "./assets/gmail.png";
 import twitterIcon from "./assets/twitter.png";
 import githubIcon from "./assets/github.png";
 import linkedInIcon from "./assets/linkedin.png";
 import googleScholarIcon from "./assets/google-scholar.png";
+
+const FlipCard = styled(Box)(({ theme }) => ({
+  perspective: "1000px",
+  width: 400,
+  height: 400,
+  cursor: "pointer",
+  borderRadius: 0,
+}));
+
+const FlipCardInner = styled(Box)(({ flipped }) => ({
+  position: "relative",
+  width: "100%",
+  height: "100%",
+  textAlign: "center",
+  transition: "transform 0.8s",
+  transformStyle: "preserve-3d",
+  transform: flipped ? "rotateY(180deg)" : "none",
+}));
+
+const FlipCardFace = styled(Box)({
+  position: "absolute",
+  width: "100%",
+  height: "100%",
+  backfaceVisibility: "hidden",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+});
+
+const FlipCardBack = styled(FlipCardFace)({
+  transform: "rotateY(180deg)",
+});
+
 export default function About() {
+  const [flipped, setFlipped] = useState(false);
   return (
     <section id="about">
       <Stack
@@ -19,12 +54,30 @@ export default function About() {
         }}
       >
         <Stack spacing={"10px"} sx={{ width: "40%", alignItems: "center" }}>
-          <img
+          {/* <img
             className="mx-auto rounded w-2/3 object-scale-down"
-            style={{ minWidth: "200px", maxWidth: "400px" }}
+            style={{ minWidth: "200px", maxWidth: "300px" }}
             alt="jm"
-            src="./profile.png"
-          />
+            src="./profile.jpg"
+          /> */}
+          <FlipCard onClick={() => setFlipped(!flipped)}>
+            <FlipCardInner flipped={flipped}>
+              <FlipCardFace>
+                <img
+                  src="./profile.jpg"
+                  alt="Front"
+                  style={{ width: "100%", borderRadius: 12 }}
+                />
+              </FlipCardFace>
+              <FlipCardBack>
+                <img
+                  src="./profile.png"
+                  alt="Back"
+                  style={{ width: "100%", borderRadius: 12 }}
+                />
+              </FlipCardBack>
+            </FlipCardInner>
+          </FlipCard>
           <Stack direction="row" paddingTop={"15px"}>
             <Button
               disableRipple

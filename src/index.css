@@ -18,6 +18,7 @@ code {
 h4 {
   color: #6dad85;
   font-weight: 550 !important;
+  font-border: 2px solid #aaeaff;
 }
 
 h2 {
@@ -25,7 +26,7 @@ h2 {
   font-weight: 550 !important;
 }
 h2:hover {
-  color: #498f63;
+  color: #aaeaff #498f63;
 }
 
 h5 {
@@ -47,7 +48,7 @@ h6 {
   text-decoration: none;
 }
 .link:hover {
-  color: #498f63;
+  color: #aaeaff #498f63;
 }
 
 .important-text {
@@ -66,10 +67,10 @@ h6 {
 }
 
 .MuiButton-root:hover {
-  background-color: #6eab84 !important;
+  background-color: #aaeaff !important ; /*#6eab84 !important;*/
   color: white !important;
 }
 
 .MuiTypography-root {
-  font-family: "Courier", Times, monospace !important;
+  font-family: "Helvetica Neue", "Courier", Times, monospace !important;
 }
