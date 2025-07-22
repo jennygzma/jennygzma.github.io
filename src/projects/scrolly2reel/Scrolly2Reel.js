@@ -2,7 +2,7 @@ import React from "react";
 import { Stack, Button, Typography } from "@mui/material";
 import { CardMedia, Card, Box, Link } from "@mui/material";
 import "./scrolly2reel.css";
-import brook from "./brook.jpg";
+import brook from "../../components/assets/brook.jpg";
 export default function Scrolly2Reel() {
   return (
     <section className="scrolly2reel">

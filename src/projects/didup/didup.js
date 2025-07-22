@@ -1,6 +1,7 @@
 import React from "react";
 import { Stack, Button, Typography } from "@mui/material";
 import { Box } from "@mui/material";
+import franky from "../../components/assets/franky.png";
 import "./didup.css";
 
 export default function Didup() {
@@ -45,7 +46,7 @@ export default function Didup() {
             className="mx-auto rounded w-2/3 object-scale-down"
             style={{ width: "10%" }}
             alt="teaser"
-            src={require("./franky.png")}
+            src={franky}
           />
           <Typography variant="h3" textAlign="center">
             DIDUP: Dynamic Iterative Development for UI Prototyping

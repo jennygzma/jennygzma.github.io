@@ -1,6 +1,7 @@
 import React from "react";
 import { Stack, Button, Typography } from "@mui/material";
 import { CardMedia, Card, Box, Link } from "@mui/material";
+import franky from "../../components/assets/franky.png";
 import "./dynex.css";
 
 export default function Dynex() {
@@ -22,7 +23,7 @@ export default function Dynex() {
             className="mx-auto rounded w-2/3 object-scale-down"
             style={{ width: "30px" }}
             alt="teaser"
-            src={require("./franky.png")}
+            src={franky}
           />
           <Button disableRipple href="/">
             <Typography className="link">back</Typography>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Stack, Button, Typography } from "@mui/material";
 import { CardMedia, Card, Box, Link } from "@mui/material";
+import robin from "../../components/assets/robin.png";
 import "./agentdynex.css";
 
 export default function AgentDynex() {
@@ -22,7 +23,7 @@ export default function AgentDynex() {
             className="mx-auto rounded w-2/3 object-scale-down"
             style={{ width: "30px" }}
             alt="teaser"
-            src={require("./robin.png")}
+            src={robin}
           />
           <Button disableRipple href="/">
             <Typography className="link">back</Typography>

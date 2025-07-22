@@ -42,9 +42,6 @@ export default function Research() {
                 <Button disableRipple href="#/agentdynex">
                   <Typography className="link">🚀 project</Typography>
                 </Button>
-                {/* <Button disableRipple href="#/didup/poster">
-                  <Typography className="link">poster</Typography>
-                </Button> */}
                 <Button
                   disableRipple
                   href="https://www.youtube.com/watch?v=R-YPJFjrdxc"
@@ -90,9 +87,6 @@ export default function Research() {
                 <Button disableRipple href="#/dynex">
                   <Typography className="link">🚀 project</Typography>
                 </Button>
-                {/* <Button disableRipple href="#/didup/poster">
-                  <Typography className="link">poster</Typography>
-                </Button> */}
                 <Button
                   disableRipple
                   href="https://www.youtube.com/watch?v=ZYbXXdvsLk0&ab_channel=jny"
@@ -163,12 +157,6 @@ export default function Research() {
                 <Button disableRipple href="https://arxiv.org/pdf/2410.03882">
                   <Typography className="link">📄 arXiv</Typography>
                 </Button>
-                {/* <Button disableRipple href="#/didup">
-                  <Typography className="link">project</Typography>
-                </Button> */}
-                {/* <Button disableRipple href="#/didup/poster">
-                  <Typography className="link">poster</Typography>
-                </Button> */}
                 <Button
                   disableRipple
                   href="https://www.youtube.com/watch?v=Fml_SF-rFsE"
@@ -198,18 +186,6 @@ export default function Research() {
                 <Button disableRipple href="https://arxiv.org/abs/2502.12504">
                   <Typography className="link">📄 arXiv</Typography>
                 </Button>
-                {/* <Button disableRipple href="#/didup">
-                  <Typography className="link">project</Typography>
-                </Button> */}
-                {/* <Button disableRipple href="#/didup/poster">
-                  <Typography className="link">poster</Typography>
-                </Button> */}
-                {/* <Button
-                  disableRipple
-                  href="https://www.youtube.com/watch?v=Fml_SF-rFsE"
-                >
-                  <Typography className="link">video</Typography>
-                </Button> */}
               </Stack>
             </Stack>
           </Box>
@@ -241,29 +217,6 @@ export default function Research() {
                   <Typography className="link">🎥 video</Typography>
                 </Button>
               </Stack>
-            </Stack>
-          </Box>
-          <Box>
-            <Stack>
-              {/* <Typography variant="h6">
-                Tweet Trade: Using Sentiment Analysis for Stock Movement
-                Prediction and Portfolio Optimization
-                <br />
-              </Typography>
-              <Typography>
-                <span className="important-text">Jenny Ma</span>, John Mulvey
-              </Typography>
-              <Typography>
-                <span style={{ fontStyle: "italic", color: "#498f63" }}>
-                  {" "}
-                  senior thesis
-                </span>
-              </Typography> */}
-              {/* <Stack direction="row" spacing={"30px"} pt="5px">
-                <Button disableRipple href="/senior-thesis.pdf">
-                  <Typography className="link">pdf</Typography>
-                </Button>
-              </Stack> */}
             </Stack>
           </Box>
         </Stack>

@@ -54,12 +54,6 @@ export default function About() {
         }}
       >
         <Stack spacing={"10px"} sx={{ width: "40%", alignItems: "center" }}>
-          {/* <img
-            className="mx-auto rounded w-2/3 object-scale-down"
-            style={{ minWidth: "200px", maxWidth: "300px" }}
-            alt="jm"
-            src="./profile.jpg"
-          /> */}
           <FlipCard onClick={() => setFlipped(!flipped)}>
             <FlipCardInner flipped={flipped}>
               <FlipCardFace>
@@ -179,7 +173,6 @@ export default function About() {
             music, and hanging out with friends! I also try to run daily but
             don't find that enjoyable 😬
           </Typography>
-          <Typography variant="body1"></Typography>
         </Stack>
       </Stack>
     </section>
