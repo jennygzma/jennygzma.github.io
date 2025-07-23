@@ -1,10 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.6817cb64.css",
-    "main.js": "/static/js/main.637d5517.js",
+    "main.css": "/static/css/main.15384299.css",
+    "main.js": "/static/js/main.d186938d.js",
     "static/media/nyt_ammunition.mp4": "/static/media/nyt_ammunition.bf2ae65704cb0dee5f9b.mp4",
     "static/media/nyt_life_after_climate.mp4": "/static/media/nyt_life_after_climate.30cafc725b3a631dedd0.mp4",
     "static/media/alignment.png": "/static/media/alignment.d0386f5006641e828f2e.png",
+    "static/media/nami-ghibli.png": "/static/media/nami-ghibli.430492bfd5a6025d8ffc.png",
+    "static/media/luffy-ghibli.png": "/static/media/luffy-ghibli.052cd113c829535b81ca.png",
+    "static/media/zoro-ghibli.png": "/static/media/zoro-ghibli.aa0b7b9c3f5712de5ed7.png",
+    "static/media/usopp-ghibli.png": "/static/media/usopp-ghibli.e01dd147e7fe072260ac.png",
+    "static/media/chopper-ghibli.png": "/static/media/chopper-ghibli.a4b7d08a51af87ab1930.png",
+    "static/media/sanji-ghibli.png": "/static/media/sanji-ghibli.9ae0565df0c50ae879b9.png",
+    "static/media/franky-ghibli.png": "/static/media/franky-ghibli.065306acc5a722bbc46b.png",
+    "static/media/brook-ghibli.png": "/static/media/brook-ghibli.e14bde0b8ff4c144256d.png",
+    "static/media/robin-ghibli.png": "/static/media/robin-ghibli.dbc27475fa631cebac63.png",
     "static/media/beat_alignment.png": "/static/media/beat_alignment.31e91220e6c2586c0cc7.png",
     "static/media/poster.png": "/static/media/poster.457ea72ec42a0721e2ca.png",
     "static/media/system.png": "/static/media/system.116eb365010254131355.png",
@@ -19,6 +28,7 @@
     "static/media/usage_tracking.png": "/static/media/usage_tracking.309e09f31d08a170f17d.png",
     "static/media/output.png": "/static/media/output.1730c4830aa90547446a.png",
     "static/media/franky.png": "/static/media/franky.8433b9753d14642510cb.png",
+    "static/media/background-ghibli.jpg": "/static/media/background-ghibli.2200771ef2282e90256b.jpg",
     "static/media/usage_nudging.png": "/static/media/usage_nudging.d7b225e79ccc525c161e.png",
     "static/media/table.png": "/static/media/table.535a9f5587b0c8ef8a85.png",
     "static/media/H3graph.png": "/static/media/H3graph.5b906a596f8cc65b3ec2.png",
@@ -32,11 +42,11 @@
     "static/media/twitter.png": "/static/media/twitter.969a6939c61b75138dd4.png",
     "static/media/evaluation.png": "/static/media/evaluation.d470cee48658ea72e26b.png",
     "index.html": "/index.html",
-    "main.6817cb64.css.map": "/static/css/main.6817cb64.css.map",
-    "main.637d5517.js.map": "/static/js/main.637d5517.js.map"
+    "main.15384299.css.map": "/static/css/main.15384299.css.map",
+    "main.d186938d.js.map": "/static/js/main.d186938d.js.map"
   },
   "entrypoints": [
-    "static/css/main.6817cb64.css",
-    "static/js/main.637d5517.js"
+    "static/css/main.15384299.css",
+    "static/js/main.d186938d.js"
   ]
 }
