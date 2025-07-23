@@ -50,7 +50,28 @@ const CharacterCard = ({
 }) => {
   const positionClass = ["left-card", "center-card", "right-card"][position];
   const hasProject = !!character.project;
+  const isCenterCard = position === 1;
 
+  // Side cards (left/right) - show image and name only
+  if (!isCenterCard) {
+    return (
+      <div className={`character-card ${positionClass} preview-only`}>
+        <div className="character-image-container">
+          <img
+            src={character.image}
+            alt={character.name}
+            className="character-image"
+          />
+          <div className="character-glow"></div>
+        </div>
+        <div className="card-content">
+          <div className="character-name">{character.name}</div>
+        </div>
+      </div>
+    );
+  }
+
+  // Center card - full functionality
   return (
     <div
       className={`character-card ${isFlipped ? "flipped" : ""} ${positionClass}`}
@@ -171,6 +192,9 @@ export default function OnePiece() {
           <Typography variant="h6" className="ghibli-subtitle">
             one piece inspired me to quit my industry job and go into research
             so i have to honor it somehow obviously...
+          </Typography>
+          <Typography variant="h6" className="ghibli-subtitle-brown">
+            this is vibecoded btw
           </Typography>
         </div>
 
