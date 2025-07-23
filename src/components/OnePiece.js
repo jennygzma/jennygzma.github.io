@@ -26,7 +26,7 @@ const allCharacters = [
     route: "/agentdynex",
     status: "Under Submission",
     characterMatch:
-      "Robin's archaeological expertise mirrors the careful excavation of insights from complex multi-agent systems. Just as she uncovers ancient truths, this research reveals hidden dynamics in AI simulations.",
+      "Multi-agent simulations have millions of agents that work together. Robin can sprout any amount of hands at will. This took some thought but... it's obvious.",
     links: {
       arxiv: "https://arxiv.org/abs/2401.00000",
       github: "https://github.com/username/agentdynex",
@@ -44,7 +44,7 @@ const allCharacters = [
     route: "/dynex",
     status: "CHI 2025 🎖️ Best Paper Honorable Mention",
     characterMatch:
-      "Franky's genius for building incredible machines from blueprints perfectly embodies this system that constructs code through structured exploration. Both create SUPER solutions through systematic design!",
+      "Franky is the ship engineer. This paper worked on creating tools for people. SuperDuh.",
     links: {
       arxiv: "https://arxiv.org/abs/2401.00001",
       github: "https://github.com/username/dynex",
@@ -62,7 +62,7 @@ const allCharacters = [
     route: "/scrolly2reel",
     status: "HICSS 2025",
     characterMatch:
-      "Brook's musical talent for finding the perfect rhythm and beat matches this system's ability to identify narrative beats in stories and transform them into engaging social media content. Yohohoho!",
+      "The paper transforms news articles into reels using narrative beats and breathes life into it. Just like Soul King...Yohohoho!",
     links: {
       arxiv: "https://arxiv.org/abs/2401.00002",
       github: "https://github.com/username/scrolly2reel",
