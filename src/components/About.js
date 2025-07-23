@@ -143,12 +143,8 @@ export default function About() {
         <Stack spacing={"20px"}>
           <Typography variant="h4">about me</Typography>
           <Typography variant="body1">
-            👋 I'm an incoming PhD student at Columbia University interested in
-            the intersection of <span className="important-text"> agents</span>
-            {" and "}
-            <span className="important-text">HCI</span>
-            {". "} My primary focus is on designing human-centric interactive
-            systems that{" "}
+            Hi!! I'm an incoming HCI PhD student at Columbia University. I like
+            designing HAI systems that{" "}
             <span className="important-text">
               empower productivity and creativity
             </span>
@@ -169,9 +165,16 @@ export default function About() {
             </a>{" "}
             (ex Uber-ATG) and DoorDash. I attended Princeton University for
             undergrad. I enjoy watching One Piece (each of my research papers
-            carries the persona of a character 😉), driving, surfing, writing
-            music, and hanging out with friends! I also try to run daily but
-            don't find that enjoyable 😬
+            carries the persona of a character 😉), surfing, writing music, and
+            hanging out with friends! I also run but I don't know if I find that
+            enjoyable 😬
+            <br /> <br />
+            Check out{" "}
+            <a href="https://jennymayes.substack.com/" className="link">
+              my substack
+            </a>{" "}
+            also! It's mostly personal but I might put some research stuff on
+            there 😊.
           </Typography>
         </Stack>
       </Stack>

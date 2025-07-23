@@ -1,5 +1,46 @@
 /* Studio Ghibli x One Piece Research Gallery */
 
+:root {
+  /* Colors */
+  --ghibli-cream: #e8d5b7;
+  --ghibli-brown: #8b4513;
+  --ghibli-blue: #7fb3d3;
+  --ghibli-blue-light: #9bc1bc;
+  --ghibli-blue-lighter: #87ceeb;
+  --ghibli-blue-lightest: #a8d8ea;
+  --ghibli-orange: #ff8c42;
+  --ghibli-orange-light: #ffb366;
+  --ghibli-orange-lighter: #ff7f50;
+  --ghibli-green-dark: #2f4f2f;
+  --ghibli-navy: #1b2951;
+  --ghibli-white: #ffffff;
+
+  /* Card dimensions */
+  --card-width: 260px;
+  --card-height: 490px;
+  --center-card-width: 300px;
+  --center-card-height: 550px;
+  --card-border-radius: 15px;
+  --card-padding: 0.8rem;
+
+  /* Spacing */
+  --carousel-top-margin: 800px;
+  --page-padding: 2rem;
+
+  /* Transitions */
+  --transition-smooth: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --transition-fast: all 0.3s ease;
+  --transition-quick: all 0.2s ease;
+
+  /* Shadows */
+  --shadow-light: 0 4px 20px rgba(127, 179, 211, 0.15),
+    0 2px 8px rgba(155, 193, 188, 0.1);
+  --shadow-medium: 0 8px 35px rgba(255, 140, 66, 0.25),
+    0 4px 20px rgba(127, 179, 211, 0.2);
+  --shadow-heavy: 0 8px 30px rgba(127, 179, 211, 0.3),
+    0 4px 15px rgba(155, 193, 188, 0.2);
+}
+
 .one-piece-container {
   min-height: 100vh;
   background-image: url("./assets/one-piece/background-ghibli.jpg");
@@ -8,7 +49,7 @@
   background-repeat: no-repeat;
   position: relative;
   overflow-x: hidden;
-  padding: 2rem 0;
+  padding: var(--page-padding) 0;
 }
 
 /* Animated Background Elements */
@@ -26,7 +67,11 @@
   position: absolute;
   width: 20px;
   height: 20px;
-  background: linear-gradient(45deg, #7fb3d3, #9bc1bc);
+  background: linear-gradient(
+    45deg,
+    var(--ghibli-blue),
+    var(--ghibli-blue-light)
+  );
   border-radius: 0 100% 0 100%;
   animation: float 8s ease-in-out infinite;
   opacity: 0.3;
@@ -80,7 +125,6 @@
   animation-duration: 12s;
   animation-delay: 0s;
 }
-
 .bubble-2 {
   width: 35px;
   height: 35px;
@@ -89,7 +133,6 @@
   animation-duration: 15s;
   animation-delay: -2s;
 }
-
 .bubble-3 {
   width: 20px;
   height: 20px;
@@ -98,7 +141,6 @@
   animation-duration: 10s;
   animation-delay: -4s;
 }
-
 .bubble-4 {
   width: 40px;
   height: 40px;
@@ -107,7 +149,6 @@
   animation-duration: 18s;
   animation-delay: -1s;
 }
-
 .bubble-5 {
   width: 30px;
   height: 30px;
@@ -116,7 +157,6 @@
   animation-duration: 14s;
   animation-delay: -6s;
 }
-
 .bubble-6 {
   width: 22px;
   height: 22px;
@@ -125,7 +165,6 @@
   animation-duration: 11s;
   animation-delay: -3s;
 }
-
 .bubble-7 {
   width: 45px;
   height: 45px;
@@ -134,7 +173,6 @@
   animation-duration: 20s;
   animation-delay: -8s;
 }
-
 .bubble-8 {
   width: 28px;
   height: 28px;
@@ -143,7 +181,6 @@
   animation-duration: 13s;
   animation-delay: -5s;
 }
-
 .bubble-9 {
   width: 18px;
   height: 18px;
@@ -152,7 +189,6 @@
   animation-duration: 9s;
   animation-delay: -7s;
 }
-
 .bubble-10 {
   width: 32px;
   height: 32px;
@@ -224,7 +260,7 @@
 
 .ghibli-title {
   font-family: "Helvetica Neue", "Arial", "Inter", sans-serif;
-  color: #8b4513;
+  color: var(--ghibli-brown);
   font-weight: 400;
   margin-bottom: 1rem;
   text-shadow: 2px 2px 4px rgba(139, 69, 19, 0.3);
@@ -247,7 +283,7 @@
 }
 
 .ghibli-subtitle {
-  color: #ffffff;
+  color: var(--ghibli-white);
   font-style: italic;
   opacity: 0.85;
   font-family: "Helvetica Neue", "Arial", "Inter", sans-serif;
@@ -270,7 +306,7 @@
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 800px;
+  margin-top: var(--carousel-top-margin);
   transform: translateX(50px);
 }
 
@@ -300,11 +336,11 @@
   border-radius: 50%;
   background: rgba(255, 140, 66, 0.95);
   border: 2px solid rgba(255, 127, 80, 0.6);
-  color: #ffffff;
+  color: var(--ghibli-white);
   font-size: 1.2rem;
   font-weight: bold;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: var(--transition-fast);
   z-index: 10;
   display: flex;
   align-items: center;
@@ -316,7 +352,6 @@
 .carousel-nav-button:hover {
   background: rgba(255, 127, 80, 1);
   border-color: rgba(255, 140, 66, 0.8);
-  color: #ffffff;
   transform: translateY(-50%) scale(1.1);
   box-shadow: 0 4px 16px rgba(255, 140, 66, 0.4);
 }
@@ -324,7 +359,6 @@
 .carousel-nav-left {
   left: 140px;
 }
-
 .carousel-nav-right {
   right: 100px;
 }
@@ -335,49 +369,35 @@
 
 /* Character Cards */
 .character-card {
-  border-radius: 15px;
-  padding: 0.8rem;
-  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  border-radius: var(--card-border-radius);
+  padding: var(--card-padding);
+  transition: var(--transition-smooth);
   position: relative;
   overflow: hidden;
-  box-shadow:
-    0 4px 20px rgba(127, 179, 211, 0.15),
-    0 2px 8px rgba(155, 193, 188, 0.1);
+  box-shadow: var(--shadow-light);
   border: 2px solid transparent;
   background-clip: padding-box;
   perspective: 1000px;
-  height: 490px;
-  width: 260px;
+  height: var(--card-height);
+  width: var(--card-width);
   flex-shrink: 0;
   cursor: pointer;
+  background: var(--ghibli-cream);
 }
 
-/* 3-Card Layout Positioning with Overlapping */
+/* 3-Card Layout Positioning */
 .character-card.center-card {
   transform: translateX(0px) translateZ(0px) scale(1.1);
   opacity: 1;
   z-index: 10;
-  width: 300px;
-  height: 550px;
+  width: var(--center-card-width);
+  height: var(--center-card-height);
   position: absolute;
   left: 50%;
-  margin-left: -150px;
-  box-shadow:
-    0 8px 35px rgba(255, 140, 66, 0.25),
-    0 4px 20px rgba(127, 179, 211, 0.2);
+  margin-left: calc(var(--center-card-width) / -2);
+  box-shadow: var(--shadow-medium);
   border-color: rgba(255, 140, 66, 0.4);
-  background: #2f4f2f; /* Dark green for center card */
-}
-
-.character-card.center-card::before {
-  opacity: 0.6;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 140, 66, 0.15) 0%,
-    rgba(255, 127, 80, 0.1) 30%,
-    rgba(255, 140, 66, 0.15) 70%,
-    rgba(255, 127, 80, 0.1) 100%
-  );
+  background: var(--ghibli-green-dark);
 }
 
 .character-card.left-card {
@@ -406,22 +426,12 @@
   filter: blur(0.5px);
 }
 
-.character-card.left-card:hover {
-  opacity: 0.85;
-  filter: blur(0.2px);
-  transform: translateZ(-50px) scale(0.95);
-}
-
+.character-card.left-card:hover,
 .character-card.right-card:hover {
   opacity: 0.85;
   filter: blur(0.2px);
   transform: translateZ(-50px) scale(0.95);
 }
-
-/* Studio Ghibli cream background for all cards (background cards) */
-.character-card {
-  background: #e8d5b7;
-} /* Warm cream for background cards */
 
 .character-card::before {
   content: "";
@@ -430,7 +440,13 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, #7fb3d3, #9bc1bc, #87ceeb, #a8d8ea);
+  background: linear-gradient(
+    135deg,
+    var(--ghibli-blue),
+    var(--ghibli-blue-light),
+    var(--ghibli-blue-lighter),
+    var(--ghibli-blue-lightest)
+  );
   border-radius: 20px;
   padding: 2px;
   mask:
@@ -439,18 +455,6 @@
   mask-composite: exclude;
   opacity: 0;
   transition: opacity 0.3s ease;
-}
-
-.character-card:hover::before {
-  opacity: 1;
-}
-
-.character-card:hover {
-  transform: scale(1.08);
-  box-shadow:
-    0 8px 30px rgba(127, 179, 211, 0.3),
-    0 4px 15px rgba(155, 193, 188, 0.2);
-  border-color: rgba(127, 179, 211, 0.6);
 }
 
 .character-card:hover::before {
@@ -463,6 +467,12 @@
     rgba(135, 206, 235, 0.15) 100%
   );
   animation: shimmer 2s ease-in-out infinite;
+}
+
+.character-card:hover {
+  transform: scale(1.08);
+  box-shadow: var(--shadow-heavy);
+  border-color: rgba(127, 179, 211, 0.6);
 }
 
 @keyframes shimmer {
@@ -504,8 +514,8 @@
 
 .flip-card-back {
   transform: rotateY(180deg);
-  background: #1b2951;
-  border-radius: 15px;
+  background: var(--ghibli-navy);
+  border-radius: var(--card-border-radius);
   padding: 1rem;
   box-sizing: border-box;
 }
@@ -523,8 +533,8 @@
   height: 280px;
   border-radius: 10px;
   object-fit: cover;
-  border: 3px solid #9bc1bc;
-  transition: all 0.3s ease;
+  border: 3px solid var(--ghibli-blue-light);
+  transition: var(--transition-fast);
   position: relative;
   z-index: 2;
   box-shadow: 0 3px 10px rgba(155, 193, 188, 0.3);
@@ -562,7 +572,7 @@
 .character-name {
   font-size: 1.6rem;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--ghibli-white);
   margin-bottom: 0.4rem;
   font-family: "Helvetica Neue", "Arial", "Inter", sans-serif;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
@@ -571,57 +581,23 @@
 .project-title {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #ff8c42;
+  color: var(--ghibli-orange);
   margin-bottom: 0.4rem;
   font-family: "Helvetica Neue", "Arial", "Inter", sans-serif;
 }
 
-.clickable-project {
-  cursor: pointer;
-  transition: all 0.2s ease;
-  padding: 0.2rem 0.4rem;
-  border-radius: 6px;
-  margin: -0.2rem -0.4rem 0.2rem -0.4rem;
-}
-
-.clickable-project:hover {
-  background: rgba(255, 140, 66, 0.2);
-  color: #ffb366;
-  transform: translateX(2px);
-}
-
-.project-subtitle {
-  font-size: 0.95rem;
-  color: #ffffff;
-  margin-bottom: 0.6rem;
-  line-height: 1.4;
-  font-style: normal;
-  font-family: "Helvetica Neue", "Arial", "Inter", sans-serif;
-  font-weight: 400;
-  opacity: 0.9;
-}
-
 .project-status {
   font-size: 0.9rem;
-  color: #ffffff;
+  color: var(--ghibli-white);
   font-weight: 500;
   margin-bottom: 0.5rem;
   font-family: "Helvetica Neue", "Arial", "Inter", sans-serif;
   font-style: italic;
 }
 
-.project-description {
-  font-size: 0.95rem;
-  color: #ffffff;
-  line-height: 1.5;
-  opacity: 0.85;
-  font-family: "Helvetica Neue", "Arial", "Inter", sans-serif;
-  font-weight: 400;
-}
-
 .character-description {
   font-size: 1rem;
-  color: #ffffff;
+  color: var(--ghibli-white);
   line-height: 1.5;
   opacity: 0.85;
   font-family: "Helvetica Neue", "Arial", "Inter", sans-serif;
@@ -646,11 +622,11 @@
   background: transparent;
   border: 1px solid rgba(255, 140, 66, 0.4);
   border-radius: 6px;
-  color: #ff8c42;
+  color: var(--ghibli-orange);
   text-decoration: none;
   font-size: 0.8rem;
   font-weight: 500;
-  transition: all 0.2s ease;
+  transition: var(--transition-quick);
   cursor: pointer;
   font-family: "Helvetica Neue", "Arial", "Inter", sans-serif;
 }
@@ -658,7 +634,7 @@
 .project-link:hover {
   background: transparent;
   border-color: rgba(255, 140, 66, 0.6);
-  color: #ffb366;
+  color: var(--ghibli-orange-light);
   transform: translateY(-1px);
   box-shadow: 0 2px 8px rgba(255, 140, 66, 0.2);
 }
@@ -675,14 +651,14 @@
 .match-title {
   font-size: 1rem;
   font-weight: 500;
-  color: #ffffff;
+  color: var(--ghibli-white);
   margin-bottom: 0.8rem;
   font-family: "Helvetica Neue", "Arial", "Inter", sans-serif;
 }
 
 .character-match {
   font-size: 0.9rem;
-  color: #ffffff;
+  color: var(--ghibli-white);
   line-height: 1.6;
   opacity: 0.9;
   font-family: "Helvetica Neue", "Arial", "Inter", sans-serif;
@@ -696,7 +672,7 @@
   height: 280px;
   margin-bottom: 1rem;
   border-radius: 10px;
-  border: 3px solid #9bc1bc;
+  border: 3px solid var(--ghibli-blue-light);
   box-shadow: 0 3px 10px rgba(155, 193, 188, 0.3);
 }
 
@@ -711,45 +687,8 @@
 }
 
 .flip-card-back .character-name {
-  color: #ff8c42;
+  color: var(--ghibli-orange);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-}
-
-/* Flip Buttons */
-.flip-button {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  background: rgba(168, 216, 234, 0.8);
-  border: 1px solid rgba(127, 179, 211, 0.4);
-  border-radius: 50%;
-  width: 35px;
-  height: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  font-size: 1.1rem;
-  transition: all 0.3s ease;
-  z-index: 10;
-  backdrop-filter: blur(3px);
-}
-
-.flip-button:hover {
-  background: rgba(168, 216, 234, 1);
-  border-color: rgba(127, 179, 211, 0.6);
-  transform: scale(1.05);
-  box-shadow: 0 3px 10px rgba(127, 179, 211, 0.3);
-}
-
-.flip-button.flip-back {
-  background: rgba(250, 252, 255, 0.9);
-  border-color: rgba(155, 193, 188, 0.4);
-}
-
-.flip-button.flip-back:hover {
-  background: rgba(250, 252, 255, 1);
-  border-color: rgba(155, 193, 188, 0.6);
 }
 
 /* Card Decorations */
@@ -763,7 +702,11 @@
 .vine-decoration {
   width: 25px;
   height: 25px;
-  background: linear-gradient(45deg, #7fb3d3, #9bc1bc);
+  background: linear-gradient(
+    45deg,
+    var(--ghibli-blue),
+    var(--ghibli-blue-light)
+  );
   border-radius: 50% 0 50% 0;
   transform: rotate(45deg);
   box-shadow: 0 2px 4px rgba(127, 179, 211, 0.2);
@@ -806,7 +749,7 @@
 }
 
 .hint-text {
-  color: #8b4513;
+  color: var(--ghibli-brown);
   font-style: normal;
   opacity: 0.8;
   font-family: "Helvetica Neue", "Arial", "Inter", sans-serif;
@@ -820,17 +763,6 @@
   from {
     opacity: 0;
     transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes slideInUp {
-  from {
-    opacity: 0;
-    transform: translateY(50px);
   }
   to {
     opacity: 1;
@@ -852,29 +784,23 @@
   .one-piece-container {
     padding: 1rem 0;
   }
-
   .one-piece-content {
     padding: 0 1rem;
   }
-
   .character-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-
   .character-card {
     padding: 1.2rem;
   }
-
   .ghibli-title {
     font-size: 2rem;
   }
-
   .character-image {
     width: 100px;
     height: 100px;
   }
-
   .character-glow {
     width: 120px;
     height: 120px;
@@ -885,64 +811,12 @@
   .ghibli-title {
     font-size: 1.8rem;
   }
-
   .character-image {
     width: 80px;
     height: 80px;
   }
-
   .character-glow {
     width: 100px;
     height: 100px;
   }
-}
-
-/* Special card variations for staggered effects */
-.card-1 {
-  animation-delay: 0.15s;
-}
-.card-2 {
-  animation-delay: 0.3s;
-}
-.card-3 {
-  animation-delay: 0.45s;
-}
-.card-4 {
-  animation-delay: 0.6s;
-}
-.card-5 {
-  animation-delay: 0.75s;
-}
-.card-6 {
-  animation-delay: 0.9s;
-}
-.card-7 {
-  animation-delay: 1.05s;
-}
-.card-8 {
-  animation-delay: 1.2s;
-}
-.card-9 {
-  animation-delay: 1.35s;
-}
-
-/* Visual distinction for research vs non-research characters */
-.character-card.clickable::after {
-  content: "🔬";
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  font-size: 1.2rem;
-  opacity: 0.6;
-  z-index: 5;
-}
-
-.character-card.non-clickable::after {
-  content: "⚓";
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  font-size: 1.2rem;
-  opacity: 0.4;
-  z-index: 5;
 }
