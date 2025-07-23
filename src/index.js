@@ -10,6 +10,7 @@ import Didup from "./projects/didup/didup";
 import Dynex from "./projects/dynex/Dynex";
 import AgentDynex from "./projects/agentdynex/AgentDynex";
 import DidupPoster from "./projects/didup/poster";
+import OnePiece from "./components/OnePiece";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -49,6 +50,7 @@ root.render(
         <Route path="/agentdynex" element={<AgentDynex />} />
         <Route path="/didup" element={<Didup />} />
         <Route path="/didup/poster" element={<DidupPoster />} />
+        <Route path="/one-piece" element={<OnePiece />} />
       </Routes>
     </Router>
   </React.StrictMode>,

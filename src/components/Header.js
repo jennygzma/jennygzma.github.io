@@ -41,6 +41,15 @@ export default function Header() {
         </Button> */}
 
         <Button
+          href="#/one-piece"
+          sx={{
+            border: "transparent !important",
+            "&:hover": { backgroundColor: "transparent !important" },
+          }}
+        >
+          <Typography variant="h5">research gallery</Typography>
+        </Button>
+        <Button
           href="https://drive.google.com/file/d/1hmu17qK9gvekiQ5xpqWj6KgZ2tWlxIEG/view?usp=sharing"
           sx={{
             border: "transparent !important",
