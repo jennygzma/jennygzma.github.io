@@ -27,7 +27,7 @@ export default function Research() {
                 </Typography>
               </Stack>
               <Typography>
-                <span className="important-text">Jenny Ma*</span>, Riya Sahni*,
+                <span className="important-text">Jenny Ma</span>, Riya Sahni,
                 Karthik Sreedhar, Lydia B. Chilton
               </Typography>
               <Typography>
