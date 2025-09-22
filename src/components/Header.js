@@ -6,12 +6,13 @@ import Typography from "@mui/material/Typography";
 export default function Header() {
   return (
     <Stack
-      direction={{ sm: "column", md: "row" }}
-      spacing={"50"}
+      direction={{ xs: "column", sm: "column", md: "row" }}
+      spacing={{ xs: 2, sm: 3, md: 5 }}
       sx={{
         justifyContent: "space-between",
-        paddingTop: "100px",
-        paddingBottom: "30px",
+        alignItems: { xs: "center", md: "flex-start" },
+        paddingTop: { xs: "50px", sm: "70px", md: "100px" },
+        paddingBottom: { xs: "20px", md: "30px" },
       }}
     >
       <Button

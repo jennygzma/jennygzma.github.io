@@ -4,6 +4,56 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fffcef;
+  font-size: 16px;
+}
+
+/* Mobile typography scaling */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1,
+  .MuiTypography-h1 {
+    font-size: 1.8rem !important;
+  }
+
+  h2,
+  .MuiTypography-h2 {
+    font-size: 1.5rem !important;
+  }
+
+  h4,
+  .MuiTypography-h4 {
+    font-size: 1.2rem !important;
+  }
+
+  h5,
+  .MuiTypography-h5 {
+    font-size: 1rem !important;
+  }
+
+  .MuiTypography-body1 {
+    font-size: 0.9rem !important;
+    line-height: 1.5 !important;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 960px) {
+  h2,
+  .MuiTypography-h2 {
+    font-size: 1.8rem !important;
+  }
+
+  h4,
+  .MuiTypography-h4 {
+    font-size: 1.3rem !important;
+  }
+
+  h5,
+  .MuiTypography-h5 {
+    font-size: 1.1rem !important;
+  }
 }
 
 code {

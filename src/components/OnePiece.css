@@ -43,14 +43,15 @@
 }
 
 .one-piece-container {
-  min-height: 100vh;
+  height: 100vh;
   background-image: url("./assets/one-piece/background-ghibli.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  overflow-x: hidden;
-  padding: var(--page-padding) 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
 }
 
 /* Animated Background Elements */
@@ -242,6 +243,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  min-height: 100vh;
+  box-sizing: border-box;
 }
 
 /* Page Header */
@@ -311,17 +314,15 @@
 
 /* Carousel Container */
 .carousel-container {
-  position: relative;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 3rem;
   width: 100%;
   max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: var(--carousel-top-margin);
-  transform: translateX(50px);
+  left: 65%;
+  top: 40%;
+  transform: translate(-50%, -50%) translateX(50px);
 }
 
 /* Character Carousel */
@@ -826,44 +827,235 @@
   }
 }
 
-/* Responsive Design */
+/* Mobile-First Responsive Design */
 @media (max-width: 768px) {
   .one-piece-container {
     padding: 1rem 0;
+    background-position: center top;
+    background-size: cover;
   }
+
   .one-piece-content {
     padding: 0 1rem;
+    align-items: center;
   }
-  .character-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+
+  /* Mobile Header */
+  .page-header {
+    position: static;
+    width: 100%;
+    max-width: none;
+    text-align: center;
+    margin: 2rem 0;
+    top: auto;
+    left: auto;
   }
-  .character-card {
-    padding: 1.2rem;
-  }
+
   .ghibli-title {
     font-size: 2rem;
+    text-align: center;
   }
+
+  .ghibli-subtitle,
+  .ghibli-subtitle-brown {
+    font-size: 1rem;
+    text-align: center;
+    max-width: none;
+  }
+
+  /* Mobile Carousel */
+  .carousel-container {
+    margin-top: 2rem;
+    transform: none;
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  .character-grid {
+    flex-direction: column;
+    gap: 2rem;
+    min-height: auto;
+    align-items: center;
+  }
+
+  /* Mobile Cards - Stack Vertically */
+  .character-card {
+    position: static !important;
+    transform: none !important;
+    opacity: 1 !important;
+    filter: none !important;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    min-height: 400px;
+    z-index: auto !important;
+  }
+
+  .character-card.center-card,
+  .character-card.left-card,
+  .character-card.right-card {
+    position: static !important;
+    left: auto !important;
+    margin-left: 0 !important;
+    width: 100%;
+    max-width: 320px;
+    transform: none !important;
+    opacity: 1 !important;
+    filter: none !important;
+    box-shadow: var(--shadow-medium);
+  }
+
+  /* Mobile Navigation Buttons */
+  .carousel-nav-button {
+    display: none;
+  }
+
+  /* Mobile Card Content */
   .character-image {
-    width: 100px;
-    height: 100px;
+    height: 200px;
   }
-  .character-glow {
-    width: 120px;
-    height: 120px;
+
+  .character-name {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .project-title {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .project-status {
+    font-size: 0.85rem;
+    text-align: center;
+  }
+
+  .character-description,
+  .character-match {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .project-links {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  /* Mobile Navigation Hint */
+  .navigation-hint {
+    position: static;
+    width: 100%;
+    max-width: none;
+    text-align: center;
+    margin-top: 2rem;
+    bottom: auto;
+    left: auto;
+  }
+
+  .hint-text {
+    font-size: 0.9rem;
+  }
+
+  /* Mobile Background Elements */
+  .floating-leaves,
+  .sabaody-bubble {
+    display: none;
   }
 }
 
 @media (max-width: 480px) {
+  .one-piece-container {
+    padding: 0.5rem 0;
+  }
+
+  .one-piece-content {
+    padding: 0 0.5rem;
+  }
+
   .ghibli-title {
     font-size: 1.8rem;
   }
-  .character-image {
-    width: 80px;
-    height: 80px;
+
+  .ghibli-subtitle,
+  .ghibli-subtitle-brown {
+    font-size: 0.9rem;
   }
-  .character-glow {
-    width: 100px;
-    height: 100px;
+
+  .character-card {
+    max-width: 280px;
+    min-height: 350px;
+    padding: 0.6rem;
+  }
+
+  .character-image {
+    height: 160px;
+  }
+
+  .character-name {
+    font-size: 1.2rem;
+  }
+
+  .project-title {
+    font-size: 0.9rem;
+  }
+
+  .project-status {
+    font-size: 0.8rem;
+  }
+
+  .character-description,
+  .character-match {
+    font-size: 0.85rem;
+  }
+
+  .project-link {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.5rem;
+  }
+
+  .hint-text {
+    font-size: 0.8rem;
+  }
+}
+
+/* Tablet Responsive Design */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .carousel-container {
+    margin-top: 600px;
+    transform: translateX(20px);
+  }
+
+  .page-header {
+    top: 8%;
+    left: 3%;
+    width: 45%;
+  }
+
+  .ghibli-title {
+    font-size: 2.2rem;
+  }
+
+  .carousel-nav-left {
+    left: 100px;
+  }
+
+  .carousel-nav-right {
+    right: 60px;
+  }
+
+  .character-card {
+    width: 240px;
+    height: 450px;
+  }
+
+  .character-card.center-card {
+    width: 280px;
+    height: 500px;
+    margin-left: calc(280px / -2);
+  }
+
+  .character-card.left-card {
+    margin-left: -240px;
   }
 }

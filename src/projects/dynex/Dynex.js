@@ -63,6 +63,9 @@ export default function Dynex() {
             DynEx: Dynamic Code Synthesis with Structured Design Exploration for
             Accelerated Exploratory Programming
           </Typography>
+          <Typography variant="body" textAlign="center">
+            CHI 2025, Best Paper Honorable Mention 🏅
+          </Typography>
           <Typography variant="h6">
             Jenny Ma, Karthik Sreedhar, Vivian Liu, Sitong Wang, Pedro Alejandro
             Perez, Riya Sahni, Lydia B. Chilton

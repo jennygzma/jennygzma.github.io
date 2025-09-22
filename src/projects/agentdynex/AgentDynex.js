@@ -63,8 +63,11 @@ export default function AgentDynex() {
             AgentDynEx: Nudging the Mechanics and Dynamics of Multi-Agent
             Simulations
           </Typography>
+          <Typography variant="body" textAlign="center">
+            Under Submission
+          </Typography>
           <Typography variant="h6">
-            Jenny Ma*, Riya Sahni*, Karthik Sreedhar, Lydia B. Chilton
+            Jenny Ma, Riya Sahni, Karthik Sreedhar, Lydia B. Chilton
           </Typography>
           <img
             className="mx-auto rounded w-2/3 object-scale-down"

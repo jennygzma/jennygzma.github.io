@@ -11,10 +11,10 @@ function App() {
       <Stack
         spacing="30px"
         sx={{
-          mx: "15%",
+          mx: { xs: "5%", sm: "8%", md: "12%", lg: "15%" },
           maxWidth: "100%",
           justifyContent: "center",
-          paddingBottom: "100px",
+          paddingBottom: { xs: "50px", md: "100px" },
         }}
       >
         <Header />

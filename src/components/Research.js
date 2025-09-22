@@ -44,7 +44,7 @@ export default function Research() {
                 </Button>
                 <Button
                   disableRipple
-                  href="https://www.youtube.com/watch?v=R-YPJFjrdxc"
+                  href="https://www.youtube.com/watch?v=cHc240qd81M"
                 >
                   <Typography className="link">🎥 video</Typography>
                 </Button>

@@ -9,10 +9,21 @@ import googleScholarIcon from "./assets/google-scholar.png";
 
 const FlipCard = styled(Box)(({ theme }) => ({
   perspective: "1000px",
-  width: 400,
-  height: 400,
+  width: "100%",
+  maxWidth: { xs: 280, sm: 320, md: 400 },
+  height: "auto",
+  aspectRatio: "1",
   cursor: "pointer",
   borderRadius: 0,
+  [theme.breakpoints.down("sm")]: {
+    maxWidth: 280,
+  },
+  [theme.breakpoints.between("sm", "md")]: {
+    maxWidth: 320,
+  },
+  [theme.breakpoints.up("md")]: {
+    maxWidth: 400,
+  },
 }));
 
 const FlipCardInner = styled(Box)(({ flipped }) => ({
@@ -44,16 +55,23 @@ export default function About() {
   return (
     <section id="about">
       <Stack
-        direction={{ sm: "column", md: "row" }}
-        spacing={{ xs: 5, sm: 10 }}
+        direction={{ xs: "column", md: "row" }}
+        spacing={{ xs: 3, sm: 5, md: 10 }}
         sx={{
-          alignItems: "top",
+          alignItems: { xs: "center", md: "flex-start" },
           justifyContent: "center",
-          width: "90%",
-          marginLeft: "5%",
+          width: { xs: "100%", sm: "95%", md: "90%" },
+          marginLeft: { xs: "0%", sm: "2.5%", md: "5%" },
         }}
       >
-        <Stack spacing={"10px"} sx={{ width: "40%", alignItems: "center" }}>
+        <Stack
+          spacing={"10px"}
+          sx={{
+            width: { xs: "100%", sm: "80%", md: "40%" },
+            maxWidth: { xs: "320px", md: "none" },
+            alignItems: "center",
+          }}
+        >
           <FlipCard onClick={() => setFlipped(!flipped)}>
             <FlipCardInner flipped={flipped}>
               <FlipCardFace>
@@ -143,8 +161,10 @@ export default function About() {
         <Stack spacing={"20px"}>
           <Typography variant="h4">about me</Typography>
           <Typography variant="body1">
-            Hi!! I'm an incoming HCI PhD student at Columbia University. I like
-            designing HAI systems that{" "}
+            Hi!! I'm a HCI PhD student at Columbia University. I'm interested in
+            designing{" "}
+            <span className="important-text">adaptable and personalized</span>{" "}
+            HAI systems that{" "}
             <span className="important-text">
               empower productivity and creativity
             </span>
@@ -155,7 +175,8 @@ export default function About() {
             >
               Lydia Chilton
             </a>{" "}
-            in the Computational Design Lab.
+            in the Computational Design Lab. Please reach out if you want to
+            collaborate!
             <br />
             <br />
             Previously, I worked at a series A startup called

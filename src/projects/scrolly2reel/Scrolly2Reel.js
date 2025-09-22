@@ -56,6 +56,9 @@ export default function Scrolly2Reel() {
             Scrolly2Reel: Retargeting Graphics for Social Media Using Narrative
             Beats
           </Typography>
+          <Typography variant="body" textAlign="center">
+            HICSS 2025
+          </Typography>
           <Typography variant="h6">
             Duy Nguyen*, Jenny Ma*, Pedro Alejandro Perez, Lydia B. Chilton
           </Typography>
