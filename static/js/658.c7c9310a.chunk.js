@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjm_portfolio=self.webpackChunkjm_portfolio||[]).push([[658],{8658:(e,o,t)=>{e.exports=t.p+"static/media/welcome-to-my-blog.ddcae3331d95e44bd2f8.md"}}]);
