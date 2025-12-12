@@ -11,6 +11,8 @@ import Dynex from "./projects/dynex/Dynex";
 import AgentDynex from "./projects/agentdynex/AgentDynex";
 import DidupPoster from "./projects/didup/poster";
 import OnePiece from "./components/OnePiece";
+import Blog from "./components/Blog";
+import BlogPost from "./components/BlogPost";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -51,6 +53,8 @@ root.render(
         <Route path="/didup" element={<Didup />} />
         <Route path="/didup/poster" element={<DidupPoster />} />
         <Route path="/one-piece" element={<OnePiece />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
       </Routes>
     </Router>
   </React.StrictMode>,

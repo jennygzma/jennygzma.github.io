@@ -42,6 +42,15 @@ export default function Header() {
         </Button> */}
 
         <Button
+          href="#/blog"
+          sx={{
+            border: "transparent !important",
+            "&:hover": { backgroundColor: "transparent !important" },
+          }}
+        >
+          <Typography variant="h5">blog</Typography>
+        </Button>
+        <Button
           href="#/one-piece"
           sx={{
             border: "transparent !important",
