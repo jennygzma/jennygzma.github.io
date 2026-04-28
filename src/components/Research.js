@@ -29,7 +29,7 @@ export default function Research() {
                   variant="h6"
                   sx={{ display: "flex", alignItems: "flex-end" }}
                 >
-                  Active Rules for Reliable Vibe Coding
+                Active Rules for Reliable Vibe Coding
                 </Typography>
               </Stack>
               <Typography>

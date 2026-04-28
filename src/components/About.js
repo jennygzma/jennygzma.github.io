@@ -175,14 +175,21 @@ export default function About() {
               className="link"
             >
               Lydia Chilton
+            </a>{" "} in the{" "}
+            <a
+              href="https://daplab.cs.columbia.edu/"
+              className="link"
+            >
+              DAPLab.
             </a>{" "}
-            and work closely with Professor{" "}
+            {/* and work closely with Professor{" "}
             <a
               href="https://www.cs.columbia.edu/~ewu/"
               className="link"
             >
               Eugene Wu.
-            </a>{" "} Please reach out if you want to
+            </a>{" "} */}
+             Please reach out if you want to
             collaborate!
             <br />
             <br />
@@ -193,8 +200,7 @@ export default function About() {
             </a>{" "}
             (series A startup, ex Uber-ATG) and DoorDash. I attended Princeton University for
             undergrad. I enjoy watching One Piece (each of my research papers
-            carries the persona of a character 😉), surfing, writing music, and
-            hanging out with friends! I also run but I don't know if I find that
+            carries the persona of a character 😉), surfing, and writing music! I also run but I don't know if I find that
             enjoyable 😬
             <br /> <br />
             Check out{" "}
