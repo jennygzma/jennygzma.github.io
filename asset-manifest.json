@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5f936cf0.css",
-    "main.js": "/static/js/main.5607d48e.js",
+    "main.js": "/static/js/main.1efd9e2a.js",
     "static/js/835.094fb649.chunk.js": "/static/js/835.094fb649.chunk.js",
     "static/js/658.c7c9310a.chunk.js": "/static/js/658.c7c9310a.chunk.js",
     "static/media/nyt_ammunition.mp4": "/static/media/nyt_ammunition.bf2ae65704cb0dee5f9b.mp4",
@@ -49,10 +49,10 @@
     "static/media/welcome-to-my-blog.md": "/static/media/welcome-to-my-blog.ddcae3331d95e44bd2f8.md",
     "index.html": "/index.html",
     "main.5f936cf0.css.map": "/static/css/main.5f936cf0.css.map",
-    "main.5607d48e.js.map": "/static/js/main.5607d48e.js.map"
+    "main.1efd9e2a.js.map": "/static/js/main.1efd9e2a.js.map"
   },
   "entrypoints": [
     "static/css/main.5f936cf0.css",
-    "static/js/main.5607d48e.js"
+    "static/js/main.1efd9e2a.js"
   ]
 }
