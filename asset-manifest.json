@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.520d15a2.css",
-    "main.js": "/static/js/main.c9a3955b.js",
+    "main.css": "/static/css/main.5f936cf0.css",
+    "main.js": "/static/js/main.5607d48e.js",
     "static/js/835.094fb649.chunk.js": "/static/js/835.094fb649.chunk.js",
     "static/js/658.c7c9310a.chunk.js": "/static/js/658.c7c9310a.chunk.js",
     "static/media/nyt_ammunition.mp4": "/static/media/nyt_ammunition.bf2ae65704cb0dee5f9b.mp4",
@@ -16,6 +16,8 @@
     "static/media/franky-ghibli.png": "/static/media/franky-ghibli.065306acc5a722bbc46b.png",
     "static/media/brook-ghibli.png": "/static/media/brook-ghibli.e14bde0b8ff4c144256d.png",
     "static/media/robin-ghibli.png": "/static/media/robin-ghibli.dbc27475fa631cebac63.png",
+    "static/media/zoro.png": "/static/media/zoro.81ad615c39cac3875ec7.png",
+    "static/media/robin2.png": "/static/media/robin2.9a8d6db9f0de6f9e652e.png",
     "static/media/beat_alignment.png": "/static/media/beat_alignment.31e91220e6c2586c0cc7.png",
     "static/media/poster.png": "/static/media/poster.457ea72ec42a0721e2ca.png",
     "static/media/system.png": "/static/media/system.116eb365010254131355.png",
@@ -46,11 +48,11 @@
     "static/media/the-four-agent-behaviors.md": "/static/media/the-four-agent-behaviors.2bfc247756c91d0db527.md",
     "static/media/welcome-to-my-blog.md": "/static/media/welcome-to-my-blog.ddcae3331d95e44bd2f8.md",
     "index.html": "/index.html",
-    "main.520d15a2.css.map": "/static/css/main.520d15a2.css.map",
-    "main.c9a3955b.js.map": "/static/js/main.c9a3955b.js.map"
+    "main.5f936cf0.css.map": "/static/css/main.5f936cf0.css.map",
+    "main.5607d48e.js.map": "/static/js/main.5607d48e.js.map"
   },
   "entrypoints": [
-    "static/css/main.520d15a2.css",
-    "static/js/main.c9a3955b.js"
+    "static/css/main.5f936cf0.css",
+    "static/js/main.5607d48e.js"
   ]
 }
