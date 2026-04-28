@@ -2,7 +2,8 @@ import React from "react";
 import { Stack, Typography, Box, Button, Divider } from "@mui/material";
 import franky from "./assets/franky.png";
 import brook from "./assets/brook.jpg";
-import robin from "./assets/robin.png";
+import robin from "./assets/robin2.png";
+import zoro from "./assets/zoro.png";
 export default function Research() {
   return (
     <section id="research">
@@ -14,6 +15,58 @@ export default function Research() {
           </Typography>
         </Stack>
         <Stack spacing="20px">
+          <Box>
+            <Stack>
+              <Stack direction="row" alignItems="center" spacing="10px">
+                <img width="40px" height="40px" alt="zoro" src={zoro} />
+                <Typography
+                  variant="h6"
+                  sx={{ display: "flex", alignItems: "flex-end", fontFamily: "'Roboto Mono', monospace !important" }}
+                >
+                  ZORO:
+                </Typography>
+                <Typography
+                  variant="h6"
+                  sx={{ display: "flex", alignItems: "flex-end" }}
+                >
+                  Active Rules for Reliable Vibe Coding
+                </Typography>
+              </Stack>
+              <Typography>
+                <span className="important-text">Jenny Ma</span>, Sitong Wang, Joshua Kung, Lydia B. Chilton
+              </Typography>
+              <Typography>
+                <span style={{ fontStyle: "italic", color: "#498f63" }}>
+                  Under Submission
+                </span>
+              </Typography>
+              <Stack direction="row" spacing={"30px"} pt="5px">
+                <Button disableRipple href="https://arxiv.org/pdf/2604.15625">
+                  <Typography className="link"> 📄 arXiv</Typography>
+                </Button>
+                {/* <Button disableRipple href="#/zoro">
+                  <Typography className="link">🚀 project </Typography>
+                </Button> */}
+                <Button
+                  disableRipple
+                  href="https://www.youtube.com/watch?v=G78p5_e2hxs"
+                >
+                  <Typography className="link">🎥 video</Typography>
+                </Button>
+                {/* <Button
+                  disableRipple
+                  href="https://github.com/jennygzma/ui-design-prototype"
+                >
+                  <Typography className="link">👨‍💻 github</Typography>
+                </Button> */}
+                <Typography >
+                  <span style={{ fontStyle: "italic", color: "#498f63" }}>
+                    👨‍💻 github and 🚀 project page to be shown soon
+                </span>
+                </Typography>
+              </Stack>
+            </Stack>
+          </Box>
           <Box>
             <Stack>
               <Stack direction="row" alignItems="center" spacing="10px">
@@ -36,7 +89,7 @@ export default function Research() {
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
-                <Button disableRipple href="https://arxiv.org/abs/2504.09662">
+                <Button disableRipple href="https://arxiv.org/abs/2504.09662v2">
                   <Typography className="link"> 📄 arXiv</Typography>
                 </Button>
                 <Button disableRipple href="#/agentdynex">

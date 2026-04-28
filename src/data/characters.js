@@ -12,6 +12,24 @@ import zoroGhibli from "../components/assets/one-piece/zoro-ghibli.png";
 // Research projects
 export const RESEARCH_CHARACTERS = [
   {
+    id: "zoro",
+    name: "Zoro",
+    image: zoroGhibli,
+    project: {
+      title: "ZORO",
+      titleFont: "'Roboto Mono', monospace",
+      subtitle: "Active Rules for Reliable Vibe Coding",
+      status: "Under Submission",
+      links: {
+        arxiv: "https://arxiv.org/pdf/2604.15625",
+        // github: "COMING SOON",
+        video: "https://www.youtube.com/watch?v=G78p5_e2hxs",
+        // project: "COMING SOON",
+      },
+    },
+    match:
+      "Zoro is the swordsman of the crew. This paper is about making sure the user's rules get ENFORCED... no brainer.",},
+  {
     id: "agentdynex",
     name: "Robin",
     image: robinGhibli,
@@ -20,7 +38,7 @@ export const RESEARCH_CHARACTERS = [
       subtitle: "Nudging the Mechanics and Dynamics of Multi-Agent Simulations",
       status: "Under Submission",
       links: {
-        arxiv: "https://arxiv.org/pdf/2504.09662",
+        arxiv: "https://arxiv.org/pdf/2504.09662v2",
         github: "https://github.com/jennygzma/agentdynex",
         video: "https://www.youtube.com/watch?v=cHc240qd81M",
         project: "/agentdynex",
@@ -70,7 +88,6 @@ export const RESEARCH_CHARACTERS = [
 // Placeholder characters
 export const PLACEHOLDER_CHARACTERS = [
   { id: "luffy", name: "Luffy", image: luffyGhibli },
-  { id: "zoro", name: "Zoro", image: zoroGhibli },
   { id: "nami", name: "Nami", image: namiGhibli },
   { id: "usopp", name: "Usopp", image: usoppGhibli },
   { id: "sanji", name: "Sanji", image: sanjiGhibli },

@@ -26,17 +26,21 @@ const BackgroundElements = () => (
 // Project links
 const ProjectLinks = ({ links, onLinkClick }) => (
   <div className="project-links">
-    {LINK_TYPES.map(({ key, icon, label }) => (
-      <a
-        key={key}
-        href={links[key]}
-        className="project-link"
-        onClick={(e) => onLinkClick(links[key], e)}
-      >
-        <span className="link-icon">{icon}</span>
-        {label}
-      </a>
-    ))}
+    {LINK_TYPES.map(({ key, icon, label }) => {
+      const url = links[key];
+      if (!url) return null;
+      return (
+        <a
+          key={key}
+          href={url}
+          className="project-link"
+          onClick={(e) => onLinkClick(url, e)}
+        >
+          <span className="link-icon">{icon}</span>
+          {label.toLowerCase()}
+        </a>
+      );
+    })}
   </div>
 );
 
@@ -93,8 +97,11 @@ const CharacterCard = ({
             <div className="character-name">{character.name}</div>
             {hasProject ? (
               <>
-                <div className="project-title">
-                  {character.project.title}: {character.project.subtitle}
+                <div className="project-title" style={{ fontFamily: character.project.titleFont || 'inherit' }}>
+                  {character.project.title}
+                </div>
+                <div className="project-subtitle">
+                  {character.project.subtitle}
                 </div>
                 <div className="project-status">{character.project.status}</div>
                 <ProjectLinks
@@ -223,8 +230,27 @@ export default function OnePiece() {
 
         <div className="navigation-hint">
           <Typography variant="body2" className="hint-text">
-            Pictures are from the internet, not mine, but I also don't know
-            whose
+            Character art by{" "}
+            <a
+              href="https://www.instagram.com/90sanime.style/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "inherit" }}
+            >
+              @90sanime.style
+            </a>{" "}
+            on Instagram
+          </Typography>
+          <Typography variant="body2" className="hint-text">
+            Background from{" "}
+            <a
+              href="https://wallpapers-clan.com/desktop-wallpapers/ghibli-style-luffy-serene-forest/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "inherit" }}
+            >
+              Wallpapers Clan
+            </a>
           </Typography>
         </div>
       </Stack>

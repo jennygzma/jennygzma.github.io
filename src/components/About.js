@@ -161,12 +161,13 @@ export default function About() {
         <Stack spacing={"20px"}>
           <Typography variant="h4">about me</Typography>
           <Typography variant="body1">
-            Hi!! I'm a HCI PhD student at Columbia University. I'm interested in
-            designing{" "}
-            <span className="important-text">adaptable and personalized</span>{" "}
-            HAI systems that{" "}
+            Hi!! I'm a CS PhD student at Columbia University. I'm interested in
+            researching methods that {" "}
             <span className="important-text">
-              empower productivity and creativity
+              give humans better control of AI
+            </span> {" "} and {" "}
+            <span className="important-text">
+               make agents behave
             </span>
             . I'm advised by Professor{" "}
             <a
@@ -175,16 +176,22 @@ export default function About() {
             >
               Lydia Chilton
             </a>{" "}
-            in the Computational Design Lab. Please reach out if you want to
+            and work closely with Professor{" "}
+            <a
+              href="https://www.cs.columbia.edu/~ewu/"
+              className="link"
+            >
+              Eugene Wu.
+            </a>{" "} Please reach out if you want to
             collaborate!
             <br />
             <br />
-            Previously, I worked at a series A startup called
+            Previously, I worked at 
             <a href="https://trunk.io/" className="link">
               {" "}
               Trunk
             </a>{" "}
-            (ex Uber-ATG) and DoorDash. I attended Princeton University for
+            (series A startup, ex Uber-ATG) and DoorDash. I attended Princeton University for
             undergrad. I enjoy watching One Piece (each of my research papers
             carries the persona of a character 😉), surfing, writing music, and
             hanging out with friends! I also run but I don't know if I find that
