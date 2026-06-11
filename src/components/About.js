@@ -203,12 +203,12 @@ export default function About() {
             carries the persona of a character 😉), surfing, and writing music! I also run but I don't know if I find that
             enjoyable 😬
             <br /> <br />
-            Check out{" "}
+            {/* Check out{" "}
             <a href="https://jennymayes.substack.com/" className="link">
               my substack
             </a>{" "}
             also! It's mostly personal but I might put some research stuff on
-            there 😊.
+            there 😊. */}
           </Typography>
         </Stack>
       </Stack>
