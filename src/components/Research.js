@@ -87,6 +87,10 @@ export default function Research() {
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
                   Under Submission
                 </span>
+                <span style={{ color: "rgba(0, 0, 0, 0.6)" }}>
+                  {" "}
+                  (written during master&apos;s program)
+                </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
                 <Button disableRipple href="https://arxiv.org/abs/2504.09662v2">
@@ -132,6 +136,10 @@ export default function Research() {
                   CHI 2025, 🎖️ Best Paper Honorable Mention (top 5% of
                   submissions)
                 </span>
+                <span style={{ color: "rgba(0, 0, 0, 0.6)" }}>
+                  {" "}
+                  (written during master&apos;s program)
+                </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
                 <Button disableRipple href="https://arxiv.org/abs/2410.00400">
@@ -171,6 +179,10 @@ export default function Research() {
               <Typography>
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
                   HICSS 2025
+                </span>
+                <span style={{ color: "rgba(0, 0, 0, 0.6)" }}>
+                  {" "}
+                  (written during master&apos;s program)
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
@@ -257,6 +269,10 @@ export default function Research() {
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
                   {" "}
                   HICSS 2025
+                </span>
+                <span style={{ color: "rgba(0, 0, 0, 0.6)" }}>
+                  {" "}
+                  (written during master&apos;s program)
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">

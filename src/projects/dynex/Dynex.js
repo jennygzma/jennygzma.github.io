@@ -66,6 +66,9 @@ export default function Dynex() {
           <Typography variant="body" textAlign="center">
             CHI 2025, Best Paper Honorable Mention 🏅
           </Typography>
+          <Typography variant="body2" textAlign="center" color="text.secondary">
+            Written during my master&apos;s program.
+          </Typography>
           <Typography variant="h6">
             Jenny Ma, Karthik Sreedhar, Vivian Liu, Sitong Wang, Pedro Alejandro
             Perez, Riya Sahni, Lydia B. Chilton

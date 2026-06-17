@@ -66,6 +66,9 @@ export default function AgentDynex() {
           <Typography variant="body" textAlign="center">
             Under Submission
           </Typography>
+          <Typography variant="body2" textAlign="center" color="text.secondary">
+            Written during my master&apos;s program.
+          </Typography>
           <Typography variant="h6">
             Jenny Ma, Riya Sahni, Karthik Sreedhar, Lydia B. Chilton
           </Typography>
