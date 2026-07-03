@@ -21,7 +21,11 @@ export default function Research() {
                 <img width="40px" height="40px" alt="zoro" src={zoro} />
                 <Typography
                   variant="h6"
-                  sx={{ display: "flex", alignItems: "flex-end", fontFamily: "'Roboto Mono', monospace !important" }}
+                  sx={{
+                    display: "flex",
+                    alignItems: "flex-end",
+                    fontFamily: "'Roboto Mono', monospace !important",
+                  }}
                 >
                   ZORO:
                 </Typography>
@@ -29,15 +33,16 @@ export default function Research() {
                   variant="h6"
                   sx={{ display: "flex", alignItems: "flex-end" }}
                 >
-                Active Rules for Reliable Vibe Coding
+                  Active Rules for Reliable Vibe Coding
                 </Typography>
               </Stack>
               <Typography>
-                <span className="important-text">Jenny Ma</span>, Sitong Wang, Joshua Kung, Lydia B. Chilton
+                <span className="important-text">Jenny Ma</span>, Sitong Wang,
+                Joshua Kung, Lydia B. Chilton
               </Typography>
               <Typography>
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
-                  Under Submission
+                  conditionally accepted to UIST 2026
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
@@ -53,16 +58,13 @@ export default function Research() {
                 >
                   <Typography className="link">🎥 video</Typography>
                 </Button>
-                {/* <Button
-                  disableRipple
-                  href="https://github.com/jennygzma/ui-design-prototype"
-                >
+                <Button disableRipple href="https://github.com/jennygzma/zoro">
                   <Typography className="link">👨‍💻 github</Typography>
-                </Button> */}
-                <Typography >
+                </Button>
+                <Typography>
                   <span style={{ fontStyle: "italic", color: "#498f63" }}>
-                    👨‍💻 github and 🚀 project page to be shown soon
-                </span>
+                    🚀 project page to be shown soon
+                  </span>
                 </Typography>
               </Stack>
             </Stack>
@@ -80,7 +82,7 @@ export default function Research() {
                 </Typography>
               </Stack>
               <Typography>
-                <span className="important-text">Jenny Ma</span>, Riya Sahni,
+                <span className="important-text">Jenny Ma*</span>, Riya Sahni*,
                 Karthik Sreedhar, Lydia B. Chilton
               </Typography>
               <Typography>
@@ -93,7 +95,7 @@ export default function Research() {
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
-                <Button disableRipple href="https://arxiv.org/abs/2504.09662v2">
+                <Button disableRipple href="https://arxiv.org/abs/2504.09662">
                   <Typography className="link"> 📄 arXiv</Typography>
                 </Button>
                 <Button disableRipple href="#/agentdynex">
