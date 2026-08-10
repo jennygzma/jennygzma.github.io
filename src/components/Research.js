@@ -42,7 +42,7 @@ export default function Research() {
               </Typography>
               <Typography>
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
-                  conditionally accepted to UIST 2026
+                  UIST 2026
                 </span>
               </Typography>
               <Stack direction="row" spacing={"30px"} pt="5px">
@@ -87,7 +87,7 @@ export default function Research() {
               </Typography>
               <Typography>
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
-                  Under Submission
+                  HCOMP 2026
                 </span>
                 <span style={{ color: "rgba(0, 0, 0, 0.6)" }}>
                   {" "}

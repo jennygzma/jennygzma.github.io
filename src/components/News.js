@@ -8,9 +8,9 @@ export default function News() {
         <Typography variant="h4">news</Typography>
         <Stack spacing="10px">
           <Stack direction="row" spacing="20px">
-            <Typography className="important-text">[06/2026]</Typography>
+            <Typography className="important-text">[08/2026]</Typography>
             <Typography>
-              ZORO was conditionally accepted to UIST 2026! 🏞️🏞️
+              ZORO was accepted to UIST 2026! 🏞️🏞️
             </Typography>
           </Stack>
           <Stack direction="row" spacing="20px">
