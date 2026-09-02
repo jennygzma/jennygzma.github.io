@@ -60,9 +60,18 @@ export default function Research() {
                 </span>
               </Typography>
               <Stack direction="row" pt="5px" sx={researchLinkRowSx}>
-                <Button disableRipple href="https://arxiv.org/pdf/2604.15625">
+                <Button
+                  disableRipple
+                  href="https://arxiv.org/pdf/2604.15625"
+                >
                   <Typography className="link"> 📄 arXiv</Typography>
                 </Button>
+                {/* <Button
+                  disableRipple
+                  href="https://doi.org/10.48550/arXiv.2604.15625"
+                >
+                  <Typography className="link">🔗 doi</Typography>
+                </Button> */}
                 {/* <Button disableRipple href="#/zoro">
                   <Typography className="link">🚀 project </Typography>
                 </Button> */}
@@ -109,9 +118,18 @@ export default function Research() {
                 </span>
               </Typography>
               <Stack direction="row" pt="5px" sx={researchLinkRowSx}>
-                <Button disableRipple href="https://arxiv.org/abs/2504.09662">
+                <Button
+                  disableRipple
+                  href="https://arxiv.org/abs/2504.09662"
+                >
                   <Typography className="link"> 📄 arXiv</Typography>
                 </Button>
+                {/* <Button
+                  disableRipple
+                  href="https://doi.org/10.48550/arXiv.2504.09662"
+                >
+                  <Typography className="link">🔗 doi</Typography>
+                </Button> */}
                 <Button disableRipple href="#/agentdynex">
                   <Typography className="link">🚀 project</Typography>
                 </Button>
@@ -157,8 +175,17 @@ export default function Research() {
                 </span>
               </Typography>
               <Stack direction="row" pt="5px" sx={researchLinkRowSx}>
-                <Button disableRipple href="https://arxiv.org/abs/2410.00400">
+                <Button
+                  disableRipple
+                  href="https://arxiv.org/abs/2410.00400"
+                >
                   <Typography className="link"> 📄 arXiv</Typography>
+                </Button>
+                <Button
+                  disableRipple
+                  href="https://dl.acm.org/doi/10.1145/3706598.3714115"
+                >
+                  <Typography className="link">🔗 doi</Typography>
                 </Button>
                 <Button disableRipple href="#/dynex">
                   <Typography className="link">🚀 project</Typography>
@@ -201,8 +228,17 @@ export default function Research() {
                 </span>
               </Typography>
               <Stack direction="row" pt="5px" sx={researchLinkRowSx}>
-                <Button disableRipple href="https://arxiv.org/abs/2403.18111">
+                <Button
+                  disableRipple
+                  href="https://arxiv.org/abs/2403.18111"
+                >
                   <Typography className="link">📄 arXiv</Typography>
+                </Button>
+                <Button
+                  disableRipple
+                  href="https://www.semanticscholar.org/reader/cf42844bcd5801b3d68f0c6496b363ff4f0220c4"
+                >
+                  <Typography className="link">🔗 doi</Typography>
                 </Button>
                 <Button disableRipple href="#/scrolly2reel">
                   <Typography className="link">🚀 project</Typography>
@@ -234,9 +270,18 @@ export default function Research() {
                 </span>
               </Typography>
               <Stack direction="row" pt="5px" sx={researchLinkRowSx}>
-                <Button disableRipple href="https://arxiv.org/pdf/2410.03882">
+                <Button
+                  disableRipple
+                  href="https://arxiv.org/pdf/2410.03882"
+                >
                   <Typography className="link">📄 arXiv</Typography>
                 </Button>
+                {/* <Button
+                  disableRipple
+                  href="https://doi.org/10.48550/arXiv.2410.03882"
+                >
+                  <Typography className="link">🔗 doi</Typography>
+                </Button> */}
                 <Button
                   disableRipple
                   href="https://www.youtube.com/watch?v=Fml_SF-rFsE"
@@ -263,8 +308,17 @@ export default function Research() {
                 </span>
               </Typography>
               <Stack direction="row" pt="5px" sx={researchLinkRowSx}>
-                <Button disableRipple href="https://arxiv.org/abs/2502.12504">
+                <Button
+                  disableRipple
+                  href="https://arxiv.org/abs/2502.12504"
+                >
                   <Typography className="link">📄 arXiv</Typography>
+                </Button>
+                <Button
+                  disableRipple
+                  href="https://dl.acm.org/doi/10.1145/3708359.3712149"
+                >
+                  <Typography className="link">🔗 doi</Typography>
                 </Button>
               </Stack>
             </Stack>
@@ -287,8 +341,17 @@ export default function Research() {
                 </span>
               </Typography>
               <Stack direction="row" pt="5px" sx={researchLinkRowSx}>
-                <Button disableRipple href="https://arxiv.org/abs/2304.08551">
+                <Button
+                  disableRipple
+                  href="https://arxiv.org/abs/2304.08551"
+                >
                   <Typography className="link">📄 arXiv</Typography>
+                </Button>
+                <Button
+                  disableRipple
+                  href="https://scholarspace.manoa.hawaii.edu/items/5130a3db-7bd9-4ca2-a864-8c606b3a58f7"
+                >
+                  <Typography className="link">🔗 doi</Typography>
                 </Button>
                 <Button
                   disableRipple

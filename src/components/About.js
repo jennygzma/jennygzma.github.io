@@ -59,9 +59,9 @@ export default function About() {
         spacing={0}
         sx={{
           alignItems: { xs: "center", md: "flex-start" },
-          justifyContent: { xs: "center", md: "flex-start" },
-          width: { xs: "100%", sm: "95%", md: "98%" },
-          margin: { xs: "0 auto", md: 0 },
+          justifyContent: { xs: "center", md: "center" },
+          width: { xs: "100%", sm: "95%", md: "100%" },
+          margin: "0 auto",
           rowGap: { xs: 3, sm: 4, md: 0 },
           columnGap: { xs: 0, md: "56px" },
         }}
@@ -166,7 +166,6 @@ export default function About() {
           spacing={"20px"}
           sx={{
             width: { xs: "100%", md: "auto" },
-            maxWidth: { md: "760px" },
             flex: 1,
             minWidth: 0,
           }}

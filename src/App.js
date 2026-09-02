@@ -11,8 +11,10 @@ function App() {
       <Stack
         spacing="12px"
         sx={{
-          mx: { xs: "6%", sm: "8%", md: "10%", lg: "12%" },
-          maxWidth: "100%",
+          width: "100%",
+          maxWidth: "1160px",
+          mx: "auto",
+          px: { xs: "24px", sm: "40px", md: "56px", lg: "72px" },
           justifyContent: "center",
           paddingBottom: { xs: "50px", md: "100px" },
         }}
