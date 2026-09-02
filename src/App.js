@@ -9,9 +9,9 @@ function App() {
   return (
     <main className="main page">
       <Stack
-        spacing="30px"
+        spacing="12px"
         sx={{
-          mx: { xs: "5%", sm: "8%", md: "12%", lg: "15%" },
+          mx: { xs: "4%", sm: "6%", md: "8%", lg: "10%" },
           maxWidth: "100%",
           justifyContent: "center",
           paddingBottom: { xs: "50px", md: "100px" },

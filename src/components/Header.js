@@ -9,24 +9,12 @@ export default function Header() {
       direction={{ xs: "column", sm: "column", md: "row" }}
       spacing={{ xs: 2, sm: 3, md: 5 }}
       sx={{
-        justifyContent: "space-between",
+        justifyContent: "flex-end",
         alignItems: { xs: "center", md: "flex-start" },
-        paddingTop: { xs: "50px", sm: "70px", md: "100px" },
-        paddingBottom: { xs: "20px", md: "30px" },
+        paddingTop: { xs: "24px", sm: "28px", md: "36px" },
+        paddingBottom: { xs: "0px", md: "0px" },
       }}
     >
-      <Button
-        disableRipple
-        href="#/"
-        sx={{
-          border: "transparent !important",
-          backgroundColor: "transparent !important",
-          height: "auto",
-          "&:hover": { backgroundColor: "transparent !important" },
-        }}
-      >
-        <Typography variant="h2">jenny ma</Typography>
-      </Button>
       <Stack
         direction="row"
         sx={{ alignItems: "center", justifyContent: "flex-end" }}

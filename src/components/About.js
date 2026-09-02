@@ -10,19 +10,19 @@ import googleScholarIcon from "./assets/google-scholar.png";
 const FlipCard = styled(Box)(({ theme }) => ({
   perspective: "1000px",
   width: "100%",
-  maxWidth: { xs: 280, sm: 320, md: 400 },
+  maxWidth: "100%",
   height: "auto",
   aspectRatio: "1",
   cursor: "pointer",
   borderRadius: 0,
   [theme.breakpoints.down("sm")]: {
-    maxWidth: 280,
+    maxWidth: 340,
   },
   [theme.breakpoints.between("sm", "md")]: {
-    maxWidth: 320,
+    maxWidth: 420,
   },
   [theme.breakpoints.up("md")]: {
-    maxWidth: 400,
+    maxWidth: 360,
   },
 }));
 
@@ -56,20 +56,24 @@ export default function About() {
     <section id="about">
       <Stack
         direction={{ xs: "column", md: "row" }}
-        spacing={{ xs: 3, sm: 5, md: 10 }}
+        spacing={0}
         sx={{
           alignItems: { xs: "center", md: "flex-start" },
-          justifyContent: "center",
-          width: { xs: "100%", sm: "95%", md: "90%" },
-          marginLeft: { xs: "0%", sm: "2.5%", md: "5%" },
+          justifyContent: { xs: "center", md: "flex-start" },
+          width: { xs: "100%", sm: "95%", md: "98%" },
+          margin: { xs: "0 auto", md: 0 },
+          rowGap: { xs: 3, sm: 4, md: 0 },
+          columnGap: { xs: 0, md: "36px" },
         }}
       >
         <Stack
           spacing={"10px"}
           sx={{
-            width: { xs: "100%", sm: "80%", md: "40%" },
-            maxWidth: { xs: "320px", md: "none" },
-            alignItems: "center",
+            width: { xs: "100%", sm: "85%", md: "360px" },
+            maxWidth: { xs: "250px", md: "360px" },
+            alignItems: { xs: "center", md: "flex-start" },
+            pt: { xs: 0, sm: 0, md: "20px", lg: "20px", xl: "20px" },
+            flexShrink: 0,
           }}
         >
           <FlipCard onClick={() => setFlipped(!flipped)}>
@@ -158,18 +162,20 @@ export default function About() {
             </Button>
           </Stack>
         </Stack>
-        <Stack spacing={"20px"}>
-          <Typography variant="h4">about me</Typography>
+        <Stack
+          spacing={"20px"}
+          sx={{
+            width: { xs: "100%", md: "auto" },
+            maxWidth: { md: "760px" },
+            flex: 1,
+            minWidth: 0,
+          }}
+        >
+          <Typography variant="h2">jenny ma</Typography>
           <Typography variant="body1">
             Hi!! I'm a CS PhD student at Columbia University. I'm interested in
-            researching methods that {" "}
-            <span className="important-text">
-              give humans better control of AI
-            </span> {" "} and {" "}
-            <span className="important-text">
-               make agents behave
-            </span>
-            . I'm advised by Professor{" "}
+            researching methods that {" "} give humans better agency over AI
+            for creativity and productivity tools. I'm advised by Professor{" "}
             <a
               href="https://www.cs.columbia.edu/~chilton/chilton.html"
               className="link"
@@ -189,18 +195,32 @@ export default function About() {
             >
               Eugene Wu.
             </a>{" "} */}
-             Please reach out if you want to
+             I have published papers in top-tier venues in HCI (CHI, UIST), with a Best Paper Honorable Mention award at CHI. I'm interested in pursuing more interdisciplinary research across AI, NLP, and Systems domains. Please reach out if you want to
             collaborate!
             <br />
             <br />
-            Previously, I worked at 
+            Previously, interned at Adobe Research with{" "}
+            <a href="https://hishin.github.io/" className="link">
+              Valentina Shin
+            </a>{" "}
+            and{" "}
+            <a href="https://karriekarahalios.com/" className="link">
+              Karrie Karahalios
+            </a> 
+            on agentic video editing tools. Before my PhD, I worked at 
             <a href="https://trunk.io/" className="link">
               {" "}
               Trunk
             </a>{" "}
-            (series A startup, ex Uber-ATG) and DoorDash. I attended Princeton University for
-            undergrad. I enjoy watching One Piece (each of my research papers
-            carries the persona of a character 😉), surfing, and writing music! I also run but I don't know if I find that
+            (series A startup, ex Uber-ATG) and DoorDash as a SWE. I attended Princeton University for
+            undergrad and majored in Operations Research and Financial Engineering.
+            <br />
+            <br />
+            I enjoy watching One Piece (
+            <a href="#/one-piece" className="link">
+              each of my research papers carries the persona of a character
+            </a>{" "}
+            😉), painting, crafting, surfing, and writing music! I also run but I don't know if I find that
             enjoyable 😬
             <br /> <br />
             {/* Check out{" "}

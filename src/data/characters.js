@@ -18,8 +18,8 @@ export const RESEARCH_CHARACTERS = [
     project: {
       title: "ZORO",
       titleFont: "'Roboto Mono', monospace",
-      subtitle: "Active Rules for Reliable Vibe Coding",
-      status: "Under Submission",
+      subtitle: "Active Controls to Support Rule Following in Vibe Coding",
+      status: "UIST 2026",
       links: {
         arxiv: "https://arxiv.org/pdf/2604.15625",
         // github: "COMING SOON",
@@ -28,7 +28,7 @@ export const RESEARCH_CHARACTERS = [
       },
     },
     match:
-      "Zoro is the swordsman of the crew. This paper is about making sure the user's rules get ENFORCED... no brainer.",},
+      "Zoro is the swordsman of the crew. This paper is about making sure the user's rules get ENFORCED...",},
   {
     id: "agentdynex",
     name: "Robin",
@@ -36,7 +36,7 @@ export const RESEARCH_CHARACTERS = [
     project: {
       title: "AgentDynEx",
       subtitle: "Nudging the Mechanics and Dynamics of Multi-Agent Simulations",
-      status: "Under Submission",
+      status: "HCOMP 2026",
       links: {
         arxiv: "https://arxiv.org/pdf/2504.09662v2",
         github: "https://github.com/jennygzma/agentdynex",
@@ -63,7 +63,7 @@ export const RESEARCH_CHARACTERS = [
       },
     },
     match:
-      "Franky is the ship engineer. This paper worked on creating tools for people. SuperDuh.",
+      "Franky is the ship engineer. This paper worked on creating tools for people",
   },
   {
     id: "scrolly2reel",
@@ -81,7 +81,7 @@ export const RESEARCH_CHARACTERS = [
       },
     },
     match:
-      "The paper transforms news articles into reels using narrative beats and breathes life into it. Just like Soul King...Yohohoho!",
+      "The paper transforms news articles into reels using narrative beats and breathes life into it... Just like Soul King...Yohohoho!",
   },
 ];
 

@@ -4,6 +4,20 @@ import franky from "./assets/franky.png";
 import brook from "./assets/brook.jpg";
 import robin from "./assets/robin2.png";
 import zoro from "./assets/zoro.png";
+
+const researchLinkRowSx = {
+  flexWrap: "wrap",
+  alignItems: "center",
+  columnGap: { xs: "10px", sm: "20px", md: "30px" },
+  rowGap: { xs: "8px", sm: "10px" },
+  "& .MuiButton-root": {
+    minHeight: { xs: "38px", sm: "34px" },
+    height: "auto",
+    px: { xs: "10px", sm: "12px" },
+    py: "4px",
+  },
+};
+
 export default function Research() {
   return (
     <section id="research">
@@ -33,7 +47,7 @@ export default function Research() {
                   variant="h6"
                   sx={{ display: "flex", alignItems: "flex-end" }}
                 >
-                  Active Rules for Reliable Vibe Coding
+                  Active Controls to Support Rule Following in Vibe Coding
                 </Typography>
               </Stack>
               <Typography>
@@ -45,7 +59,7 @@ export default function Research() {
                   UIST 2026
                 </span>
               </Typography>
-              <Stack direction="row" spacing={"30px"} pt="5px">
+              <Stack direction="row" pt="5px" sx={researchLinkRowSx}>
                 <Button disableRipple href="https://arxiv.org/pdf/2604.15625">
                   <Typography className="link"> 📄 arXiv</Typography>
                 </Button>
@@ -94,7 +108,7 @@ export default function Research() {
                   (written during master&apos;s program)
                 </span>
               </Typography>
-              <Stack direction="row" spacing={"30px"} pt="5px">
+              <Stack direction="row" pt="5px" sx={researchLinkRowSx}>
                 <Button disableRipple href="https://arxiv.org/abs/2504.09662">
                   <Typography className="link"> 📄 arXiv</Typography>
                 </Button>
@@ -143,7 +157,7 @@ export default function Research() {
                   (written during master&apos;s program)
                 </span>
               </Typography>
-              <Stack direction="row" spacing={"30px"} pt="5px">
+              <Stack direction="row" pt="5px" sx={researchLinkRowSx}>
                 <Button disableRipple href="https://arxiv.org/abs/2410.00400">
                   <Typography className="link"> 📄 arXiv</Typography>
                 </Button>
@@ -187,7 +201,7 @@ export default function Research() {
                   (written during master&apos;s program)
                 </span>
               </Typography>
-              <Stack direction="row" spacing={"30px"} pt="5px">
+              <Stack direction="row" pt="5px" sx={researchLinkRowSx}>
                 <Button disableRipple href="https://arxiv.org/abs/2403.18111">
                   <Typography className="link">📄 arXiv</Typography>
                 </Button>
@@ -220,7 +234,7 @@ export default function Research() {
                   Under Submission
                 </span>
               </Typography>
-              <Stack direction="row" spacing={"30px"} pt="5px">
+              <Stack direction="row" pt="5px" sx={researchLinkRowSx}>
                 <Button disableRipple href="https://arxiv.org/pdf/2410.03882">
                   <Typography className="link">📄 arXiv</Typography>
                 </Button>
@@ -249,7 +263,7 @@ export default function Research() {
                   IUI 2025
                 </span>
               </Typography>
-              <Stack direction="row" spacing={"30px"} pt="5px">
+              <Stack direction="row" pt="5px" sx={researchLinkRowSx}>
                 <Button disableRipple href="https://arxiv.org/abs/2502.12504">
                   <Typography className="link">📄 arXiv</Typography>
                 </Button>
@@ -277,7 +291,7 @@ export default function Research() {
                   (written during master&apos;s program)
                 </span>
               </Typography>
-              <Stack direction="row" spacing={"30px"} pt="5px">
+              <Stack direction="row" pt="5px" sx={researchLinkRowSx}>
                 <Button disableRipple href="https://arxiv.org/abs/2304.08551">
                   <Typography className="link">📄 arXiv</Typography>
                 </Button>
