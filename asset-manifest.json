@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5f936cf0.css",
-    "main.js": "/static/js/main.865573fc.js",
+    "main.js": "/static/js/main.39e82f01.js",
     "static/js/835.094fb649.chunk.js": "/static/js/835.094fb649.chunk.js",
     "static/js/658.c7c9310a.chunk.js": "/static/js/658.c7c9310a.chunk.js",
     "static/media/nyt_ammunition.mp4": "/static/media/nyt_ammunition.bf2ae65704cb0dee5f9b.mp4",
@@ -18,6 +18,8 @@
     "static/media/robin-ghibli.png": "/static/media/robin-ghibli.dbc27475fa631cebac63.png",
     "static/media/zoro.png": "/static/media/zoro.81ad615c39cac3875ec7.png",
     "static/media/robin2.png": "/static/media/robin2.9a8d6db9f0de6f9e652e.png",
+    "static/media/brook2.png": "/static/media/brook2.5b72e910c3d5a510cb2d.png",
+    "static/media/franky2.png": "/static/media/franky2.16a63f22bbb07e6e6b27.png",
     "static/media/beat_alignment.png": "/static/media/beat_alignment.31e91220e6c2586c0cc7.png",
     "static/media/poster.png": "/static/media/poster.457ea72ec42a0721e2ca.png",
     "static/media/system.png": "/static/media/system.116eb365010254131355.png",
@@ -49,10 +51,10 @@
     "static/media/welcome-to-my-blog.md": "/static/media/welcome-to-my-blog.ddcae3331d95e44bd2f8.md",
     "index.html": "/index.html",
     "main.5f936cf0.css.map": "/static/css/main.5f936cf0.css.map",
-    "main.865573fc.js.map": "/static/js/main.865573fc.js.map"
+    "main.39e82f01.js.map": "/static/js/main.39e82f01.js.map"
   },
   "entrypoints": [
     "static/css/main.5f936cf0.css",
-    "static/js/main.865573fc.js"
+    "static/js/main.39e82f01.js"
   ]
 }
