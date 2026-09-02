@@ -1,7 +1,7 @@
 import React from "react";
 import { Stack, Typography, Box, Button, Divider } from "@mui/material";
-import franky from "./assets/franky.png";
-import brook from "./assets/brook.jpg";
+import franky from "./assets/franky2.png";
+import brook from "./assets/brook2.png";
 import robin from "./assets/robin2.png";
 import zoro from "./assets/zoro.png";
 
@@ -149,8 +149,7 @@ export default function Research() {
               </Typography>
               <Typography>
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
-                  CHI 2025, 🎖️ Best Paper Honorable Mention (top 5% of
-                  submissions)
+                  CHI 2025, 🎖️ Best Paper Honorable Mention (top 5%)
                 </span>
                 <span style={{ color: "rgba(0, 0, 0, 0.6)" }}>
                   {" "}
@@ -285,10 +284,6 @@ export default function Research() {
                 <span style={{ fontStyle: "italic", color: "#498f63" }}>
                   {" "}
                   HICSS 2025
-                </span>
-                <span style={{ color: "rgba(0, 0, 0, 0.6)" }}>
-                  {" "}
-                  (written during master&apos;s program)
                 </span>
               </Typography>
               <Stack direction="row" pt="5px" sx={researchLinkRowSx}>

@@ -9,15 +9,16 @@ export default function Header() {
       direction={{ xs: "column", sm: "column", md: "row" }}
       spacing={{ xs: 2, sm: 3, md: 5 }}
       sx={{
-        justifyContent: "flex-end",
-        alignItems: { xs: "center", md: "flex-start" },
-        paddingTop: { xs: "24px", sm: "28px", md: "36px" },
-        paddingBottom: { xs: "0px", md: "0px" },
+        justifyContent: "flex-start",
+        alignItems: "flex-start",
+        paddingTop: { xs: "40px", sm: "44px", md: "54px" },
+        paddingBottom: { xs: "10px", md: 
+          "20px" },
       }}
     >
       <Stack
         direction="row"
-        sx={{ alignItems: "center", justifyContent: "flex-end" }}
+        sx={{ alignItems: "center", justifyContent: "flex-start" }}
       >
         {/* <Button
           href="#/experiences"

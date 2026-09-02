@@ -63,16 +63,16 @@ export default function About() {
           width: { xs: "100%", sm: "95%", md: "98%" },
           margin: { xs: "0 auto", md: 0 },
           rowGap: { xs: 3, sm: 4, md: 0 },
-          columnGap: { xs: 0, md: "36px" },
+          columnGap: { xs: 0, md: "56px" },
         }}
       >
         <Stack
           spacing={"10px"}
           sx={{
-            width: { xs: "100%", sm: "85%", md: "360px" },
-            maxWidth: { xs: "250px", md: "360px" },
+            width: { xs: "100%", sm: "85%", md: "300px" },
+            maxWidth: { xs: "250px", md: "340px" },
             alignItems: { xs: "center", md: "flex-start" },
-            pt: { xs: 0, sm: 0, md: "20px", lg: "20px", xl: "20px" },
+            pt: { xs: 0, sm: 0, md: "30px", lg: "30px", xl: "30px" },
             flexShrink: 0,
           }}
         >
@@ -173,7 +173,7 @@ export default function About() {
         >
           <Typography variant="h2">jenny ma</Typography>
           <Typography variant="body1">
-            Hi!! I'm a CS PhD student at Columbia University. I'm interested in
+            Hi!! I'm am a second-year CS PhD student at Columbia University. I'm interested in
             researching methods that {" "} give humans better agency over AI
             for creativity and productivity tools. I'm advised by Professor{" "}
             <a
@@ -199,15 +199,14 @@ export default function About() {
             collaborate!
             <br />
             <br />
-            Previously, interned at Adobe Research with{" "}
+            Previously, I interned at Adobe Research with{" "}
             <a href="https://hishin.github.io/" className="link">
               Valentina Shin
             </a>{" "}
             and{" "}
             <a href="https://karriekarahalios.com/" className="link">
               Karrie Karahalios
-            </a> 
-            on agentic video editing tools. Before my PhD, I worked at 
+            </a>  on agentic video editing tools. Before my PhD, I worked at 
             <a href="https://trunk.io/" className="link">
               {" "}
               Trunk
